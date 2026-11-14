@@ -100,6 +100,24 @@ public partial class EntityManager
 	}
 
 	/// <summary>
+	///		Gets the entity's component of a type known only at runtime.
+	///		Used by the EventBus.
+	/// </summary>
+	/// <param name="uid">The UID to check for the component.</param>
+	/// <param name="type">The component type to look for.</param>
+	/// <param name="component">The component, if found.</param>
+	/// <returns>true if found</returns>
+	public bool TryGetComponent(EntityUid uid, Type type,
+		[System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out Component? component)
+	{
+		if (_components.TryGetValue(type, out var dict) && dict.TryGetValue(uid, out component))
+			return true;
+
+		component = null;
+		return false;
+	}
+
+	/// <summary>
 	///		Removes the entity's component of type T, if it has one.
 	/// </summary>
 	/// <param name="uid">The UID to remove a component from.</param>

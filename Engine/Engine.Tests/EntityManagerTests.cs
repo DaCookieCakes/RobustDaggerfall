@@ -24,10 +24,10 @@ public class EntityManagerTests
 		
 		var goblinEnt = entities.Spawn();
 
-		entities.AddComponent(goblinEnt, new HealthComponent { Current = 50 });
+		entities.AddComponent(goblinEnt, new DamageableComponent { CurrentHealth = 50 });
 
-		Assert.True(entities.HasComponent<HealthComponent>(goblinEnt));
-		Assert.Equal(50, entities.GetComponent<HealthComponent>(goblinEnt).Current);
+		Assert.True(entities.HasComponent<DamageableComponent>(goblinEnt));
+		Assert.Equal(50, entities.GetComponent<DamageableComponent>(goblinEnt).CurrentHealth);
 	}
 
 	[Fact]
@@ -38,11 +38,11 @@ public class EntityManagerTests
 		var goblinEnt = entities.Spawn();
 		var ratEnt = entities.Spawn();
 
-		entities.AddComponent(goblinEnt, new HealthComponent { Current = 50 });
-		entities.AddComponent(ratEnt, new HealthComponent { Current = 5 });
+		entities.AddComponent(goblinEnt, new DamageableComponent { CurrentHealth = 50 });
+		entities.AddComponent(ratEnt, new DamageableComponent { CurrentHealth = 5 });
 
-		Assert.Equal(50, entities.GetComponent<HealthComponent>(goblinEnt).Current);
-		Assert.Equal(5, entities.GetComponent<HealthComponent>(ratEnt).Current);
+		Assert.Equal(50, entities.GetComponent<DamageableComponent>(goblinEnt).CurrentHealth);
+		Assert.Equal(5, entities.GetComponent<DamageableComponent>(ratEnt).CurrentHealth);
 	}
 
 	[Fact]
@@ -50,11 +50,11 @@ public class EntityManagerTests
 	{
 		var entities = new EntityManager();
 		var goblin = entities.Spawn();
-		Component health = new HealthComponent();
+		Component health = new DamageableComponent();
 
 		entities.AddComponent(goblin, health);
 
-		Assert.True(entities.HasComponent<HealthComponent>(goblin));
+		Assert.True(entities.HasComponent<DamageableComponent>(goblin));
 	}
 
 	[Fact]
@@ -63,7 +63,7 @@ public class EntityManagerTests
 		var entities = new EntityManager();
 		var goblin = entities.Spawn();
 
-		Assert.Throws<KeyNotFoundException>(() => entities.GetComponent<HealthComponent>(goblin));
+		Assert.Throws<KeyNotFoundException>(() => entities.GetComponent<DamageableComponent>(goblin));
 	}
 
 	[Fact]
@@ -72,7 +72,7 @@ public class EntityManagerTests
 		var entities = new EntityManager();
 		var goblin = entities.Spawn();
 
-		Assert.False(entities.TryGetComponent<HealthComponent>(goblin, out var health));
+		Assert.False(entities.TryGetComponent<DamageableComponent>(goblin, out var health));
 		Assert.Null(health);
 	}
 
@@ -83,9 +83,9 @@ public class EntityManagerTests
 		
 		var goblinEnt = entities.Spawn();
 		
-		entities.AddComponent(goblinEnt, new HealthComponent());
+		entities.AddComponent(goblinEnt, new DamageableComponent());
 
-		Assert.Throws<InvalidOperationException>(() => entities.AddComponent(goblinEnt, new HealthComponent()));
+		Assert.Throws<InvalidOperationException>(() => entities.AddComponent(goblinEnt, new DamageableComponent()));
 	}
 
 	[Fact]
@@ -95,7 +95,7 @@ public class EntityManagerTests
 		
 		var ghostComp = new EntityUid(999);
 
-		Assert.Throws<ArgumentException>(() => entities.AddComponent(ghostComp, new HealthComponent()));
+		Assert.Throws<ArgumentException>(() => entities.AddComponent(ghostComp, new DamageableComponent()));
 	}
 
 	[Fact]
@@ -104,12 +104,12 @@ public class EntityManagerTests
 		var entities = new EntityManager();
 		
 		var goblinEnt = entities.Spawn();
-		var healthComp = new HealthComponent();
+		var healthComp = new DamageableComponent();
 		entities.AddComponent(goblinEnt, healthComp);
 
-		entities.RemoveComponent<HealthComponent>(goblinEnt);
+		entities.RemoveComponent<DamageableComponent>(goblinEnt);
 
-		Assert.False(entities.HasComponent<HealthComponent>(goblinEnt));
+		Assert.False(entities.HasComponent<DamageableComponent>(goblinEnt));
 		Assert.True(healthComp.Deleted);
 	}
 	
@@ -119,17 +119,17 @@ public class EntityManagerTests
 		var entities = new EntityManager();
 		
 		var goblinEnt = entities.Spawn();
-		var healthComp = new HealthComponent();
+		var healthComp = new DamageableComponent();
 		
 		entities.AddComponent(goblinEnt, healthComp);
 
-		entities.RemoveComponent<HealthComponent>(goblinEnt);
-		Assert.False(entities.HasComponent<HealthComponent>(goblinEnt));
+		entities.RemoveComponent<DamageableComponent>(goblinEnt);
+		Assert.False(entities.HasComponent<DamageableComponent>(goblinEnt));
 
-		var nHealthComp = new HealthComponent();
+		var nHealthComp = new DamageableComponent();
 		entities.AddComponent(goblinEnt, nHealthComp);
 		
-		Assert.True(entities.HasComponent<HealthComponent>(goblinEnt));
+		Assert.True(entities.HasComponent<DamageableComponent>(goblinEnt));
 	}
 
 	[Fact]
@@ -139,7 +139,7 @@ public class EntityManagerTests
 		
 		var goblinEnt = entities.Spawn();
 
-		Assert.Throws<KeyNotFoundException>(() => entities.RemoveComponent<HealthComponent>(goblinEnt));
+		Assert.Throws<KeyNotFoundException>(() => entities.RemoveComponent<DamageableComponent>(goblinEnt));
 	}
 
 	[Fact]
@@ -149,11 +149,11 @@ public class EntityManagerTests
 		
 		var goblinEnt = entities.Spawn();
 		
-		entities.AddComponent(goblinEnt, new HealthComponent());
-		entities.AddComponent(goblinEnt, new NameComponent { Name = "Goblin" });
-		entities.RemoveComponent<HealthComponent>(goblinEnt);
+		entities.AddComponent(goblinEnt, new DamageableComponent());
+		entities.AddComponent(goblinEnt, new MetaDataComponent { Name = "Goblin" });
+		entities.RemoveComponent<DamageableComponent>(goblinEnt);
 
-		Assert.Equal("Goblin", entities.GetComponent<NameComponent>(goblinEnt).Name);
+		Assert.Equal("Goblin", entities.GetComponent<MetaDataComponent>(goblinEnt).Name);
 	}
 
 	[Fact]
@@ -163,10 +163,10 @@ public class EntityManagerTests
 		
 		var goblinEnt = entities.Spawn();
 		var ratEnt = entities.Spawn();
-		var healthComp = new HealthComponent();
+		var healthComp = new DamageableComponent();
 		
 		entities.AddComponent(goblinEnt, healthComp);
-		entities.AddComponent(ratEnt, new NameComponent { Name = "Rat" });
+		entities.AddComponent(ratEnt, new MetaDataComponent { Name = "Rat" });
 		
 		Assert.True(entities.RemoveEntity(goblinEnt));
 		Assert.True(healthComp.Deleted);
