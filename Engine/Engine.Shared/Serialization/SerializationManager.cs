@@ -1,6 +1,8 @@
+using System.Collections;
 using System.Globalization;
 using System.Reflection;
 using Engine.Shared.Objects;
+using Engine.Shared.Prototypes;
 using YamlDotNet.Core;
 using YamlDotNet.RepresentationModel;
 
@@ -17,7 +19,15 @@ public sealed class SerializationManager
 	private const BindingFlags MemberFlags =
 		BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly;
 
+	private static readonly YamlScalarNode TypeKey = new("type");
+
+	private readonly ComponentFactory _components;
 	private readonly Dictionary<Type, DataField[]> _fieldCache = new();
+
+	public SerializationManager(ComponentFactory components)
+	{
+		_components = components;
+	}
 
 	public T Read<T>(YamlNode node) => (T) Read(typeof(T), node)!;
 
@@ -54,6 +64,23 @@ public sealed class SerializationManager
 		if (type.IsPrimitive || type == typeof(decimal))
 			return ReadPrimitive(type, Scalar(node, type));
 
+		// Collections read each item with Read again, so a List<List<int>> or a list of data definitions just works.
+		if (type.IsArray)
+			return ReadArray(type.GetElementType()!, Sequence(node, type));
+
+		if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof(List<>))
+			return ReadList(type, Sequence(node, type));
+
+		if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof(Dictionary<,>))
+			return ReadDictionary(type, Mapping(node, type));
+
+		// The field only says "some Component", so the YAML has to say which one: - type: Health
+		if (type == typeof(Component))
+			return ReadComponent(Mapping(node, type));
+
+		if (type == typeof(ComponentRegistry))
+			return ReadComponentRegistry(Sequence(node, type));
+
 		// A class with data fields: make a fresh one with its C# defaults, then overwrite what the YAML sets.
 		// Populate calls Read for each field, so nested objects are handled by this same branch.
 		if (IsDataDefinition(type))
@@ -75,7 +102,8 @@ public sealed class SerializationManager
 	private static bool IsDataDefinition(Type type)
 	{
 		return type.IsDefined(typeof(DataDefinitionAttribute), false)
-			|| type.IsSubclassOf(typeof(Component));
+			|| type.IsSubclassOf(typeof(Component))
+			|| typeof(IPrototype).IsAssignableFrom(type);
 	}
 
 	/// <summary>
@@ -183,6 +211,103 @@ public sealed class SerializationManager
 		{
 			throw new YamlReadException($"'{value}' is not a valid {type.Name}.", node.Start, e);
 		}
+	}
+
+	/// <summary>
+	///		<c>type: Health</c> plus that component's data fields → a new HealthComponent.
+	/// </summary>
+	private Component ReadComponent(YamlMappingNode node)
+	{
+		if (!node.Children.TryGetValue(TypeKey, out var typeNode) || typeNode is not YamlScalarNode { Value: { } name })
+			throw new YamlReadException("Component is missing 'type'.", node.Start);
+
+		if (!_components.TryGetComponentType(name, out var componentType))
+			throw new YamlReadException($"Unknown component '{name}'.", typeNode.Start);
+
+		// "type" picks the class; it isn't a data field on it, so pass everything else on.
+		var data = new YamlMappingNode();
+		foreach (var (key, value) in node)
+		{
+			if (!key.Equals(TypeKey))
+				data.Add(key, value);
+		}
+
+		return (Component) Read(componentType, data)!;
+	}
+
+	/// <summary>
+	///		A list of <c>- type: Name</c> entries → a registry keyed by component name. Each component may appear once.
+	/// </summary>
+	private ComponentRegistry ReadComponentRegistry(YamlSequenceNode node)
+	{
+		var registry = new ComponentRegistry();
+
+		foreach (var item in node)
+		{
+			var component = ReadComponent(Mapping(item, typeof(Component)));
+			var name = _components.GetComponentName(component.GetType());
+
+			if (!registry.TryAdd(name, component))
+				throw new YamlReadException($"Duplicate component '{name}'.", item.Start);
+		}
+
+		return registry;
+	}
+
+	/// <summary>
+	///		<c>[a, b]</c> or a <c>- a</c> block list → T[].
+	/// </summary>
+	private Array ReadArray(Type elementType, YamlSequenceNode node)
+	{
+		var array = Array.CreateInstance(elementType, node.Children.Count);
+		for (var i = 0; i < node.Children.Count; i++)
+			array.SetValue(Read(elementType, node.Children[i]), i);
+
+		return array;
+	}
+
+	/// <summary>
+	///		<c>[a, b]</c> or a <c>- a</c> block list → List&lt;T&gt;.
+	/// </summary>
+	private IList ReadList(Type listType, YamlSequenceNode node)
+	{
+		var elementType = listType.GetGenericArguments()[0];
+
+		// List<T> also implements the non-generic IList, which lets us call Add without knowing T at compile time.
+		var list = (IList) Activator.CreateInstance(listType)!;
+		foreach (var item in node)
+			list.Add(Read(elementType, item));
+
+		return list;
+	}
+
+	/// <summary>
+	///		A mapping → Dictionary&lt;TKey, TValue&gt;. Keys are read with Read too, so int or enum keys work.
+	/// </summary>
+	private IDictionary ReadDictionary(Type dictType, YamlMappingNode node)
+	{
+		var args = dictType.GetGenericArguments();
+		var dict = (IDictionary) Activator.CreateInstance(dictType)!;
+
+		foreach (var (keyNode, valueNode) in node)
+		{
+			// Read the key as an object so "1" and "01" both become the int 1, then check for clashes.
+			var key = Read(args[0], keyNode)
+				?? throw new YamlReadException("Dictionary keys can't be null.", keyNode.Start);
+
+			if (dict.Contains(key))
+				throw new YamlReadException($"Duplicate key '{key}'.", keyNode.Start);
+
+			dict.Add(key, Read(args[1], valueNode));
+		}
+
+		return dict;
+	}
+
+	private static YamlSequenceNode Sequence(YamlNode node, Type expected)
+	{
+		return node as YamlSequenceNode
+			?? throw new YamlReadException($"Expected a list for {expected.Name}, got {node.NodeType}.", node.Start);
 	}
 
 	private static YamlScalarNode Scalar(YamlNode node, Type expected)

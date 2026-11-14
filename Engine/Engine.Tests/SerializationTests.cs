@@ -1,3 +1,4 @@
+using Engine.Shared.Objects;
 using Engine.Shared.Serialization;
 using YamlDotNet.RepresentationModel;
 
@@ -5,7 +6,7 @@ namespace Engine.Tests;
 
 public class SerializationTests
 {
-	private readonly SerializationManager _serialization = new();
+	private readonly SerializationManager _serialization = new(new ComponentFactory());
 
 	/// <summary>
 	///		Parses YAML text and returns its top node.
