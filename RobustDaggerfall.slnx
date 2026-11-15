@@ -1,6 +1,10 @@
 <Solution>
   <Folder Name="/Engine/">
+    <Project Path="Engine/Engine.Client/Engine.Client.csproj" />
     <Project Path="Engine/Engine.Shared/Engine.Shared.csproj" />
-    <Project Path="Engine/Engine.Tests/Engine.Tests.csproj" />
   </Folder>
+  <Folder Name="/Content/">
+    <Project Path="Content/Content.Shared/Content.Shared.csproj" />
+  </Folder>
+  <Project Path="Tests/Tests.csproj" />
 </Solution>

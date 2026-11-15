@@ -2,7 +2,7 @@ using Engine.Shared.Objects;
 using Engine.Shared.Serialization;
 using YamlDotNet.RepresentationModel;
 
-namespace Engine.Tests;
+namespace Tests;
 
 public class SerializationTests
 {

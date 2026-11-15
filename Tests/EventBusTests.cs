@@ -1,6 +1,6 @@
 using Engine.Shared.Objects;
 
-namespace Engine.Tests;
+namespace Tests;
 
 // TODO: Replace these with proper systems later.
 public class EventBusTests

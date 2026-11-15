@@ -1,7 +1,7 @@
 using Engine.Shared.Objects;
 
 // TODO: Remove once we have proper components in YML.
-namespace Engine.Tests;
+namespace Tests;
 
 /// <summary>
 ///		Example game content, used only by tests.

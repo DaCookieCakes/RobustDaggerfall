@@ -1,6 +1,6 @@
 using Engine.Shared.Objects;
 
-namespace Engine.Tests;
+namespace Tests;
 
 public class EntityManagerTests
 {

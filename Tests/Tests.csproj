@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Engine.Shared\Engine.Shared.csproj" />
+    <ProjectReference Include="..\Engine\Engine.Shared\Engine.Shared.csproj" />
   </ItemGroup>
 
 </Project>
