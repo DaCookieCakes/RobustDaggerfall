@@ -15,7 +15,7 @@ public static class Importer
 	public static int Main(string[] args)
 	{
 		string? arena2 = null;
-		if (args[0] == string.Empty)
+		if (args.Length == 0)
 		{
 			string? steam = null;
 		
@@ -46,12 +46,68 @@ public static class Importer
 		}
 		else
 		{
-			arena2 = FindFolder(args[0], "arena2", Arena2SearchDepth);
+			var path = Path.TrimEndingDirectorySeparator(args[0]);
+
+			if (!Directory.Exists(path))
+			{
+				Console.WriteLine($"Folder not found: {path}");
+				return 1;
+			}
+
+			// Accept the ARENA2 folder itself, or any folder with ARENA2 somewhere inside it.
+			arena2 = string.Equals(Path.GetFileName(path), "arena2", StringComparison.OrdinalIgnoreCase)
+				? path
+				: FindFolder(path, "arena2", Arena2SearchDepth);
 		}
 
-		Console.WriteLine($"ARENA2: {arena2 ?? "not found"}");
+		if (arena2 is null)
+		{
+			Console.WriteLine("ARENA2: not found");
+			return 1;
+		}
 
-		return arena2 is null ? 1 : 0;
+		Console.WriteLine($"ARENA2: {arena2}");
+
+		var problems = Validator.CheckDfFiles(arena2);
+		if (problems.Count > 0)
+		{
+			Console.WriteLine("This doesn't look like a complete Daggerfall install:");
+			foreach (var problem in problems)
+				Console.WriteLine($"  {problem}");
+
+			return 1;
+		}
+
+		Console.WriteLine("All required files found.");
+
+		// PACKAGER //
+		var destination = Path.Combine(Packer.PackFolder, Packer.PackName);
+		var existing = Packer.ReadManifest(destination);
+		if (existing is not null && existing.ImporterVersion == Packer.PackerImporterVersion)
+		{
+			Console.WriteLine($"Pack is up to date (made {existing.CreatedAt} from {existing.SourcePath}).");
+		}
+		else
+		{
+			RunPacker(arena2, destination);
+		}
+
+		return 0;
+	}
+
+	private static void RunPacker(string arena2, string destination)
+	{
+		Console.WriteLine($"Packing to {destination}");
+			
+		try
+		{
+			var manifest = Packer.Pack(arena2, destination);
+			Console.WriteLine($"Packager finished: {manifest.FileCount} files.");
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine($"Packager failed: {e}.");
+		}
 	}
 
 	#region Shared
@@ -59,10 +115,6 @@ public static class Importer
 	/// <summary>
 	///		The user's home folder: C:\Users\you on Windows, /home/you on Linux, /Users/you on macOS.
 	/// </summary>
-	/// <remarks>
-	///		"~" only means home to the shell. .NET would treat "~/.steam" as a folder literally named "~",
-	///		so paths have to be built from this instead.
-	/// </remarks>
 	private static string Home => Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 
 	/// <summary>
@@ -172,7 +224,7 @@ public static class Importer
 				return child;
 		}
 
-		// If not, search inside each child, one level less deep.
+		// If not, search inside each child - one level less deep.
 		foreach (var child in children)
 		{
 			if (new DirectoryInfo(child).LinkTarget is not null)
