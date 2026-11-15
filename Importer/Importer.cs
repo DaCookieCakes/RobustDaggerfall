@@ -106,7 +106,7 @@ public static class Importer
 		}
 		catch (Exception e)
 		{
-			Console.WriteLine($"Packager failed: {e}.");
+			Console.WriteLine($"Packager failed: {e.Message}.");
 		}
 	}
 
