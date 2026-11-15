@@ -5,6 +5,9 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- OpenGL takes some arguments as raw pointers, which C# only allows in "unsafe" code. -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +15,12 @@
 
     <!-- Build content before the client, but don't reference it: the client loads it at runtime. -->
     <ProjectReference Include="..\..\Content\Content.Shared\Content.Shared.csproj" ReferenceOutputAssembly="false" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET.Input" Version="2.23.0" />
+    <PackageReference Include="Silk.NET.OpenGL" Version="2.23.0" />
+    <PackageReference Include="Silk.NET.Windowing" Version="2.23.0" />
   </ItemGroup>
 
 </Project>
