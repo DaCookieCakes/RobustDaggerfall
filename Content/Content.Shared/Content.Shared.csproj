@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- The engine loads this DLL at runtime instead of referencing it, so build it to a fixed place it can find. -->
+    <OutputPath>..\..\bin\Content.Shared\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Private=false: don't copy Engine.Shared.dll next to ours. At runtime the engine's own copy is used. -->
+    <ProjectReference Include="..\..\Engine\Engine.Shared\Engine.Shared.csproj" Private="false" />
+  </ItemGroup>
+
+</Project>

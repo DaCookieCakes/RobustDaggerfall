@@ -2,3 +2,6 @@
   id: Goblin
   name: goblin
   description: goblin deez nuts
+  components:
+  - type: Health
+    max: 30
