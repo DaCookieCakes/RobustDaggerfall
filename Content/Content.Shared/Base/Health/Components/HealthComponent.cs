@@ -1,7 +1,7 @@
 using Engine.Shared.Objects;
 using Engine.Shared.Serialization;
 
-namespace Content.Shared.Health;
+namespace Content.Shared.Base.Health.Components;
 
 /// <summary>
 ///		How much damage an entity can take.
