@@ -1,14 +1,17 @@
-﻿using System.Runtime.Versioning;
+﻿using System.IO.Compression;
+using System.Runtime.Versioning;
 using System.Text.RegularExpressions;
 using Microsoft.Win32;
+
+using Importer.Readers;
 
 namespace Importer;
 
 public static class Importer
 {
 	/// <summary>
-	///		How many folders deep under a Daggerfall install ARENA2 may be.
-	///		Steam's is 2 below the game folder (DF/DAGGER/ARENA2), so 3 leaves room for other layouts.
+	///		How many folders deep under the ARENA2 data files may be.
+	///		Steam's Daggerfall install is 2 below the game folder, so 3 leaves room for other layouts.
 	/// </summary>
 	private const int Arena2SearchDepth = 3;
 
@@ -18,7 +21,6 @@ public static class Importer
 		if (args.Length == 0)
 		{
 			string? steam = null;
-		
 			if (OperatingSystem.IsWindows())
 				steam = FindSteamOnWindows();
 			else if (OperatingSystem.IsLinux())
@@ -89,24 +91,44 @@ public static class Importer
 		}
 		else
 		{
-			RunPacker(arena2, destination);
+			if (!RunPacker(arena2, destination))
+				return 1;
 		}
+
+		// ARCH3D //
+		using var zip = ZipFile.OpenRead(destination);
+		var entry = zip.GetEntry("ARCH3D.BSA");
+		if (entry == null)
+		{
+			Console.WriteLine("ARCH3D.BSA could not be found.");
+			return 1;
+		}
+
+		var mem = new MemoryStream();
+		using (var entryStream = entry.Open())
+			entryStream.CopyTo(mem);
+
+		mem.Position = 0;
+		using var arch3D = new BSAReader(mem);
+		Console.WriteLine($"ARCH3D.BSA loaded from the pack. Records found: {arch3D.Records.Count}");
 
 		return 0;
 	}
 
-	private static void RunPacker(string arena2, string destination)
+	private static bool RunPacker(string arena2, string destination)
 	{
-		Console.WriteLine($"Packing to {destination}");
+		Console.WriteLine($"Packing ARENA2 to {destination}");
 			
 		try
 		{
 			var manifest = Packer.Pack(arena2, destination);
-			Console.WriteLine($"Packager finished: {manifest.FileCount} files.");
+			Console.WriteLine($"ARENA2 Packager finished: {manifest.FileCount} files.");
+			return true;
 		}
 		catch (Exception e)
 		{
-			Console.WriteLine($"Packager failed: {e.Message}.");
+			Console.WriteLine($"ARENA2 Packager failed: {e.Message}");
+			return false;
 		}
 	}
 
