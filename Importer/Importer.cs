@@ -49,7 +49,6 @@ public static class Importer
 		else
 		{
 			var path = Path.TrimEndingDirectorySeparator(args[0]);
-
 			if (!Directory.Exists(path))
 			{
 				Console.WriteLine($"Folder not found: {path}");
@@ -70,6 +69,7 @@ public static class Importer
 
 		Console.WriteLine($"ARENA2: {arena2}");
 
+		// VALIDATOR //
 		var problems = Validator.CheckDfFiles(arena2);
 		if (problems.Count > 0)
 		{
@@ -85,14 +85,14 @@ public static class Importer
 		// PACKAGER //
 		var destination = Path.Combine(Packer.PackFolder, Packer.PackName);
 		var existing = Packer.ReadManifest(destination);
-		if (existing is not null && existing.ImporterVersion == Packer.PackerImporterVersion)
-		{
-			Console.WriteLine($"Pack is up to date (made {existing.CreatedAt} from {existing.SourcePath}).");
-		}
-		else
+		if (existing is null || existing.ImporterVersion != Packer.PackerImporterVersion)
 		{
 			if (!RunPacker(arena2, destination))
 				return 1;
+		}
+		else
+		{
+			Console.WriteLine($".pack is up to date. (Made {existing.CreatedAt} from {existing.SourcePath})");
 		}
 
 		// ARCH3D //

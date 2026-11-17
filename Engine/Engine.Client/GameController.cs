@@ -30,6 +30,9 @@ public sealed class GameController
 	private IInputContext? _input;
 	private IRenderer? _renderer;
 
+	private readonly Camera _camera = new();
+	private FreeCameraController? _cameraController;
+
 	/// <summary>
 	///		The do-nothing refresh callback from <see cref="DisableGlfwRefreshOnWayland"/>.
 	///		Kept in a field so the garbage collector can't free it while GLFW still holds a pointer to it.
@@ -86,6 +89,7 @@ public sealed class GameController
 
 		_window = Window.Create(options);
 		_window.Load += OnLoad;
+		_window.Update += OnUpdate;
 		_window.Render += OnRender;
 		_window.FramebufferResize += OnFramebufferResize;
 		_window.Closing += OnClosing;
@@ -112,6 +116,10 @@ public sealed class GameController
 					window.Close();
 			};
 		}
+
+		// The free camera needs a keyboard and a mouse. Without either (unlikely on a desktop), it's just not created.
+		if (_input.Keyboards.FirstOrDefault() is { } cameraKeyboard && _input.Mice.FirstOrDefault() is { } cameraMouse)
+			_cameraController = new FreeCameraController(_camera, cameraKeyboard, cameraMouse);
 
 		try
 		{
@@ -144,12 +152,16 @@ public sealed class GameController
 		Glfw.GetApi().SetWindowRefreshCallback((WindowHandle*) handle, _noOpRefresh);
 	}
 
-	private void OnRender(double deltaTime) => _renderer?.Render(deltaTime);
+	/// <summary>
+	///		Game logic for one frame. Runs before Render, so the frame shows the newest state.
+	/// </summary>
+	private void OnUpdate(double deltaTime) => _cameraController?.Update(deltaTime);
+
+	private void OnRender(double deltaTime) => _renderer?.Render(deltaTime, _camera);
 
 	private void OnFramebufferResize(Vector2D<int> size)
 	{
 		_renderer?.Resize(size.X, size.Y);
-		_renderer?.Render(0);
 	}
 
 	private void OnClosing()

@@ -1,3 +1,4 @@
+using System.Numerics;
 using Silk.NET.OpenGL;
 
 namespace Engine.Client.Graphics;
@@ -55,6 +56,26 @@ public sealed class Shader : IDisposable
 	///		Makes this the program the next draw calls use.
 	/// </summary>
 	public void Use() => _gl.UseProgram(Handle);
+
+	/// <summary>
+	///		Sets a <c>uniform mat4</c> in the shader. Uniforms are values that stay the same for a whole draw call,
+	///		unlike vertex inputs, which change per corner. Call <see cref="Use"/> first.
+	/// </summary>
+	/// <exception cref="ShaderException">The shader has no uniform with that name.</exception>
+	/// <remarks>
+	///		System.Numerics writes matrices row by row and GLSL reads them column by column, but System.Numerics
+	///		also multiplies the other way round. The two differences cancel out, so the bytes can be passed as they
+	///		are, with transpose = false, and the shader multiplies in the usual GLSL order: projection * view * model.
+	/// </remarks>
+	public unsafe void SetMatrix4(string name, Matrix4x4 value)
+	{
+		// The driver removes uniforms the shader never uses, so a typo and an unused uniform both give -1.
+		var location = _gl.GetUniformLocation(Handle, name);
+		if (location == -1)
+			throw new ShaderException($"Uniform '{name}' not found in shader, or not used by it.");
+
+		_gl.UniformMatrix4(location, 1, false, (float*) &value);
+	}
 
 	public void Dispose() => _gl.DeleteProgram(Handle);
 

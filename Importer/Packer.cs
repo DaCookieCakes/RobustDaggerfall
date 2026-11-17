@@ -8,7 +8,7 @@ namespace Importer;
 /// </summary>
 /// <remarks>
 ///		The pack is written to a temporary file first, and only renamed to daggerfall.pack once it's complete.
-///		A crash or power cut mid-way leaves the old pack (or no pack) in place, never a half-written one.
+///		A crash or power cut mid-way leaves the old pack in place, never a half-written one.
 /// </remarks>
 public static class Packer
 {
@@ -60,7 +60,7 @@ public static class Packer
 			throw;
 		}
 	}
-
+	
 	/// <summary>
 	///		Writes the zip itself. Every file is stored under its path inside ARENA2, in upper case.
 	/// </summary>

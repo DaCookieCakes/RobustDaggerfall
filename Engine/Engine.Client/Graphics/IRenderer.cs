@@ -4,8 +4,8 @@ namespace Engine.Client.Graphics;
 ///		Draws the game. The rest of the engine talks to this, never to OpenGL directly.
 /// </summary>
 /// <remarks>
-///		This bkeeps OpenGL behind an interface means a headless version, 
-///		so one that does nothing can stand in where there's no window, such as on a server or in tests.
+///		This keeps OpenGL behind an interface,
+///			so one that does nothing can stand in where there's no window, such as on a server or in tests.
 /// </remarks>
 public interface IRenderer : IDisposable
 {
@@ -18,7 +18,8 @@ public interface IRenderer : IDisposable
 	///		Draws one frame.
 	/// </summary>
 	/// <param name="deltaTime">Seconds since the last frame.</param>
-	void Render(double deltaTime);
+	/// <param name="camera">Where to draw the world from.</param>
+	void Render(double deltaTime, Camera camera);
 
 	/// <summary>
 	///		Called when the window changes size, in pixels.
