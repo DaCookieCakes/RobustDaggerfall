@@ -35,16 +35,27 @@ public sealed class FreeCameraController
 	/// </summary>
 	private bool _normalMode;
 
-	public FreeCameraController(Camera camera, IKeyboard keyboard, IMouse mouse)
+	/// <summary>
+	///		False for tools: the cursor stays free, and the view only turns while the right mouse button is held.
+	/// </summary>
+	private readonly bool _captureMouse;
+
+	/// <param name="captureMouse">
+	///		True locks the mouse to the window for looking around (Tab toggles it). False leaves the cursor free
+	///		and looks around only while the right mouse button is held.
+	/// </param>
+	public FreeCameraController(Camera camera, IKeyboard keyboard, IMouse mouse, bool captureMouse = true)
 	{
 		_camera = camera;
 		_keyboard = keyboard;
 		_mouse = mouse;
-		
-		_mouse.Cursor.CursorMode = CursorMode.Raw;
+		_captureMouse = captureMouse;
+
+		_mouse.Cursor.CursorMode = captureMouse ? CursorMode.Raw : CursorMode.Normal;
 		_mouse.MouseMove += OnMouseMove;
 
-		_keyboard.KeyDown += OnKeyDown;
+		if (captureMouse)
+			_keyboard.KeyDown += OnKeyDown;
 	}
 
 	/// <summary>
@@ -75,7 +86,8 @@ public sealed class FreeCameraController
 		// The first event only tells us where the mouse starts. Turning by that would make the view jump.
 		// Also, screen Y grows downwards,
 		//	so moving the mouse up gives a negative delta.
-		if (!_normalMode && _lastMouse is { } last)
+		var looking = _captureMouse ? !_normalMode : mouse.IsButtonPressed(MouseButton.Right);
+		if (looking && _lastMouse is { } last)
 		{
 			var delta = position - last;
 			_camera.Yaw += delta.X * Sensitivity;

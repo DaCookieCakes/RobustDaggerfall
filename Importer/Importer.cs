@@ -1,8 +1,8 @@
-﻿using System.IO.Compression;
-using System.Runtime.Versioning;
+﻿using System.Runtime.Versioning;
 using System.Text.RegularExpressions;
 using Microsoft.Win32;
 
+using Importer.Conversion;
 using Importer.Readers;
 
 namespace Importer;
@@ -14,6 +14,17 @@ public static class Importer
 	///		Steam's Daggerfall install is 2 below the game folder, so 3 leaves room for other layouts.
 	/// </summary>
 	private const int Arena2SearchDepth = 3;
+
+	/// <summary>
+	///		Where the converted models go, next to the pack: one {model ID}.glb per model.
+	/// </summary>
+	private const string ModelFolder = "models";
+
+	/// <summary>
+	///		Where the textures the models use go, next to the pack: textures/{archive:D3}/{record}.png.
+	///		So a texture name like 056/2 (see <see cref="GlbWriter.TextureName"/>) is also its path.
+	/// </summary>
+	private const string TextureFolder = "textures";
 
 	public static int Main(string[] args)
 	{
@@ -96,23 +107,188 @@ public static class Importer
 		}
 
 		// ARCH3D //
-		using var zip = ZipFile.OpenRead(destination);
-		var entry = zip.GetEntry("ARCH3D.BSA");
-		if (entry == null)
+		using var pack = new Pack(destination);
+		var arch3DData = pack.Read("ARCH3D.BSA");
+		if (arch3DData == null)
 		{
 			Console.WriteLine("ARCH3D.BSA could not be found.");
 			return 1;
 		}
 
-		var mem = new MemoryStream();
-		using (var entryStream = entry.Open())
-			entryStream.CopyTo(mem);
-
-		mem.Position = 0;
-		using var arch3D = new BSAReader(mem);
+		using var arch3D = new BSAReader(new MemoryStream(arch3DData));
 		Console.WriteLine($"ARCH3D.BSA loaded from the pack. Records found: {arch3D.Records.Count}");
 
-		return 0;
+		var meshesOk = ReadAllMeshes(arch3D);
+		var texturesOk = ReadAllTextures(pack);
+		if (!meshesOk || !texturesOk)
+			return 1;
+
+		// MODELS //
+		var library = new TextureLibrary(pack);
+		var used = new HashSet<(int Archive, int Record)>();
+		var modelsOk = ExportAllModels(arch3D, library, used, Path.Combine(Packer.PackFolder, ModelFolder));
+		var usedOk = ExportTextures(library, used, Path.Combine(Packer.PackFolder, TextureFolder));
+		return modelsOk && usedOk ? 0 : 1;
+	}
+
+	/// <summary>
+	///		Parses every model in ARCH3D.BSA and prints a summary, so a reader bug shows up as a count, not a crash.
+	/// </summary>
+	/// <returns>true if every record parsed.</returns>
+	private static bool ReadAllMeshes(BSAReader arch3D)
+	{
+		var failed = 0;
+		long points = 0, faces = 0;
+		var maxCorners = 0;
+
+		for (var i = 0; i < arch3D.Records.Count; i++)
+		{
+			try
+			{
+				var mesh = MeshReader.Read(arch3D.ReadRecord(i));
+				points += mesh.Points.Length;
+				faces += mesh.Faces.Length;
+				foreach (var face in mesh.Faces)
+					maxCorners = Math.Max(maxCorners, face.Corners.Length);
+			}
+			catch (InvalidDataException e)
+			{
+				// Only show the first few, so one systematic bug doesn't print 10,000 lines.
+				if (failed < 10)
+					Console.WriteLine($"  Model {arch3D.Records[i].Name}: {e.Message}");
+				failed++;
+			}
+		}
+
+		Console.WriteLine($"Models read: {arch3D.Records.Count - failed}/{arch3D.Records.Count} " +
+		                  $"({points} points, {faces} faces, up to {maxCorners} corners per face).");
+		return failed == 0;
+	}
+
+	/// <summary>
+	///		Decodes every TEXTURE.xxx in the pack and prints a summary, like <see cref="ReadAllMeshes"/>.
+	/// </summary>
+	/// <returns>true if every file decoded.</returns>
+	private static bool ReadAllTextures(Pack pack)
+	{
+		var files = pack.Names.Where(n => Regex.IsMatch(n, @"^TEXTURE\.\d{3}$")).Order().ToList();
+		var failed = 0;
+		int images = 0, frames = 0;
+
+		foreach (var name in files)
+		{
+			try
+			{
+				foreach (var texture in TextureReader.Read(pack.Read(name)!))
+				{
+					if (texture is null)
+						continue;
+					images++;
+					frames += texture.Frames.Length;
+				}
+			}
+			catch (InvalidDataException e)
+			{
+				if (failed < 10)
+					Console.WriteLine($"  {name}: {e.Message}");
+				failed++;
+			}
+		}
+
+		Console.WriteLine($"Texture files read: {files.Count - failed}/{files.Count} ({images} images, {frames} frames).");
+		return failed == 0;
+	}
+
+	/// <summary>
+	///		Converts every ARCH3D model to a .glb file in <paramref name="folder"/>, replacing what's there.
+	/// </summary>
+	/// <param name="used">Filled with every texture the written models use.</param>
+	/// <returns>true if every model was written.</returns>
+	private static bool ExportAllModels(BSAReader arch3D, TextureLibrary textures,
+		HashSet<(int Archive, int Record)> used, string folder)
+	{
+		Console.WriteLine($"Writing models to {folder}");
+		Directory.CreateDirectory(folder);
+
+		var timer = System.Diagnostics.Stopwatch.StartNew();
+		var failed = 0;
+		long bytes = 0;
+
+		// A few IDs appear more than once, mostly with different contents. Keep the first: DFU's Arch3dFile looks
+		// models up by searching from the start of the archive, so the later copies are never used there either.
+		var written = new HashSet<string>();
+		var duplicates = 0;
+
+		for (var i = 0; i < arch3D.Records.Count; i++)
+		{
+			var record = arch3D.Records[i];
+			if (!written.Add(record.Name))
+			{
+				duplicates++;
+				continue;
+			}
+
+			try
+			{
+				var mesh = MeshConverter.Convert(MeshReader.Read(arch3D.ReadRecord(i)), record.Id ?? 0, textures.Size);
+				var path = Path.Combine(folder, $"{record.Name}.glb");
+				GlbWriter.Build(mesh, record.Name).SaveGLB(path);
+				bytes += new FileInfo(path).Length;
+
+				foreach (var sub in mesh.SubMeshes)
+					used.Add((sub.TextureArchive, sub.TextureRecord));
+			}
+			catch (Exception e)
+			{
+				// Anything can go wrong in conversion or writing; report it and keep going with the rest.
+				if (failed < 10)
+					Console.WriteLine($"  Model {record.Name}: {e.GetType().Name}: {e.Message}");
+				failed++;
+			}
+		}
+
+		Console.WriteLine($"Models written: {written.Count - failed}/{written.Count} " +
+		                  $"({bytes / (1024.0 * 1024.0):0.0} MB in {timer.Elapsed.TotalSeconds:0.0} s, " +
+		                  $"{duplicates} later copies of duplicate IDs skipped).");
+		return failed == 0;
+	}
+
+	/// <summary>
+	///		Writes each texture in <paramref name="used"/> once, as a PNG under <paramref name="folder"/>.
+	///		Models only hold texture names, so this is the one copy every model shares.
+	/// </summary>
+	/// <returns>true if every texture was found and written.</returns>
+	private static bool ExportTextures(TextureLibrary textures, HashSet<(int Archive, int Record)> used, string folder)
+	{
+		Console.WriteLine($"Writing textures to {folder}");
+
+		// Start clean, so textures no model uses anymore don't linger from an older run.
+		if (Directory.Exists(folder))
+			Directory.Delete(folder, recursive: true);
+
+		var missing = 0;
+		long bytes = 0;
+
+		foreach (var (archive, record) in used.Order())
+		{
+			if (textures.Rgba(archive, record) is not { } image)
+			{
+				// The model still loads; the renderer shows its stand-in for this texture.
+				if (missing < 10)
+					Console.WriteLine($"  Texture {GlbWriter.TextureName(archive, record)} not found.");
+				missing++;
+				continue;
+			}
+
+			var path = Path.Combine(folder, $"{GlbWriter.TextureName(archive, record)}.png");
+			Directory.CreateDirectory(Path.GetDirectoryName(path)!);
+			var png = PngWriter.Encode(image.Width, image.Height, image.Pixels);
+			File.WriteAllBytes(path, png);
+			bytes += png.Length;
+		}
+
+		Console.WriteLine($"Textures written: {used.Count - missing}/{used.Count} ({bytes / (1024.0 * 1024.0):0.0} MB).");
+		return missing == 0;
 	}
 
 	private static bool RunPacker(string arena2, string destination)

@@ -59,9 +59,6 @@ public sealed class GameController
 		if (!Startup())
 			return 1;
 
-		foreach (var entity in Prototypes.EnumeratePrototypes<EntityPrototype>())
-			Console.WriteLine($"  entity {entity.ID}: {entity.Name} [{string.Join(", ", entity.Components.Keys)}]");
-
 		RunWindow();
 		return _exitCode;
 	}
