@@ -15,17 +15,6 @@ public static class Importer
 	/// </summary>
 	private const int Arena2SearchDepth = 3;
 
-	/// <summary>
-	///		Where the converted models go, next to the pack: one {model ID}.glb per model.
-	/// </summary>
-	private const string ModelFolder = "models";
-
-	/// <summary>
-	///		Where the textures the models use go, next to the pack: textures/{archive:D3}/{record}.png.
-	///		So a texture name like 056/2 (see <see cref="GlbWriter.TextureName"/>) is also its path.
-	/// </summary>
-	private const string TextureFolder = "textures";
-
 	public static int Main(string[] args)
 	{
 		string? arena2 = null;
@@ -96,39 +85,13 @@ public static class Importer
 		// PACKAGER //
 		var destination = Path.Combine(Packer.PackFolder, Packer.PackName);
 		var existing = Packer.ReadManifest(destination);
-		if (existing is null || existing.ImporterVersion != Packer.PackerImporterVersion)
-		{
-			if (!RunPacker(arena2, destination))
-				return 1;
-		}
-		else
+		if (existing is not null && existing.ImporterVersion == Packer.PackerImporterVersion)
 		{
 			Console.WriteLine($".pack is up to date. (Made {existing.CreatedAt} from {existing.SourcePath})");
+			return 0;
 		}
 
-		// ARCH3D //
-		using var pack = new Pack(destination);
-		var arch3DData = pack.Read("ARCH3D.BSA");
-		if (arch3DData == null)
-		{
-			Console.WriteLine("ARCH3D.BSA could not be found.");
-			return 1;
-		}
-
-		using var arch3D = new BSAReader(new MemoryStream(arch3DData));
-		Console.WriteLine($"ARCH3D.BSA loaded from the pack. Records found: {arch3D.Records.Count}");
-
-		var meshesOk = ReadAllMeshes(arch3D);
-		var texturesOk = ReadAllTextures(pack);
-		if (!meshesOk || !texturesOk)
-			return 1;
-
-		// MODELS //
-		var library = new TextureLibrary(pack);
-		var used = new HashSet<(int Archive, int Record)>();
-		var modelsOk = ExportAllModels(arch3D, library, used, Path.Combine(Packer.PackFolder, ModelFolder));
-		var usedOk = ExportTextures(library, used, Path.Combine(Packer.PackFolder, TextureFolder));
-		return modelsOk && usedOk ? 0 : 1;
+		return RunPacker(arena2, destination) ? 0 : 1;
 	}
 
 	/// <summary>
@@ -166,12 +129,12 @@ public static class Importer
 	}
 
 	/// <summary>
-	///		Decodes every TEXTURE.xxx in the pack and prints a summary, like <see cref="ReadAllMeshes"/>.
+	///		Decodes every TEXTURE.xxx in ARENA2 and prints a summary, like <see cref="ReadAllMeshes"/>.
 	/// </summary>
 	/// <returns>true if every file decoded.</returns>
-	private static bool ReadAllTextures(Pack pack)
+	private static bool ReadAllTextures(Arena2Folder source)
 	{
-		var files = pack.Names.Where(n => Regex.IsMatch(n, @"^TEXTURE\.\d{3}$")).Order().ToList();
+		var files = source.Names.Where(n => Regex.IsMatch(n, @"^TEXTURE\.\d{3}$")).Order().ToList();
 		var failed = 0;
 		int images = 0, frames = 0;
 
@@ -179,7 +142,7 @@ public static class Importer
 		{
 			try
 			{
-				foreach (var texture in TextureReader.Read(pack.Read(name)!))
+				foreach (var texture in TextureReader.Read(source.Read(name)!))
 				{
 					if (texture is null)
 						continue;
@@ -200,15 +163,13 @@ public static class Importer
 	}
 
 	/// <summary>
-	///		Converts every ARCH3D model to a .glb file in <paramref name="folder"/>, replacing what's there.
+	///		Converts every ARCH3D model to a .glb file.
 	/// </summary>
 	/// <param name="used">Filled with every texture the written models use.</param>
 	/// <returns>true if every model was written.</returns>
-	private static bool ExportAllModels(BSAReader arch3D, TextureLibrary textures,
-		HashSet<(int Archive, int Record)> used, string folder)
+	private static bool ExportAllModels(BSAReader arch3D, TextureLibrary textures, HashSet<(int Archive, int Record)> used, PackWriter pack)
 	{
-		Console.WriteLine($"Writing models to {folder}");
-		Directory.CreateDirectory(folder);
+		Console.WriteLine("Converting models");
 
 		var timer = System.Diagnostics.Stopwatch.StartNew();
 		var failed = 0;
@@ -231,9 +192,9 @@ public static class Importer
 			try
 			{
 				var mesh = MeshConverter.Convert(MeshReader.Read(arch3D.ReadRecord(i)), record.Id ?? 0, textures.Size);
-				var path = Path.Combine(folder, $"{record.Name}.glb");
-				GlbWriter.Build(mesh, record.Name).SaveGLB(path);
-				bytes += new FileInfo(path).Length;
+				var glb = GlbWriter.Build(mesh, record.Name).WriteGLB().ToArray();
+				pack.Add(Pack.ModelEntry(record.Id ?? 0), glb);
+				bytes += glb.Length;
 
 				foreach (var sub in mesh.SubMeshes)
 					used.Add((sub.TextureArchive, sub.TextureRecord));
@@ -247,24 +208,20 @@ public static class Importer
 			}
 		}
 
-		Console.WriteLine($"Models written: {written.Count - failed}/{written.Count} " +
+		Console.WriteLine($"Models converted: {written.Count - failed}/{written.Count} " +
 		                  $"({bytes / (1024.0 * 1024.0):0.0} MB in {timer.Elapsed.TotalSeconds:0.0} s, " +
 		                  $"{duplicates} later copies of duplicate IDs skipped).");
 		return failed == 0;
 	}
 
 	/// <summary>
-	///		Writes each texture in <paramref name="used"/> once, as a PNG under <paramref name="folder"/>.
+	///		Writes each texture in <paramref name="used"/> once, as a PNG into the pack.
 	///		Models only hold texture names, so this is the one copy every model shares.
 	/// </summary>
 	/// <returns>true if every texture was found and written.</returns>
-	private static bool ExportTextures(TextureLibrary textures, HashSet<(int Archive, int Record)> used, string folder)
+	private static bool ExportTextures(TextureLibrary textures, HashSet<(int Archive, int Record)> used, PackWriter pack)
 	{
-		Console.WriteLine($"Writing textures to {folder}");
-
-		// Start clean, so textures no model uses anymore don't linger from an older run.
-		if (Directory.Exists(folder))
-			Directory.Delete(folder, recursive: true);
+		Console.WriteLine("Converting textures");
 
 		var missing = 0;
 		long bytes = 0;
@@ -280,30 +237,57 @@ public static class Importer
 				continue;
 			}
 
-			var path = Path.Combine(folder, $"{GlbWriter.TextureName(archive, record)}.png");
-			Directory.CreateDirectory(Path.GetDirectoryName(path)!);
 			var png = PngWriter.Encode(image.Width, image.Height, image.Pixels);
-			File.WriteAllBytes(path, png);
+			pack.Add(Pack.TextureEntry(archive, record), png);
 			bytes += png.Length;
 		}
 
-		Console.WriteLine($"Textures written: {used.Count - missing}/{used.Count} ({bytes / (1024.0 * 1024.0):0.0} MB).");
+		Console.WriteLine($"Textures converted: {used.Count - missing}/{used.Count} ({bytes / (1024.0 * 1024.0):0.0} MB).");
 		return missing == 0;
 	}
 
+	/// <summary>
+	///		Reads the game files from ARENA2, converts them, and writes the result as a new pack.
+	/// </summary>
+	/// <returns>true if the pack was written. On any failure the old pack, if there is one, is left as it was.</returns>
 	private static bool RunPacker(string arena2, string destination)
 	{
-		Console.WriteLine($"Packing ARENA2 to {destination}");
-			
+		var source = new Arena2Folder(arena2);
+		if (source.Read("ARCH3D.BSA") is not { } arch3DData)
+		{
+			Console.WriteLine("ARCH3D.BSA could not be found.");
+			return false;
+		}
+
+		using var arch3D = new BSAReader(new MemoryStream(arch3DData));
+		Console.WriteLine($"ARCH3D.BSA loaded. Records found: {arch3D.Records.Count}");
+
+		// Check everything parses before converting, so a reader bug shows up as a count, not half a pack.
+		var meshesOk = ReadAllMeshes(arch3D);
+		var texturesOk = ReadAllTextures(source);
+		if (!meshesOk || !texturesOk)
+			return false;
+
+		Console.WriteLine($"Packing to {destination}");
+
 		try
 		{
-			var manifest = Packer.Pack(arena2, destination);
-			Console.WriteLine($"ARENA2 Packager finished: {manifest.FileCount} files.");
+			var manifest = Packer.Pack(arena2, destination, pack =>
+			{
+				var library = new TextureLibrary(source);
+				var used = new HashSet<(int Archive, int Record)>();
+
+				// Each step reports its own failures. Throwing makes the Packer drop the unfinished pack.
+				if (!ExportAllModels(arch3D, library, used, pack) || !ExportTextures(library, used, pack))
+					throw new InvalidDataException("Some files could not be converted.");
+			});
+
+			Console.WriteLine($"Pack finished: {manifest.FileCount} files.");
 			return true;
 		}
 		catch (Exception e)
 		{
-			Console.WriteLine($"ARENA2 Packager failed: {e.Message}");
+			Console.WriteLine($"Packing failed: {e.Message}");
 			return false;
 		}
 	}

@@ -13,22 +13,22 @@ public sealed record RgbaImage(int Width, int Height, uint[] Pixels, bool HasTra
 ///		Every Daggerfall model texture, looked up by (archive, record) and turned into colors.
 /// </summary>
 /// <remarks>
-///		Loads each TEXTURE.xxx from the pack the first time it's asked for. Archives 0 and 1 are generated instead,
+///		Loads each TEXTURE.xxx from ARENA2 the first time it's asked for. Archives 0 and 1 are generated instead,
 ///		see <see cref="TextureReader.IsSolidColor"/>. Only the first frame of animated textures is used for now.
 /// </remarks>
 public sealed class TextureLibrary
 {
-	private readonly Pack _pack;
+	private readonly Arena2Folder _source;
 	private readonly uint[] _palette;
 
 	/// <summary>Decoded TEXTURE files by archive number. Null if the file doesn't exist or failed to decode.</summary>
 	private readonly Dictionary<int, DfTexture?[]?> _archives = new();
 
-	public TextureLibrary(Pack pack)
+	public TextureLibrary(Arena2Folder source)
 	{
-		_pack = pack;
-		_palette = PaletteReader.Read(pack.Read("ART_PAL.COL")
-		                              ?? throw new FileNotFoundException("ART_PAL.COL is not in the pack."));
+		_source = source;
+		_palette = PaletteReader.Read(source.Read("ART_PAL.COL")
+		                              ?? throw new FileNotFoundException("ART_PAL.COL is not in ARENA2."));
 	}
 
 	/// <summary>
@@ -72,7 +72,7 @@ public sealed class TextureLibrary
 		{
 			try
 			{
-				textures = _pack.Read($"TEXTURE.{archive:D3}") is { } data ? TextureReader.Read(data) : null;
+				textures = _source.Read($"TEXTURE.{archive:D3}") is { } data ? TextureReader.Read(data) : null;
 			}
 			catch (InvalidDataException e)
 			{

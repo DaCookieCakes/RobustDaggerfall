@@ -6,9 +6,6 @@
   <Folder Name="/Content/">
     <Project Path="Content/Content.Shared/Content.Shared.csproj" />
   </Folder>
-  <Folder Name="/Tools/">
-    <Project Path="Tools/PrototypeGenerator/PrototypeGenerator.csproj" />
-  </Folder>
   <Project Path="Importer/Importer.csproj" />
   <Project Path="Tests/Tests.csproj" />
 </Solution>
