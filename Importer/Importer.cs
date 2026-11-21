@@ -1,8 +1,8 @@
-﻿using System.IO.Compression;
-using System.Runtime.Versioning;
+﻿using System.Runtime.Versioning;
 using System.Text.RegularExpressions;
 using Microsoft.Win32;
 
+using Importer.Conversion;
 using Importer.Readers;
 
 namespace Importer;
@@ -85,49 +85,209 @@ public static class Importer
 		// PACKAGER //
 		var destination = Path.Combine(Packer.PackFolder, Packer.PackName);
 		var existing = Packer.ReadManifest(destination);
-		if (existing is null || existing.ImporterVersion != Packer.PackerImporterVersion)
-		{
-			if (!RunPacker(arena2, destination))
-				return 1;
-		}
-		else
+		if (existing is not null && existing.ImporterVersion == Packer.PackerImporterVersion)
 		{
 			Console.WriteLine($".pack is up to date. (Made {existing.CreatedAt} from {existing.SourcePath})");
+			return 0;
 		}
 
-		// ARCH3D //
-		using var zip = ZipFile.OpenRead(destination);
-		var entry = zip.GetEntry("ARCH3D.BSA");
-		if (entry == null)
-		{
-			Console.WriteLine("ARCH3D.BSA could not be found.");
-			return 1;
-		}
-
-		var mem = new MemoryStream();
-		using (var entryStream = entry.Open())
-			entryStream.CopyTo(mem);
-
-		mem.Position = 0;
-		using var arch3D = new BSAReader(mem);
-		Console.WriteLine($"ARCH3D.BSA loaded from the pack. Records found: {arch3D.Records.Count}");
-
-		return 0;
+		return RunPacker(arena2, destination) ? 0 : 1;
 	}
 
+	/// <summary>
+	///		Parses every model in ARCH3D.BSA and prints a summary, so a reader bug shows up as a count, not a crash.
+	/// </summary>
+	/// <returns>true if every record parsed.</returns>
+	private static bool ReadAllMeshes(BSAReader arch3D)
+	{
+		var failed = 0;
+		long points = 0, faces = 0;
+		var maxCorners = 0;
+
+		for (var i = 0; i < arch3D.Records.Count; i++)
+		{
+			try
+			{
+				var mesh = MeshReader.Read(arch3D.ReadRecord(i));
+				points += mesh.Points.Length;
+				faces += mesh.Faces.Length;
+				foreach (var face in mesh.Faces)
+					maxCorners = Math.Max(maxCorners, face.Corners.Length);
+			}
+			catch (InvalidDataException e)
+			{
+				// Only show the first few, so one systematic bug doesn't print 10,000 lines.
+				if (failed < 10)
+					Console.WriteLine($"  Model {arch3D.Records[i].Name}: {e.Message}");
+				failed++;
+			}
+		}
+
+		Console.WriteLine($"Models read: {arch3D.Records.Count - failed}/{arch3D.Records.Count} " +
+		                  $"({points} points, {faces} faces, up to {maxCorners} corners per face).");
+		return failed == 0;
+	}
+
+	/// <summary>
+	///		Decodes every TEXTURE.xxx in ARENA2 and prints a summary, like <see cref="ReadAllMeshes"/>.
+	/// </summary>
+	/// <returns>true if every file decoded.</returns>
+	private static bool ReadAllTextures(Arena2Folder source)
+	{
+		var files = source.Names.Where(n => Regex.IsMatch(n, @"^TEXTURE\.\d{3}$")).Order().ToList();
+		var failed = 0;
+		int images = 0, frames = 0;
+
+		foreach (var name in files)
+		{
+			try
+			{
+				foreach (var texture in TextureReader.Read(source.Read(name)!))
+				{
+					if (texture is null)
+						continue;
+					images++;
+					frames += texture.Frames.Length;
+				}
+			}
+			catch (InvalidDataException e)
+			{
+				if (failed < 10)
+					Console.WriteLine($"  {name}: {e.Message}");
+				failed++;
+			}
+		}
+
+		Console.WriteLine($"Texture files read: {files.Count - failed}/{files.Count} ({images} images, {frames} frames).");
+		return failed == 0;
+	}
+
+	/// <summary>
+	///		Converts every ARCH3D model to a .glb file.
+	/// </summary>
+	/// <param name="used">Filled with every texture the written models use.</param>
+	/// <returns>true if every model was written.</returns>
+	private static bool ExportAllModels(BSAReader arch3D, TextureLibrary textures, HashSet<(int Archive, int Record)> used, PackWriter pack)
+	{
+		Console.WriteLine("Converting models");
+
+		var timer = System.Diagnostics.Stopwatch.StartNew();
+		var failed = 0;
+		long bytes = 0;
+
+		// A few IDs appear more than once, mostly with different contents. Keep the first: DFU's Arch3dFile looks
+		// models up by searching from the start of the archive, so the later copies are never used there either.
+		var written = new HashSet<string>();
+		var duplicates = 0;
+
+		for (var i = 0; i < arch3D.Records.Count; i++)
+		{
+			var record = arch3D.Records[i];
+			if (!written.Add(record.Name))
+			{
+				duplicates++;
+				continue;
+			}
+
+			try
+			{
+				var mesh = MeshConverter.Convert(MeshReader.Read(arch3D.ReadRecord(i)), record.Id ?? 0, textures.Size);
+				var glb = GlbWriter.Build(mesh, record.Name).WriteGLB().ToArray();
+				pack.Add(Pack.ModelEntry(record.Id ?? 0), glb);
+				bytes += glb.Length;
+
+				foreach (var sub in mesh.SubMeshes)
+					used.Add((sub.TextureArchive, sub.TextureRecord));
+			}
+			catch (Exception e)
+			{
+				// Anything can go wrong in conversion or writing; report it and keep going with the rest.
+				if (failed < 10)
+					Console.WriteLine($"  Model {record.Name}: {e.GetType().Name}: {e.Message}");
+				failed++;
+			}
+		}
+
+		Console.WriteLine($"Models converted: {written.Count - failed}/{written.Count} " +
+		                  $"({bytes / (1024.0 * 1024.0):0.0} MB in {timer.Elapsed.TotalSeconds:0.0} s, " +
+		                  $"{duplicates} later copies of duplicate IDs skipped).");
+		return failed == 0;
+	}
+
+	/// <summary>
+	///		Writes each texture in <paramref name="used"/> once, as a PNG into the pack.
+	///		Models only hold texture names, so this is the one copy every model shares.
+	/// </summary>
+	/// <returns>true if every texture was found and written.</returns>
+	private static bool ExportTextures(TextureLibrary textures, HashSet<(int Archive, int Record)> used, PackWriter pack)
+	{
+		Console.WriteLine("Converting textures");
+
+		var missing = 0;
+		long bytes = 0;
+
+		foreach (var (archive, record) in used.Order())
+		{
+			if (textures.Rgba(archive, record) is not { } image)
+			{
+				// The model still loads; the renderer shows its stand-in for this texture.
+				if (missing < 10)
+					Console.WriteLine($"  Texture {GlbWriter.TextureName(archive, record)} not found.");
+				missing++;
+				continue;
+			}
+
+			var png = PngWriter.Encode(image.Width, image.Height, image.Pixels);
+			pack.Add(Pack.TextureEntry(archive, record), png);
+			bytes += png.Length;
+		}
+
+		Console.WriteLine($"Textures converted: {used.Count - missing}/{used.Count} ({bytes / (1024.0 * 1024.0):0.0} MB).");
+		return missing == 0;
+	}
+
+	/// <summary>
+	///		Reads the game files from ARENA2, converts them, and writes the result as a new pack.
+	/// </summary>
+	/// <returns>true if the pack was written. On any failure the old pack, if there is one, is left as it was.</returns>
 	private static bool RunPacker(string arena2, string destination)
 	{
-		Console.WriteLine($"Packing ARENA2 to {destination}");
-			
+		var source = new Arena2Folder(arena2);
+		if (source.Read("ARCH3D.BSA") is not { } arch3DData)
+		{
+			Console.WriteLine("ARCH3D.BSA could not be found.");
+			return false;
+		}
+
+		using var arch3D = new BSAReader(new MemoryStream(arch3DData));
+		Console.WriteLine($"ARCH3D.BSA loaded. Records found: {arch3D.Records.Count}");
+
+		// Check everything parses before converting, so a reader bug shows up as a count, not half a pack.
+		var meshesOk = ReadAllMeshes(arch3D);
+		var texturesOk = ReadAllTextures(source);
+		if (!meshesOk || !texturesOk)
+			return false;
+
+		Console.WriteLine($"Packing to {destination}");
+
 		try
 		{
-			var manifest = Packer.Pack(arena2, destination);
-			Console.WriteLine($"ARENA2 Packager finished: {manifest.FileCount} files.");
+			var manifest = Packer.Pack(arena2, destination, pack =>
+			{
+				var library = new TextureLibrary(source);
+				var used = new HashSet<(int Archive, int Record)>();
+
+				// Each step reports its own failures. Throwing makes the Packer drop the unfinished pack.
+				if (!ExportAllModels(arch3D, library, used, pack) || !ExportTextures(library, used, pack))
+					throw new InvalidDataException("Some files could not be converted.");
+			});
+
+			Console.WriteLine($"Pack finished: {manifest.FileCount} files.");
 			return true;
 		}
 		catch (Exception e)
 		{
-			Console.WriteLine($"ARENA2 Packager failed: {e.Message}");
+			Console.WriteLine($"Packing failed: {e.Message}");
 			return false;
 		}
 	}

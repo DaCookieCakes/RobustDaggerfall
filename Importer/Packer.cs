@@ -1,10 +1,11 @@
-using System.IO.Compression;
+﻿using System.IO.Compression;
 using System.Text.Json;
 
 namespace Importer;
 
 /// <summary>
-///		Zips an ARENA2 folder into 'daggerfall.pack' with a manifest.json describing how it was made.
+///		Writes 'daggerfall.pack': a zip of the game's converted files (models as .glb, textures as .png) plus a
+///		manifest.json describing how it was made. What goes in is up to the caller; see <see cref="Pack"/>.
 /// </summary>
 /// <remarks>
 ///		The pack is written to a temporary file first, and only renamed to daggerfall.pack once it's complete.
@@ -12,7 +13,11 @@ namespace Importer;
 /// </remarks>
 public static class Packer
 {
-	public const int PackerImporterVersion = 1;
+	/// <summary>
+	///		Bump this whenever what goes into the pack changes, so existing packs get rebuilt.
+	///		1: the raw ARENA2 files. 2: converted models and textures.
+	/// </summary>
+	public const int PackerImporterVersion = 2;
 
 	public const string PackName = "daggerfall.pack";
 	public const string ManifestName = "manifest.json";
@@ -23,7 +28,7 @@ public static class Packer
 	/// <param name="ImporterVersion">Which version of the Importer made the pack.</param>
 	/// <param name="CreatedAt">When the pack was made, in UTC.</param>
 	/// <param name="SourcePath">The ARENA2 folder it was made from, for support questions.</param>
-	/// <param name="FileCount">How many game files are in the pack, not counting the manifest.</param>
+	/// <param name="FileCount">How many files are in the pack, not counting the manifest.</param>
 	public sealed record Manifest(int ImporterVersion, DateTime CreatedAt, string SourcePath, int FileCount);
 
 	/// <summary>
@@ -33,15 +38,16 @@ public static class Packer
 		Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "RobustDaggerfall");
 
 	/// <summary>
-	///		Zips every file in <paramref name="arena2"/>, including its subfolders, into <paramref name="destination"/>.
-	///		Replaces an existing pack only once the new one is complete.
+	///		Makes a new pack at <paramref name="destination"/>, with <paramref name="writeContent"/> adding the files.
+	///		Replaces an existing pack only once the new one is complete. If writeContent throws, the old pack stays.
 	/// </summary>
+	/// <param name="arena2">The ARENA2 folder the content is made from, recorded in the manifest.</param>
 	/// <returns>The manifest written into the pack.</returns>
-	public static Manifest Pack(string arena2, string destination)
+	public static Manifest Pack(string arena2, string destination, Action<PackWriter> writeContent)
 	{
 		Directory.CreateDirectory(Path.GetDirectoryName(destination)!);
 
-		// The temp file goes in the SAME folder as the destination.
+		// The temp file goes in the SAME folder as the destination, so the final rename is a quick, all-or-nothing move.
 		var temp = destination + ".tmp";
 
 		// A crash on a previous run may have left one behind.
@@ -49,8 +55,17 @@ public static class Packer
 
 		try
 		{
-			var manifest = WriteZip(arena2, temp);
-			
+			Manifest manifest;
+			using (var zip = ZipFile.Open(temp, ZipArchiveMode.Create))
+			{
+				var writer = new PackWriter(zip);
+				writeContent(writer);
+
+				manifest = new Manifest(PackerImporterVersion, DateTime.UtcNow, arena2, writer.Count);
+				using var json = new StreamWriter(zip.CreateEntry(ManifestName).Open());
+				json.Write(JsonSerializer.Serialize(manifest, JsonOptions));
+			}
+
 			File.Move(temp, destination, overwrite: true);
 			return manifest;
 		}
@@ -60,42 +75,8 @@ public static class Packer
 			throw;
 		}
 	}
-	
-	/// <summary>
-	///		Writes the zip itself. Every file is stored under its path inside ARENA2, in upper case.
-	/// </summary>
-	private static Manifest WriteZip(string arena2, string zipPath)
-	{
-		// Sorted so the pack's contents are always in the same order.
-		var files = Directory.EnumerateFiles(arena2, "*", SearchOption.AllDirectories)
-			.Order(StringComparer.Ordinal)
-			.ToList();
 
-		using var zip = ZipFile.Open(zipPath, ZipArchiveMode.Create);
-		for (var i = 0; i < files.Count; i++)
-		{
-			// Upper case, so the game can look files up by one exact name.
-			// We show progress every 100 files, plus at the end.
-			var entryName = Path.GetRelativePath(arena2, files[i]).Replace('\\', '/').ToUpperInvariant();
-			zip.CreateEntryFromFile(files[i], entryName, CompressionLevel.Optimal);
-				
-			if ((i + 1) % 100 == 0 || i + 1 == files.Count)
-				Console.WriteLine($"  Packed {i + 1}/{files.Count}");
-		}
-
-		var manifest = new Manifest(PackerImporterVersion, DateTime.UtcNow, arena2, files.Count);
-		var json = JsonSerializer.Serialize(manifest, new JsonSerializerOptions
-		{
-			PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-			WriteIndented = true
-		});
-
-		using var writer = new StreamWriter(zip.CreateEntry(ManifestName).Open());
-		writer.Write(json);
-
-		return manifest;
-	}
-
+	// Shared by writing and reading, so the manifest is always read back with the names it was written with.
 	private static readonly JsonSerializerOptions JsonOptions = new()
 	{
 		PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
@@ -115,5 +96,27 @@ public static class Packer
 
 		using var stream = entry.Open();
 		return JsonSerializer.Deserialize<Manifest>(stream, JsonOptions);
+	}
+}
+
+/// <summary>
+///		Adds files to a pack while <see cref="Packer.Pack"/> writes it.
+/// </summary>
+/// <remarks>
+///		A zip being created can't list its own entries, so this counts them for the manifest.
+/// </remarks>
+public sealed class PackWriter(ZipArchive zip)
+{
+	/// <summary>How many files have been added so far.</summary>
+	public int Count { get; private set; }
+
+	/// <summary>
+	///		Adds a file under <paramref name="name"/>, such as models/62305.glb.
+	/// </summary>
+	public void Add(string name, byte[] data)
+	{
+		using var stream = zip.CreateEntry(name, CompressionLevel.Optimal).Open();
+		stream.Write(data);
+		Count++;
 	}
 }

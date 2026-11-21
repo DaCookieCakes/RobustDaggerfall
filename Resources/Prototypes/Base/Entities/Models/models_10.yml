@@ -1,0 +1,2476 @@
+- type: entity
+  id: Model74039
+  components:
+  - type: Mesh
+    mesh: $74039.glb
+    textures:
+    - $086/4.png
+
+- type: entity
+  id: Model74040
+  components:
+  - type: Mesh
+    mesh: $74040.glb
+    textures:
+    - $041/0.png
+    - $041/1.png
+    - $041/2.png
+    - $041/3.png
+    - $067/14.png
+
+- type: entity
+  id: Model74041
+  components:
+  - type: Mesh
+    mesh: $74041.glb
+    textures:
+    - $141/1.png
+    - $141/2.png
+
+- type: entity
+  id: Model74042
+  components:
+  - type: Mesh
+    mesh: $74042.glb
+    textures:
+    - $122/4.png
+
+- type: entity
+  id: Model74043
+  components:
+  - type: Mesh
+    mesh: $74043.glb
+    textures:
+    - $122/2.png
+
+- type: entity
+  id: Model74044
+  components:
+  - type: Mesh
+    mesh: $74044.glb
+    textures:
+    - $047/2.png
+    - $147/5.png
+
+- type: entity
+  id: Model74045
+  components:
+  - type: Mesh
+    mesh: $74045.glb
+    textures:
+    - $047/2.png
+    - $147/5.png
+
+- type: entity
+  id: Model74046
+  components:
+  - type: Mesh
+    mesh: $74046.glb
+    textures:
+    - $047/2.png
+    - $147/5.png
+
+- type: entity
+  id: Model74047
+  components:
+  - type: Mesh
+    mesh: $74047.glb
+    textures:
+    - $122/2.png
+
+- type: entity
+  id: Model74048
+  components:
+  - type: Mesh
+    mesh: $74048.glb
+    textures:
+    - $122/2.png
+
+- type: entity
+  id: Model74049
+  components:
+  - type: Mesh
+    mesh: $74049.glb
+    textures:
+    - $122/2.png
+
+- type: entity
+  id: Model74050
+  components:
+  - type: Mesh
+    mesh: $74050.glb
+    textures:
+    - $122/2.png
+
+- type: entity
+  id: Model74051
+  components:
+  - type: Mesh
+    mesh: $74051.glb
+    textures:
+    - $122/0.png
+
+- type: entity
+  id: Model74052
+  components:
+  - type: Mesh
+    mesh: $74052.glb
+    textures:
+    - $000/104.png
+    - $132/2.png
+    - $132/4.png
+
+- type: entity
+  id: Model74053
+  components:
+  - type: Mesh
+    mesh: $74053.glb
+    textures:
+    - $000/104.png
+    - $132/2.png
+    - $132/4.png
+
+- type: entity
+  id: Model74054
+  components:
+  - type: Mesh
+    mesh: $74054.glb
+    textures:
+    - $132/2.png
+    - $132/4.png
+
+- type: entity
+  id: Model74055
+  components:
+  - type: Mesh
+    mesh: $74055.glb
+    textures:
+    - $000/104.png
+    - $132/0.png
+
+- type: entity
+  id: Model74056
+  components:
+  - type: Mesh
+    mesh: $74056.glb
+    textures:
+    - $000/104.png
+    - $132/0.png
+
+- type: entity
+  id: Model74057
+  components:
+  - type: Mesh
+    mesh: $74057.glb
+    textures:
+    - $000/104.png
+    - $132/0.png
+
+- type: entity
+  id: Model74058
+  components:
+  - type: Mesh
+    mesh: $74058.glb
+    textures:
+    - $000/104.png
+    - $132/0.png
+
+- type: entity
+  id: Model74059
+  components:
+  - type: Mesh
+    mesh: $74059.glb
+    textures:
+    - $132/0.png
+    - $132/1.png
+
+- type: entity
+  id: Model74060
+  components:
+  - type: Mesh
+    mesh: $74060.glb
+    textures:
+    - $000/104.png
+    - $132/0.png
+    - $132/1.png
+
+- type: entity
+  id: Model74061
+  components:
+  - type: Mesh
+    mesh: $74061.glb
+    textures:
+    - $000/104.png
+    - $132/0.png
+    - $132/1.png
+    - $132/2.png
+    - $132/4.png
+
+- type: entity
+  id: Model74062
+  components:
+  - type: Mesh
+    mesh: $74062.glb
+    textures:
+    - $132/1.png
+    - $132/3.png
+
+- type: entity
+  id: Model74063
+  components:
+  - type: Mesh
+    mesh: $74063.glb
+    textures:
+    - $132/1.png
+    - $132/3.png
+
+- type: entity
+  id: Model74064
+  components:
+  - type: Mesh
+    mesh: $74064.glb
+    textures:
+    - $132/0.png
+
+- type: entity
+  id: Model74065
+  components:
+  - type: Mesh
+    mesh: $74065.glb
+    textures:
+    - $132/1.png
+    - $132/3.png
+
+- type: entity
+  id: Model74066
+  components:
+  - type: Mesh
+    mesh: $74066.glb
+    textures:
+    - $041/1.png
+    - $067/14.png
+    - $341/0.png
+
+- type: entity
+  id: Model74067
+  components:
+  - type: Mesh
+    mesh: $74067.glb
+    textures:
+    - $041/0.png
+    - $041/1.png
+    - $341/0.png
+
+- type: entity
+  id: Model74068
+  components:
+  - type: Mesh
+    mesh: $74068.glb
+    textures:
+    - $122/2.png
+
+- type: entity
+  id: Model74069
+  components:
+  - type: Mesh
+    mesh: $74069.glb
+    textures:
+    - $141/0.png
+    - $141/1.png
+    - $141/2.png
+
+- type: entity
+  id: Model74070
+  components:
+  - type: Mesh
+    mesh: $74070.glb
+    textures:
+    - $122/0.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74071
+  components:
+  - type: Mesh
+    mesh: $74071.glb
+    textures:
+    - $041/2.png
+
+- type: entity
+  id: Model74072
+  components:
+  - type: Mesh
+    mesh: $74072.glb
+    textures:
+    - $041/2.png
+
+- type: entity
+  id: Model74073
+  components:
+  - type: Mesh
+    mesh: $74073.glb
+    textures:
+    - $041/2.png
+
+- type: entity
+  id: Model74074
+  components:
+  - type: Mesh
+    mesh: $74074.glb
+    textures:
+    - $022/0.png
+
+- type: entity
+  id: Model74075
+  components:
+  - type: Mesh
+    mesh: $74075.glb
+    textures:
+    - $122/4.png
+
+- type: entity
+  id: Model74076
+  components:
+  - type: Mesh
+    mesh: $74076.glb
+    textures:
+    - $067/14.png
+    - $134/0.png
+    - $134/1.png
+    - $134/2.png
+
+- type: entity
+  id: Model74077
+  components:
+  - type: Mesh
+    mesh: $74077.glb
+    textures:
+    - $067/14.png
+    - $134/0.png
+    - $134/1.png
+    - $134/2.png
+
+- type: entity
+  id: Model74078
+  components:
+  - type: Mesh
+    mesh: $74078.glb
+    textures:
+    - $067/14.png
+    - $134/0.png
+    - $134/1.png
+    - $134/2.png
+
+- type: entity
+  id: Model74079
+  components:
+  - type: Mesh
+    mesh: $74079.glb
+    textures:
+    - $134/0.png
+    - $134/1.png
+    - $134/2.png
+
+- type: entity
+  id: Model74080
+  components:
+  - type: Mesh
+    mesh: $74080.glb
+    textures:
+    - $000/101.png
+
+- type: entity
+  id: Model74081
+  components:
+  - type: Mesh
+    mesh: $74081.glb
+    textures:
+    - $000/103.png
+
+- type: entity
+  id: Model74082
+  components:
+  - type: Mesh
+    mesh: $74082.glb
+    textures:
+    - $000/78.png
+    - $067/2.png
+    - $067/4.png
+    - $067/8.png
+    - $341/1.png
+
+- type: entity
+  id: Model74083
+  components:
+  - type: Mesh
+    mesh: $74083.glb
+    textures:
+    - $041/1.png
+    - $041/3.png
+    - $067/0.png
+    - $067/2.png
+    - $067/8.png
+    - $166/4.png
+    - $341/1.png
+
+- type: entity
+  id: Model74084
+  components:
+  - type: Mesh
+    mesh: $74084.glb
+    textures:
+    - $041/0.png
+    - $041/1.png
+    - $067/6.png
+    - $067/14.png
+    - $122/4.png
+    - $321/0.png
+    - $321/1.png
+    - $321/2.png
+    - $350/0.png
+
+- type: entity
+  id: Model74085
+  components:
+  - type: Mesh
+    mesh: $74085.glb
+    textures:
+    - $041/0.png
+    - $041/1.png
+    - $067/6.png
+    - $067/14.png
+    - $122/4.png
+    - $350/0.png
+
+- type: entity
+  id: Model74086
+  components:
+  - type: Mesh
+    mesh: $74086.glb
+    textures:
+    - $000/109.png
+    - $041/1.png
+    - $041/2.png
+    - $141/2.png
+
+- type: entity
+  id: Model74087
+  components:
+  - type: Mesh
+    mesh: $74087.glb
+    textures:
+    - $041/0.png
+
+- type: entity
+  id: Model74088
+  components:
+  - type: Mesh
+    mesh: $74088.glb
+    textures:
+    - $000/55.png
+    - $041/0.png
+    - $041/1.png
+    - $041/2.png
+    - $141/2.png
+    - $341/3.png
+
+- type: entity
+  id: Model74089
+  components:
+  - type: Mesh
+    mesh: $74089.glb
+    textures:
+    - $000/103.png
+    - $067/0.png
+    - $067/2.png
+    - $067/6.png
+
+- type: entity
+  id: Model74090
+  components:
+  - type: Mesh
+    mesh: $74090.glb
+    textures:
+    - $000/103.png
+
+- type: entity
+  id: Model74091
+  components:
+  - type: Mesh
+    mesh: $74091.glb
+    textures:
+    - $000/83.png
+    - $046/2.png
+    - $067/9.png
+    - $141/1.png
+    - $341/0.png
+
+- type: entity
+  id: Model74092
+  components:
+  - type: Mesh
+    mesh: $74092.glb
+    textures:
+    - $067/14.png
+    - $355/0.png
+    - $355/3.png
+
+- type: entity
+  id: Model74093
+  components:
+  - type: Mesh
+    mesh: $74093.glb
+    textures:
+    - $067/14.png
+    - $355/0.png
+    - $355/3.png
+
+- type: entity
+  id: Model74094
+  components:
+  - type: Mesh
+    mesh: $74094.glb
+    textures:
+    - $000/80.png
+    - $001/18.png
+    - $001/19.png
+    - $001/20.png
+    - $001/21.png
+    - $001/22.png
+    - $001/23.png
+    - $001/24.png
+    - $001/25.png
+    - $001/26.png
+    - $067/0.png
+    - $141/1.png
+    - $372/0.png
+    - $372/1.png
+    - $372/2.png
+    - $372/3.png
+
+- type: entity
+  id: Model74095
+  components:
+  - type: Mesh
+    mesh: $74095.glb
+    textures:
+    - $000/122.png
+    - $001/21.png
+    - $001/24.png
+    - $001/28.png
+    - $001/118.png
+    - $067/3.png
+    - $141/2.png
+    - $371/4.png
+    - $371/10.png
+
+- type: entity
+  id: Model74096
+  components:
+  - type: Mesh
+    mesh: $74096.glb
+    textures:
+    - $355/0.png
+    - $355/3.png
+
+- type: entity
+  id: Model74097
+  components:
+  - type: Mesh
+    mesh: $74097.glb
+    textures:
+    - $355/3.png
+
+- type: entity
+  id: Model74098
+  components:
+  - type: Mesh
+    mesh: $74098.glb
+    textures:
+    - $067/14.png
+    - $355/3.png
+
+- type: entity
+  id: Model74099
+  components:
+  - type: Mesh
+    mesh: $74099.glb
+    textures:
+    - $067/14.png
+    - $355/1.png
+    - $355/3.png
+
+- type: entity
+  id: Model74100
+  components:
+  - type: Mesh
+    mesh: $74100.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74101
+  components:
+  - type: Mesh
+    mesh: $74101.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74102
+  components:
+  - type: Mesh
+    mesh: $74102.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74103
+  components:
+  - type: Mesh
+    mesh: $74103.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74104
+  components:
+  - type: Mesh
+    mesh: $74104.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74105
+  components:
+  - type: Mesh
+    mesh: $74105.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74106
+  components:
+  - type: Mesh
+    mesh: $74106.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74107
+  components:
+  - type: Mesh
+    mesh: $74107.glb
+    textures:
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74108
+  components:
+  - type: Mesh
+    mesh: $74108.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74109
+  components:
+  - type: Mesh
+    mesh: $74109.glb
+    textures:
+    - $067/14.png
+    - $122/2.png
+    - $122/3.png
+    - $122/4.png
+
+- type: entity
+  id: Model74110
+  components:
+  - type: Mesh
+    mesh: $74110.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+
+- type: entity
+  id: Model74111
+  components:
+  - type: Mesh
+    mesh: $74111.glb
+    textures:
+    - $047/0.png
+
+- type: entity
+  id: Model74112
+  components:
+  - type: Mesh
+    mesh: $74112.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+    - $147/5.png
+
+- type: entity
+  id: Model74113
+  components:
+  - type: Mesh
+    mesh: $74113.glb
+    textures:
+    - $041/2.png
+    - $350/0.png
+    - $372/2.png
+
+- type: entity
+  id: Model74114
+  components:
+  - type: Mesh
+    mesh: $74114.glb
+    textures:
+    - $350/0.png
+
+- type: entity
+  id: Model74115
+  components:
+  - type: Mesh
+    mesh: $74115.glb
+    textures:
+    - $350/0.png
+
+- type: entity
+  id: Model74116
+  components:
+  - type: Mesh
+    mesh: $74116.glb
+    textures:
+    - $350/0.png
+
+- type: entity
+  id: Model74117
+  components:
+  - type: Mesh
+    mesh: $74117.glb
+    textures:
+    - $122/0.png
+    - $122/2.png
+    - $122/4.png
+
+- type: entity
+  id: Model74118
+  components:
+  - type: Mesh
+    mesh: $74118.glb
+    textures:
+    - $350/0.png
+
+- type: entity
+  id: Model74119
+  components:
+  - type: Mesh
+    mesh: $74119.glb
+    textures:
+    - $350/0.png
+    - $350/1.png
+
+- type: entity
+  id: Model74120
+  components:
+  - type: Mesh
+    mesh: $74120.glb
+    textures:
+    - $350/0.png
+    - $350/2.png
+
+- type: entity
+  id: Model74121
+  components:
+  - type: Mesh
+    mesh: $74121.glb
+    textures:
+    - $019/0.png
+    - $022/0.png
+    - $371/0.png
+    - $372/1.png
+
+- type: entity
+  id: Model74122
+  components:
+  - type: Mesh
+    mesh: $74122.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+
+- type: entity
+  id: Model74123
+  components:
+  - type: Mesh
+    mesh: $74123.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+
+- type: entity
+  id: Model74124
+  components:
+  - type: Mesh
+    mesh: $74124.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+
+- type: entity
+  id: Model74125
+  components:
+  - type: Mesh
+    mesh: $74125.glb
+    textures:
+    - $355/1.png
+    - $355/3.png
+
+- type: entity
+  id: Model74126
+  components:
+  - type: Mesh
+    mesh: $74126.glb
+    textures:
+    - $067/14.png
+    - $355/3.png
+
+- type: entity
+  id: Model74127
+  components:
+  - type: Mesh
+    mesh: $74127.glb
+    textures:
+    - $372/1.png
+
+- type: entity
+  id: Model74128
+  components:
+  - type: Mesh
+    mesh: $74128.glb
+    textures:
+    - $372/1.png
+    - $372/2.png
+    - $372/4.png
+
+- type: entity
+  id: Model74129
+  components:
+  - type: Mesh
+    mesh: $74129.glb
+    textures:
+    - $022/0.png
+    - $022/2.png
+    - $023/3.png
+
+- type: entity
+  id: Model74130
+  components:
+  - type: Mesh
+    mesh: $74130.glb
+    textures:
+    - $372/2.png
+
+- type: entity
+  id: Model74131
+  components:
+  - type: Mesh
+    mesh: $74131.glb
+    textures:
+    - $372/2.png
+
+- type: entity
+  id: Model74132
+  components:
+  - type: Mesh
+    mesh: $74132.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+
+- type: entity
+  id: Model74133
+  components:
+  - type: Mesh
+    mesh: $74133.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+
+- type: entity
+  id: Model74134
+  components:
+  - type: Mesh
+    mesh: $74134.glb
+    textures:
+    - $047/2.png
+    - $147/5.png
+
+- type: entity
+  id: Model74135
+  components:
+  - type: Mesh
+    mesh: $74135.glb
+    textures:
+    - $047/2.png
+    - $147/5.png
+
+- type: entity
+  id: Model74136
+  components:
+  - type: Mesh
+    mesh: $74136.glb
+    textures:
+    - $047/2.png
+    - $147/5.png
+
+- type: entity
+  id: Model74137
+  components:
+  - type: Mesh
+    mesh: $74137.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+
+- type: entity
+  id: Model74138
+  components:
+  - type: Mesh
+    mesh: $74138.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+
+- type: entity
+  id: Model74139
+  components:
+  - type: Mesh
+    mesh: $74139.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+    - $022/0.png
+
+- type: entity
+  id: Model74140
+  components:
+  - type: Mesh
+    mesh: $74140.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+    - $121/2.png
+    - $121/3.png
+    - $321/2.png
+
+- type: entity
+  id: Model74141
+  components:
+  - type: Mesh
+    mesh: $74141.glb
+    textures:
+    - $019/0.png
+    - $019/2.png
+    - $019/3.png
+    - $067/14.png
+
+- type: entity
+  id: Model74142
+  components:
+  - type: Mesh
+    mesh: $74142.glb
+    textures:
+    - $000/0.png
+
+- type: entity
+  id: Model74143
+  components:
+  - type: Mesh
+    mesh: $74143.glb
+    textures:
+    - $001/38.png
+    - $001/39.png
+    - $001/40.png
+    - $001/41.png
+    - $001/42.png
+
+- type: entity
+  id: Model74144
+  components:
+  - type: Mesh
+    mesh: $74144.glb
+    textures:
+    - $067/14.png
+    - $356/0.png
+    - $356/1.png
+
+- type: entity
+  id: Model74145
+  components:
+  - type: Mesh
+    mesh: $74145.glb
+    textures:
+    - $356/0.png
+    - $356/1.png
+
+- type: entity
+  id: Model74146
+  components:
+  - type: Mesh
+    mesh: $74146.glb
+    textures:
+    - $356/0.png
+
+- type: entity
+  id: Model74147
+  components:
+  - type: Mesh
+    mesh: $74147.glb
+    textures:
+    - $356/0.png
+    - $356/2.png
+
+- type: entity
+  id: Model74148
+  components:
+  - type: Mesh
+    mesh: $74148.glb
+    textures:
+    - $041/0.png
+    - $041/1.png
+    - $067/14.png
+    - $350/0.png
+
+- type: entity
+  id: Model74149
+  components:
+  - type: Mesh
+    mesh: $74149.glb
+    textures:
+    - $132/1.png
+    - $132/3.png
+
+- type: entity
+  id: Model74150
+  components:
+  - type: Mesh
+    mesh: $74150.glb
+    textures:
+    - $352/0.png
+    - $352/2.png
+
+- type: entity
+  id: Model74151
+  components:
+  - type: Mesh
+    mesh: $74151.glb
+    textures:
+    - $352/0.png
+    - $352/2.png
+
+- type: entity
+  id: Model74152
+  components:
+  - type: Mesh
+    mesh: $74152.glb
+    textures:
+    - $352/0.png
+    - $352/1.png
+
+- type: entity
+  id: Model74153
+  components:
+  - type: Mesh
+    mesh: $74153.glb
+    textures:
+    - $352/0.png
+    - $352/1.png
+
+- type: entity
+  id: Model74154
+  components:
+  - type: Mesh
+    mesh: $74154.glb
+    textures:
+    - $352/0.png
+    - $352/1.png
+    - $352/2.png
+
+- type: entity
+  id: Model74155
+  components:
+  - type: Mesh
+    mesh: $74155.glb
+    textures:
+    - $352/0.png
+    - $352/1.png
+    - $352/2.png
+
+- type: entity
+  id: Model74156
+  components:
+  - type: Mesh
+    mesh: $74156.glb
+    textures:
+    - $352/0.png
+    - $352/1.png
+    - $352/2.png
+
+- type: entity
+  id: Model74157
+  components:
+  - type: Mesh
+    mesh: $74157.glb
+    textures:
+    - $352/0.png
+    - $352/1.png
+    - $352/2.png
+
+- type: entity
+  id: Model74158
+  components:
+  - type: Mesh
+    mesh: $74158.glb
+    textures:
+    - $067/14.png
+    - $352/0.png
+    - $352/1.png
+
+- type: entity
+  id: Model74159
+  components:
+  - type: Mesh
+    mesh: $74159.glb
+    textures:
+    - $067/14.png
+    - $352/0.png
+    - $352/1.png
+
+- type: entity
+  id: Model74200
+  components:
+  - type: Mesh
+    mesh: $74200.glb
+    textures:
+    - $041/0.png
+    - $041/1.png
+    - $041/2.png
+    - $041/3.png
+    - $067/14.png
+    - $141/1.png
+    - $341/0.png
+    - $341/1.png
+    - $341/3.png
+
+- type: entity
+  id: Model74201
+  components:
+  - type: Mesh
+    mesh: $74201.glb
+    textures:
+    - $341/1.png
+
+- type: entity
+  id: Model74202
+  components:
+  - type: Mesh
+    mesh: $74202.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+
+- type: entity
+  id: Model74203
+  components:
+  - type: Mesh
+    mesh: $74203.glb
+    textures:
+    - $047/0.png
+    - $147/2.png
+
+- type: entity
+  id: Model74204
+  components:
+  - type: Mesh
+    mesh: $74204.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+
+- type: entity
+  id: Model74205
+  components:
+  - type: Mesh
+    mesh: $74205.glb
+    textures:
+    - $041/2.png
+    - $041/3.png
+
+- type: entity
+  id: Model74206
+  components:
+  - type: Mesh
+    mesh: $74206.glb
+    textures:
+    - $041/0.png
+    - $041/2.png
+
+- type: entity
+  id: Model74207
+  components:
+  - type: Mesh
+    mesh: $74207.glb
+    textures:
+    - $000/78.png
+    - $047/0.png
+    - $372/0.png
+
+- type: entity
+  id: Model74208
+  components:
+  - type: Mesh
+    mesh: $74208.glb
+    textures:
+    - $001/18.png
+    - $001/118.png
+    - $001/127.png
+
+- type: entity
+  id: Model74209
+  components:
+  - type: Mesh
+    mesh: $74209.glb
+    textures:
+    - $000/64.png
+    - $000/79.png
+    - $000/99.png
+
+- type: entity
+  id: Model74210
+  components:
+  - type: Mesh
+    mesh: $74210.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+
+- type: entity
+  id: Model74211
+  components:
+  - type: Mesh
+    mesh: $74211.glb
+    textures:
+    - $000/50.png
+    - $047/3.png
+    - $372/0.png
+
+- type: entity
+  id: Model74212
+  components:
+  - type: Mesh
+    mesh: $74212.glb
+    textures:
+    - $000/117.png
+    - $000/120.png
+    - $000/122.png
+    - $000/126.png
+    - $000/127.png
+    - $001/32.png
+    - $001/63.png
+
+- type: entity
+  id: Model74213
+  components:
+  - type: Mesh
+    mesh: $74213.glb
+    textures:
+    - $000/72.png
+    - $000/76.png
+    - $020/1.png
+    - $047/0.png
+    - $047/2.png
+    - $067/0.png
+    - $119/0.png
+    - $119/2.png
+    - $119/3.png
+    - $147/5.png
+
+- type: entity
+  id: Model74214
+  components:
+  - type: Mesh
+    mesh: $74214.glb
+    textures:
+    - $067/2.png
+    - $067/5.png
+    - $067/11.png
+    - $067/13.png
+
+- type: entity
+  id: Model74215
+  components:
+  - type: Mesh
+    mesh: $74215.glb
+    textures:
+    - $000/96.png
+    - $000/97.png
+    - $000/98.png
+    - $000/99.png
+    - $000/100.png
+    - $000/101.png
+    - $000/102.png
+    - $000/103.png
+    - $000/104.png
+    - $000/105.png
+    - $000/106.png
+    - $000/107.png
+
+- type: entity
+  id: Model74216
+  components:
+  - type: Mesh
+    mesh: $74216.glb
+    textures:
+    - $067/2.png
+    - $067/5.png
+    - $067/11.png
+    - $067/13.png
+
+- type: entity
+  id: Model74217
+  components:
+  - type: Mesh
+    mesh: $74217.glb
+    textures:
+    - $047/0.png
+    - $047/2.png
+
+- type: entity
+  id: Model74218
+  components:
+  - type: Mesh
+    mesh: $74218.glb
+    textures:
+    - $000/82.png
+    - $000/91.png
+    - $125/1.png
+
+- type: entity
+  id: Model74219
+  components:
+  - type: Mesh
+    mesh: $74219.glb
+    textures:
+    - $000/86.png
+    - $067/0.png
+
+- type: entity
+  id: Model74221
+  components:
+  - type: Mesh
+    mesh: $74221.glb
+    textures:
+    - $000/87.png
+    - $067/1.png
+    - $067/2.png
+
+- type: entity
+  id: Model74222
+  components:
+  - type: Mesh
+    mesh: $74222.glb
+    textures:
+    - $000/117.png
+    - $067/2.png
+    - $067/5.png
+
+- type: entity
+  id: Model74223
+  components:
+  - type: Mesh
+    mesh: $74223.glb
+    textures:
+    - $067/6.png
+    - $169/0.png
+    - $169/3.png
+    - $171/3.png
+
+- type: entity
+  id: Model74224
+  components:
+  - type: Mesh
+    mesh: $74224.glb
+    textures:
+    - $000/86.png
+    - $001/24.png
+    - $001/28.png
+    - $001/31.png
+
+- type: entity
+  id: Model74225
+  components:
+  - type: Mesh
+    mesh: $74225.glb
+    textures:
+    - $000/50.png
+    - $000/87.png
+    - $000/91.png
+    - $000/93.png
+    - $001/58.png
+    - $001/60.png
+
+- type: entity
+  id: Model74226
+  components:
+  - type: Mesh
+    mesh: $74226.glb
+    textures:
+    - $000/75.png
+    - $000/114.png
+    - $000/116.png
+    - $000/118.png
+    - $000/120.png
+    - $000/121.png
+    - $000/124.png
+    - $067/0.png
+
+- type: entity
+  id: Model74227
+  components:
+  - type: Mesh
+    mesh: $74227.glb
+    textures:
+    - $000/71.png
+    - $000/75.png
+    - $000/78.png
+    - $000/79.png
+    - $000/86.png
+
+- type: entity
+  id: Model74228
+  components:
+  - type: Mesh
+    mesh: $74228.glb
+    textures:
+    - $000/40.png
+    - $000/42.png
+    - $000/45.png
+    - $000/46.png
+    - $000/47.png
+    - $067/0.png
+    - $067/2.png
+
+- type: entity
+  id: Model74229
+  components:
+  - type: Mesh
+    mesh: $74229.glb
+    textures:
+    - $000/57.png
+    - $000/89.png
+    - $041/0.png
+    - $141/3.png
+    - $341/1.png
+
+- type: entity
+  id: Model74230
+  components:
+  - type: Mesh
+    mesh: $74230.glb
+    textures:
+    - $431/4.png
+    - $431/6.png
+    - $431/7.png
+    - $431/8.png
+    - $431/9.png
+
+- type: entity
+  id: Model74231
+  components:
+  - type: Mesh
+    mesh: $74231.glb
+    textures:
+    - $372/0.png
+
+- type: entity
+  id: Model74232
+  components:
+  - type: Mesh
+    mesh: $74232.glb
+    textures:
+    - $047/2.png
+    - $067/6.png
+
+- type: entity
+  id: Model74233
+  components:
+  - type: Mesh
+    mesh: $74233.glb
+    textures:
+    - $431/2.png
+    - $431/5.png
+
+- type: entity
+  id: Model74234
+  components:
+  - type: Mesh
+    mesh: $74234.glb
+    textures:
+    - $431/1.png
+    - $431/4.png
+
+- type: entity
+  id: Model74235
+  components:
+  - type: Mesh
+    mesh: $74235.glb
+    textures:
+    - $141/1.png
+
+- type: entity
+  id: Model74236
+  components:
+  - type: Mesh
+    mesh: $74236.glb
+    textures:
+    - $001/118.png
+
+- type: entity
+  id: Model74237
+  components:
+  - type: Mesh
+    mesh: $74237.glb
+    textures:
+    - $431/0.png
+    - $431/3.png
+
+- type: entity
+  id: Model74238
+  components:
+  - type: Mesh
+    mesh: $74238.glb
+    textures:
+    - $355/3.png
+
+- type: entity
+  id: Model74500
+  components:
+  - type: Mesh
+    mesh: $74500.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74501
+  components:
+  - type: Mesh
+    mesh: $74501.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74502
+  components:
+  - type: Mesh
+    mesh: $74502.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74503
+  components:
+  - type: Mesh
+    mesh: $74503.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74504
+  components:
+  - type: Mesh
+    mesh: $74504.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74505
+  components:
+  - type: Mesh
+    mesh: $74505.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74506
+  components:
+  - type: Mesh
+    mesh: $74506.glb
+    textures:
+    - $094/3.png
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74507
+  components:
+  - type: Mesh
+    mesh: $74507.glb
+    textures:
+    - $094/3.png
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74508
+  components:
+  - type: Mesh
+    mesh: $74508.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74509
+  components:
+  - type: Mesh
+    mesh: $74509.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74510
+  components:
+  - type: Mesh
+    mesh: $74510.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74511
+  components:
+  - type: Mesh
+    mesh: $74511.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74512
+  components:
+  - type: Mesh
+    mesh: $74512.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74513
+  components:
+  - type: Mesh
+    mesh: $74513.glb
+    textures:
+    - $067/14.png
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74514
+  components:
+  - type: Mesh
+    mesh: $74514.glb
+    textures:
+    - $121/0.png
+    - $121/3.png
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74515
+  components:
+  - type: Mesh
+    mesh: $74515.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/8.png
+    - $168/9.png
+
+- type: entity
+  id: Model74516
+  components:
+  - type: Mesh
+    mesh: $74516.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74517
+  components:
+  - type: Mesh
+    mesh: $74517.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74518
+  components:
+  - type: Mesh
+    mesh: $74518.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74519
+  components:
+  - type: Mesh
+    mesh: $74519.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74520
+  components:
+  - type: Mesh
+    mesh: $74520.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74521
+  components:
+  - type: Mesh
+    mesh: $74521.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74522
+  components:
+  - type: Mesh
+    mesh: $74522.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/6.png
+    - $168/9.png
+
+- type: entity
+  id: Model74523
+  components:
+  - type: Mesh
+    mesh: $74523.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74524
+  components:
+  - type: Mesh
+    mesh: $74524.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74525
+  components:
+  - type: Mesh
+    mesh: $74525.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74526
+  components:
+  - type: Mesh
+    mesh: $74526.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74527
+  components:
+  - type: Mesh
+    mesh: $74527.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74528
+  components:
+  - type: Mesh
+    mesh: $74528.glb
+    textures:
+    - $094/3.png
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74529
+  components:
+  - type: Mesh
+    mesh: $74529.glb
+    textures:
+    - $094/3.png
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74530
+  components:
+  - type: Mesh
+    mesh: $74530.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74531
+  components:
+  - type: Mesh
+    mesh: $74531.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74532
+  components:
+  - type: Mesh
+    mesh: $74532.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74533
+  components:
+  - type: Mesh
+    mesh: $74533.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74534
+  components:
+  - type: Mesh
+    mesh: $74534.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74535
+  components:
+  - type: Mesh
+    mesh: $74535.glb
+    textures:
+    - $067/14.png
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74536
+  components:
+  - type: Mesh
+    mesh: $74536.glb
+    textures:
+    - $168/1.png
+    - $168/2.png
+    - $168/3.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74537
+  components:
+  - type: Mesh
+    mesh: $74537.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/8.png
+    - $168/9.png
+
+- type: entity
+  id: Model74538
+  components:
+  - type: Mesh
+    mesh: $74538.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74539
+  components:
+  - type: Mesh
+    mesh: $74539.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74540
+  components:
+  - type: Mesh
+    mesh: $74540.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74541
+  components:
+  - type: Mesh
+    mesh: $74541.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74542
+  components:
+  - type: Mesh
+    mesh: $74542.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74543
+  components:
+  - type: Mesh
+    mesh: $74543.glb
+    textures:
+    - $168/0.png
+    - $168/2.png
+    - $168/4.png
+    - $168/5.png
+    - $168/9.png
+
+- type: entity
+  id: Model74800
+  components:
+  - type: Mesh
+    mesh: $74800.glb
+    textures:
+    - $049/0.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74801
+  components:
+  - type: Mesh
+    mesh: $74801.glb
+    textures:
+    - $049/1.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74802
+  components:
+  - type: Mesh
+    mesh: $74802.glb
+    textures:
+    - $049/2.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74803
+  components:
+  - type: Mesh
+    mesh: $74803.glb
+    textures:
+    - $049/3.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74804
+  components:
+  - type: Mesh
+    mesh: $74804.glb
+    textures:
+    - $049/4.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74805
+  components:
+  - type: Mesh
+    mesh: $74805.glb
+    textures:
+    - $049/5.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74806
+  components:
+  - type: Mesh
+    mesh: $74806.glb
+    textures:
+    - $049/6.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74807
+  components:
+  - type: Mesh
+    mesh: $74807.glb
+    textures:
+    - $049/7.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74808
+  components:
+  - type: Mesh
+    mesh: $74808.glb
+    textures:
+    - $049/8.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model74900
+  components:
+  - type: Mesh
+    mesh: $74900.glb
+    textures:
+    - $147/2.png
+    - $147/3.png
+
+- type: entity
+  id: Model74901
+  components:
+  - type: Mesh
+    mesh: $74901.glb
+    textures:
+    - $147/2.png
+    - $147/3.png
+
+- type: entity
+  id: Model74902
+  components:
+  - type: Mesh
+    mesh: $74902.glb
+    textures:
+    - $147/2.png
+    - $147/3.png
+
+- type: entity
+  id: Model74905
+  components:
+  - type: Mesh
+    mesh: $74905.glb
+    textures:
+    - $147/2.png
+    - $147/3.png
+
+- type: entity
+  id: Model74906
+  components:
+  - type: Mesh
+    mesh: $74906.glb
+    textures:
+    - $141/0.png
+    - $141/1.png
+
+- type: entity
+  id: Model74907
+  components:
+  - type: Mesh
+    mesh: $74907.glb
+    textures:
+    - $147/2.png
+    - $147/3.png
+
+- type: entity
+  id: Model74908
+  components:
+  - type: Mesh
+    mesh: $74908.glb
+    textures:
+    - $147/2.png
+    - $147/3.png
+
+- type: entity
+  id: Model74909
+  components:
+  - type: Mesh
+    mesh: $74909.glb
+    textures:
+    - $001/18.png
+    - $041/0.png
+
+- type: entity
+  id: Model75000
+  components:
+  - type: Mesh
+    mesh: $75000.glb
+    textures:
+    - $467/0.png
+    - $467/1.png
+    - $467/4.png
+    - $467/5.png
+    - $467/6.png
+    - $467/7.png
+
+- type: entity
+  id: Model75001
+  components:
+  - type: Mesh
+    mesh: $75001.glb
+    textures:
+    - $467/0.png
+    - $467/1.png
+    - $467/2.png
+    - $467/3.png
+    - $467/4.png
+
+- type: entity
+  id: Model75800
+  components:
+  - type: Mesh
+    mesh: $75800.glb
+    textures:
+    - $049/0.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75801
+  components:
+  - type: Mesh
+    mesh: $75801.glb
+    textures:
+    - $049/1.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75802
+  components:
+  - type: Mesh
+    mesh: $75802.glb
+    textures:
+    - $049/2.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75803
+  components:
+  - type: Mesh
+    mesh: $75803.glb
+    textures:
+    - $049/3.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75804
+  components:
+  - type: Mesh
+    mesh: $75804.glb
+    textures:
+    - $049/4.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75805
+  components:
+  - type: Mesh
+    mesh: $75805.glb
+    textures:
+    - $049/5.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75806
+  components:
+  - type: Mesh
+    mesh: $75806.glb
+    textures:
+    - $049/6.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75807
+  components:
+  - type: Mesh
+    mesh: $75807.glb
+    textures:
+    - $049/7.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model75808
+  components:
+  - type: Mesh
+    mesh: $75808.glb
+    textures:
+    - $049/8.png
+    - $049/9.png
+    - $049/10.png
+
+- type: entity
+  id: Model80000
+  components:
+  - type: Mesh
+    mesh: $80000.glb
+    textures:
+    - $074/0.png
+    - $112/0.png
+    - $112/2.png
+    - $112/3.png
+    - $169/0.png
+
+- type: entity
+  id: Model99700
+  components:
+  - type: Mesh
+    mesh: $99700.glb
+    textures:
+    - $000/77.png
+    - $074/0.png
+    - $112/0.png
+    - $112/1.png
+    - $112/2.png
+    - $112/3.png
+    - $169/0.png
+
+- type: entity
+  id: Model99800
+  components:
+  - type: Mesh
+    mesh: $99800.glb
+    textures:
+    - $000/72.png
+    - $001/121.png
+
+- type: entity
+  id: Model99900
+  components:
+  - type: Mesh
+    mesh: $99900.glb
+    textures:
+    - $001/117.png
+
+- type: entity
+  id: Model99901
+  components:
+  - type: Mesh
+    mesh: $99901.glb
+    textures:
+    - $000/103.png
+
+- type: entity
+  id: Model99902
+  components:
+  - type: Mesh
+    mesh: $99902.glb
+    textures:
+    - $001/18.png
