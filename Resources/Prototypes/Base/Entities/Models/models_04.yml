@@ -2,8615 +2,8615 @@
   id: Model21215
   components:
   - type: Mesh
-    mesh: models/21215.glb
+    mesh: $21215.glb
     textures:
-    - 031/10
-    - 031/14
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21216
   components:
   - type: Mesh
-    mesh: models/21216.glb
+    mesh: $21216.glb
     textures:
-    - 031/2
-    - 031/12
-    - 031/14
+    - $031/2.png
+    - $031/12.png
+    - $031/14.png
 
 - type: entity
   id: Model21217
   components:
   - type: Mesh
-    mesh: models/21217.glb
+    mesh: $21217.glb
     textures:
-    - 031/0
-    - 031/1
-    - 031/2
-    - 031/3
+    - $031/0.png
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21218
   components:
   - type: Mesh
-    mesh: models/21218.glb
+    mesh: $21218.glb
     textures:
-    - 031/1
+    - $031/1.png
 
 - type: entity
   id: Model21219
   components:
   - type: Mesh
-    mesh: models/21219.glb
+    mesh: $21219.glb
     textures:
-    - 031/6
-    - 031/7
+    - $031/6.png
+    - $031/7.png
 
 - type: entity
   id: Model21220
   components:
   - type: Mesh
-    mesh: models/21220.glb
+    mesh: $21220.glb
     textures:
-    - 031/1
-    - 031/3
-    - 031/11
+    - $031/1.png
+    - $031/3.png
+    - $031/11.png
 
 - type: entity
   id: Model21221
   components:
   - type: Mesh
-    mesh: models/21221.glb
+    mesh: $21221.glb
     textures:
-    - 031/11
+    - $031/11.png
 
 - type: entity
   id: Model21222
   components:
   - type: Mesh
-    mesh: models/21222.glb
+    mesh: $21222.glb
     textures:
-    - 031/10
+    - $031/10.png
 
 - type: entity
   id: Model21223
   components:
   - type: Mesh
-    mesh: models/21223.glb
+    mesh: $21223.glb
     textures:
-    - 031/8
-    - 031/9
+    - $031/8.png
+    - $031/9.png
 
 - type: entity
   id: Model21224
   components:
   - type: Mesh
-    mesh: models/21224.glb
+    mesh: $21224.glb
     textures:
-    - 031/2
-    - 031/3
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21225
   components:
   - type: Mesh
-    mesh: models/21225.glb
+    mesh: $21225.glb
     textures:
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21226
   components:
   - type: Mesh
-    mesh: models/21226.glb
+    mesh: $21226.glb
     textures:
-    - 031/0
-    - 031/2
-    - 031/3
-    - 031/4
+    - $031/0.png
+    - $031/2.png
+    - $031/3.png
+    - $031/4.png
 
 - type: entity
   id: Model21227
   components:
   - type: Mesh
-    mesh: models/21227.glb
+    mesh: $21227.glb
     textures:
-    - 126/1
-    - 171/3
-    - 171/4
+    - $126/1.png
+    - $171/3.png
+    - $171/4.png
 
 - type: entity
   id: Model21228
   components:
   - type: Mesh
-    mesh: models/21228.glb
+    mesh: $21228.glb
     textures:
-    - 126/1
-    - 171/3
+    - $126/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21229
   components:
   - type: Mesh
-    mesh: models/21229.glb
+    mesh: $21229.glb
     textures:
-    - 126/1
-    - 171/3
+    - $126/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21230
   components:
   - type: Mesh
-    mesh: models/21230.glb
+    mesh: $21230.glb
     textures:
-    - 000/76
-    - 069/3
-    - 126/1
+    - $000/76.png
+    - $069/3.png
+    - $126/1.png
 
 - type: entity
   id: Model21231
   components:
   - type: Mesh
-    mesh: models/21231.glb
+    mesh: $21231.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21232
   components:
   - type: Mesh
-    mesh: models/21232.glb
+    mesh: $21232.glb
     textures:
-    - 000/76
-    - 069/3
-    - 126/1
+    - $000/76.png
+    - $069/3.png
+    - $126/1.png
 
 - type: entity
   id: Model21233
   components:
   - type: Mesh
-    mesh: models/21233.glb
+    mesh: $21233.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21234
   components:
   - type: Mesh
-    mesh: models/21234.glb
+    mesh: $21234.glb
     textures:
-    - 171/3
+    - $171/3.png
 
 - type: entity
   id: Model21235
   components:
   - type: Mesh
-    mesh: models/21235.glb
+    mesh: $21235.glb
     textures:
-    - 171/4
+    - $171/4.png
 
 - type: entity
   id: Model21236
   components:
   - type: Mesh
-    mesh: models/21236.glb
+    mesh: $21236.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21237
   components:
   - type: Mesh
-    mesh: models/21237.glb
+    mesh: $21237.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21238
   components:
   - type: Mesh
-    mesh: models/21238.glb
+    mesh: $21238.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21239
   components:
   - type: Mesh
-    mesh: models/21239.glb
+    mesh: $21239.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21240
   components:
   - type: Mesh
-    mesh: models/21240.glb
+    mesh: $21240.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21241
   components:
   - type: Mesh
-    mesh: models/21241.glb
+    mesh: $21241.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21242
   components:
   - type: Mesh
-    mesh: models/21242.glb
+    mesh: $21242.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21243
   components:
   - type: Mesh
-    mesh: models/21243.glb
+    mesh: $21243.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21244
   components:
   - type: Mesh
-    mesh: models/21244.glb
+    mesh: $21244.glb
     textures:
-    - 126/1
-    - 171/3
+    - $126/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21245
   components:
   - type: Mesh
-    mesh: models/21245.glb
+    mesh: $21245.glb
     textures:
-    - 056/5
-    - 074/2
-    - 126/1
+    - $056/5.png
+    - $074/2.png
+    - $126/1.png
 
 - type: entity
   id: Model21246
   components:
   - type: Mesh
-    mesh: models/21246.glb
+    mesh: $21246.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21247
   components:
   - type: Mesh
-    mesh: models/21247.glb
+    mesh: $21247.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21248
   components:
   - type: Mesh
-    mesh: models/21248.glb
+    mesh: $21248.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21249
   components:
   - type: Mesh
-    mesh: models/21249.glb
+    mesh: $21249.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21250
   components:
   - type: Mesh
-    mesh: models/21250.glb
+    mesh: $21250.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21251
   components:
   - type: Mesh
-    mesh: models/21251.glb
+    mesh: $21251.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21252
   components:
   - type: Mesh
-    mesh: models/21252.glb
+    mesh: $21252.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21253
   components:
   - type: Mesh
-    mesh: models/21253.glb
+    mesh: $21253.glb
     textures:
-    - 126/2
-    - 171/3
+    - $126/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21254
   components:
   - type: Mesh
-    mesh: models/21254.glb
+    mesh: $21254.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21255
   components:
   - type: Mesh
-    mesh: models/21255.glb
+    mesh: $21255.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21256
   components:
   - type: Mesh
-    mesh: models/21256.glb
+    mesh: $21256.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21257
   components:
   - type: Mesh
-    mesh: models/21257.glb
+    mesh: $21257.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21258
   components:
   - type: Mesh
-    mesh: models/21258.glb
+    mesh: $21258.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21259
   components:
   - type: Mesh
-    mesh: models/21259.glb
+    mesh: $21259.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21260
   components:
   - type: Mesh
-    mesh: models/21260.glb
+    mesh: $21260.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21261
   components:
   - type: Mesh
-    mesh: models/21261.glb
+    mesh: $21261.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21262
   components:
   - type: Mesh
-    mesh: models/21262.glb
+    mesh: $21262.glb
     textures:
-    - 126/1
+    - $126/1.png
 
 - type: entity
   id: Model21263
   components:
   - type: Mesh
-    mesh: models/21263.glb
+    mesh: $21263.glb
     textures:
-    - 006/0
-    - 006/2
-    - 006/3
+    - $006/0.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21300
   components:
   - type: Mesh
-    mesh: models/21300.glb
+    mesh: $21300.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21301
   components:
   - type: Mesh
-    mesh: models/21301.glb
+    mesh: $21301.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21302
   components:
   - type: Mesh
-    mesh: models/21302.glb
+    mesh: $21302.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21303
   components:
   - type: Mesh
-    mesh: models/21303.glb
+    mesh: $21303.glb
     textures:
-    - 067/14
+    - $067/14.png
 
 - type: entity
   id: Model21304
   components:
   - type: Mesh
-    mesh: models/21304.glb
+    mesh: $21304.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21305
   components:
   - type: Mesh
-    mesh: models/21305.glb
+    mesh: $21305.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21306
   components:
   - type: Mesh
-    mesh: models/21306.glb
+    mesh: $21306.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21307
   components:
   - type: Mesh
-    mesh: models/21307.glb
+    mesh: $21307.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21308
   components:
   - type: Mesh
-    mesh: models/21308.glb
+    mesh: $21308.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21309
   components:
   - type: Mesh
-    mesh: models/21309.glb
+    mesh: $21309.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21310
   components:
   - type: Mesh
-    mesh: models/21310.glb
+    mesh: $21310.glb
     textures:
-    - 031/3
+    - $031/3.png
 
 - type: entity
   id: Model21311
   components:
   - type: Mesh
-    mesh: models/21311.glb
+    mesh: $21311.glb
     textures:
-    - 031/1
-    - 031/2
-    - 031/3
-    - 031/12
-    - 031/13
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
+    - $031/12.png
+    - $031/13.png
 
 - type: entity
   id: Model21312
   components:
   - type: Mesh
-    mesh: models/21312.glb
+    mesh: $21312.glb
     textures:
-    - 031/1
-    - 031/9
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/1.png
+    - $031/9.png
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21313
   components:
   - type: Mesh
-    mesh: models/21313.glb
+    mesh: $21313.glb
     textures:
-    - 031/9
-    - 031/11
+    - $031/9.png
+    - $031/11.png
 
 - type: entity
   id: Model21314
   components:
   - type: Mesh
-    mesh: models/21314.glb
+    mesh: $21314.glb
     textures:
-    - 031/7
-    - 031/10
-    - 031/14
+    - $031/7.png
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21315
   components:
   - type: Mesh
-    mesh: models/21315.glb
+    mesh: $21315.glb
     textures:
-    - 031/10
-    - 031/14
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21316
   components:
   - type: Mesh
-    mesh: models/21316.glb
+    mesh: $21316.glb
     textures:
-    - 031/2
-    - 031/12
-    - 031/14
+    - $031/2.png
+    - $031/12.png
+    - $031/14.png
 
 - type: entity
   id: Model21317
   components:
   - type: Mesh
-    mesh: models/21317.glb
+    mesh: $21317.glb
     textures:
-    - 031/0
-    - 031/1
-    - 031/2
-    - 031/3
+    - $031/0.png
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21318
   components:
   - type: Mesh
-    mesh: models/21318.glb
+    mesh: $21318.glb
     textures:
-    - 031/1
+    - $031/1.png
 
 - type: entity
   id: Model21319
   components:
   - type: Mesh
-    mesh: models/21319.glb
+    mesh: $21319.glb
     textures:
-    - 031/6
-    - 031/7
+    - $031/6.png
+    - $031/7.png
 
 - type: entity
   id: Model21320
   components:
   - type: Mesh
-    mesh: models/21320.glb
+    mesh: $21320.glb
     textures:
-    - 031/1
-    - 031/3
-    - 031/11
+    - $031/1.png
+    - $031/3.png
+    - $031/11.png
 
 - type: entity
   id: Model21321
   components:
   - type: Mesh
-    mesh: models/21321.glb
+    mesh: $21321.glb
     textures:
-    - 031/11
+    - $031/11.png
 
 - type: entity
   id: Model21322
   components:
   - type: Mesh
-    mesh: models/21322.glb
+    mesh: $21322.glb
     textures:
-    - 031/10
+    - $031/10.png
 
 - type: entity
   id: Model21323
   components:
   - type: Mesh
-    mesh: models/21323.glb
+    mesh: $21323.glb
     textures:
-    - 031/8
-    - 031/9
+    - $031/8.png
+    - $031/9.png
 
 - type: entity
   id: Model21324
   components:
   - type: Mesh
-    mesh: models/21324.glb
+    mesh: $21324.glb
     textures:
-    - 031/2
-    - 031/3
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21325
   components:
   - type: Mesh
-    mesh: models/21325.glb
+    mesh: $21325.glb
     textures:
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21326
   components:
   - type: Mesh
-    mesh: models/21326.glb
+    mesh: $21326.glb
     textures:
-    - 031/0
-    - 031/2
-    - 031/3
-    - 031/4
+    - $031/0.png
+    - $031/2.png
+    - $031/3.png
+    - $031/4.png
 
 - type: entity
   id: Model21327
   components:
   - type: Mesh
-    mesh: models/21327.glb
+    mesh: $21327.glb
     textures:
-    - 135/1
-    - 171/3
-    - 171/4
+    - $135/1.png
+    - $171/3.png
+    - $171/4.png
 
 - type: entity
   id: Model21328
   components:
   - type: Mesh
-    mesh: models/21328.glb
+    mesh: $21328.glb
     textures:
-    - 135/1
-    - 171/3
+    - $135/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21329
   components:
   - type: Mesh
-    mesh: models/21329.glb
+    mesh: $21329.glb
     textures:
-    - 135/1
-    - 171/3
+    - $135/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21330
   components:
   - type: Mesh
-    mesh: models/21330.glb
+    mesh: $21330.glb
     textures:
-    - 000/76
-    - 069/3
-    - 135/1
+    - $000/76.png
+    - $069/3.png
+    - $135/1.png
 
 - type: entity
   id: Model21331
   components:
   - type: Mesh
-    mesh: models/21331.glb
+    mesh: $21331.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21332
   components:
   - type: Mesh
-    mesh: models/21332.glb
+    mesh: $21332.glb
     textures:
-    - 000/76
-    - 069/3
-    - 135/1
+    - $000/76.png
+    - $069/3.png
+    - $135/1.png
 
 - type: entity
   id: Model21333
   components:
   - type: Mesh
-    mesh: models/21333.glb
+    mesh: $21333.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21334
   components:
   - type: Mesh
-    mesh: models/21334.glb
+    mesh: $21334.glb
     textures:
-    - 171/3
+    - $171/3.png
 
 - type: entity
   id: Model21335
   components:
   - type: Mesh
-    mesh: models/21335.glb
+    mesh: $21335.glb
     textures:
-    - 171/4
+    - $171/4.png
 
 - type: entity
   id: Model21336
   components:
   - type: Mesh
-    mesh: models/21336.glb
+    mesh: $21336.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21337
   components:
   - type: Mesh
-    mesh: models/21337.glb
+    mesh: $21337.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21338
   components:
   - type: Mesh
-    mesh: models/21338.glb
+    mesh: $21338.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21339
   components:
   - type: Mesh
-    mesh: models/21339.glb
+    mesh: $21339.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21340
   components:
   - type: Mesh
-    mesh: models/21340.glb
+    mesh: $21340.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21341
   components:
   - type: Mesh
-    mesh: models/21341.glb
+    mesh: $21341.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21342
   components:
   - type: Mesh
-    mesh: models/21342.glb
+    mesh: $21342.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21343
   components:
   - type: Mesh
-    mesh: models/21343.glb
+    mesh: $21343.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21344
   components:
   - type: Mesh
-    mesh: models/21344.glb
+    mesh: $21344.glb
     textures:
-    - 135/1
-    - 171/3
+    - $135/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21345
   components:
   - type: Mesh
-    mesh: models/21345.glb
+    mesh: $21345.glb
     textures:
-    - 056/5
-    - 074/2
-    - 135/1
+    - $056/5.png
+    - $074/2.png
+    - $135/1.png
 
 - type: entity
   id: Model21346
   components:
   - type: Mesh
-    mesh: models/21346.glb
+    mesh: $21346.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21347
   components:
   - type: Mesh
-    mesh: models/21347.glb
+    mesh: $21347.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21348
   components:
   - type: Mesh
-    mesh: models/21348.glb
+    mesh: $21348.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21349
   components:
   - type: Mesh
-    mesh: models/21349.glb
+    mesh: $21349.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21350
   components:
   - type: Mesh
-    mesh: models/21350.glb
+    mesh: $21350.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21351
   components:
   - type: Mesh
-    mesh: models/21351.glb
+    mesh: $21351.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21352
   components:
   - type: Mesh
-    mesh: models/21352.glb
+    mesh: $21352.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21353
   components:
   - type: Mesh
-    mesh: models/21353.glb
+    mesh: $21353.glb
     textures:
-    - 135/2
-    - 171/3
+    - $135/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21354
   components:
   - type: Mesh
-    mesh: models/21354.glb
+    mesh: $21354.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21355
   components:
   - type: Mesh
-    mesh: models/21355.glb
+    mesh: $21355.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21356
   components:
   - type: Mesh
-    mesh: models/21356.glb
+    mesh: $21356.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21357
   components:
   - type: Mesh
-    mesh: models/21357.glb
+    mesh: $21357.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21358
   components:
   - type: Mesh
-    mesh: models/21358.glb
+    mesh: $21358.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21359
   components:
   - type: Mesh
-    mesh: models/21359.glb
+    mesh: $21359.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21360
   components:
   - type: Mesh
-    mesh: models/21360.glb
+    mesh: $21360.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21361
   components:
   - type: Mesh
-    mesh: models/21361.glb
+    mesh: $21361.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21362
   components:
   - type: Mesh
-    mesh: models/21362.glb
+    mesh: $21362.glb
     textures:
-    - 135/1
+    - $135/1.png
 
 - type: entity
   id: Model21363
   components:
   - type: Mesh
-    mesh: models/21363.glb
+    mesh: $21363.glb
     textures:
-    - 006/0
-    - 006/2
-    - 006/3
+    - $006/0.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21400
   components:
   - type: Mesh
-    mesh: models/21400.glb
+    mesh: $21400.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21401
   components:
   - type: Mesh
-    mesh: models/21401.glb
+    mesh: $21401.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21402
   components:
   - type: Mesh
-    mesh: models/21402.glb
+    mesh: $21402.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21403
   components:
   - type: Mesh
-    mesh: models/21403.glb
+    mesh: $21403.glb
     textures:
-    - 067/14
+    - $067/14.png
 
 - type: entity
   id: Model21404
   components:
   - type: Mesh
-    mesh: models/21404.glb
+    mesh: $21404.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21405
   components:
   - type: Mesh
-    mesh: models/21405.glb
+    mesh: $21405.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21406
   components:
   - type: Mesh
-    mesh: models/21406.glb
+    mesh: $21406.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21407
   components:
   - type: Mesh
-    mesh: models/21407.glb
+    mesh: $21407.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21408
   components:
   - type: Mesh
-    mesh: models/21408.glb
+    mesh: $21408.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21409
   components:
   - type: Mesh
-    mesh: models/21409.glb
+    mesh: $21409.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21410
   components:
   - type: Mesh
-    mesh: models/21410.glb
+    mesh: $21410.glb
     textures:
-    - 031/3
+    - $031/3.png
 
 - type: entity
   id: Model21411
   components:
   - type: Mesh
-    mesh: models/21411.glb
+    mesh: $21411.glb
     textures:
-    - 031/1
-    - 031/2
-    - 031/3
-    - 031/12
-    - 031/13
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
+    - $031/12.png
+    - $031/13.png
 
 - type: entity
   id: Model21412
   components:
   - type: Mesh
-    mesh: models/21412.glb
+    mesh: $21412.glb
     textures:
-    - 031/1
-    - 031/9
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/1.png
+    - $031/9.png
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21413
   components:
   - type: Mesh
-    mesh: models/21413.glb
+    mesh: $21413.glb
     textures:
-    - 031/9
-    - 031/11
+    - $031/9.png
+    - $031/11.png
 
 - type: entity
   id: Model21414
   components:
   - type: Mesh
-    mesh: models/21414.glb
+    mesh: $21414.glb
     textures:
-    - 031/7
-    - 031/10
-    - 031/14
+    - $031/7.png
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21415
   components:
   - type: Mesh
-    mesh: models/21415.glb
+    mesh: $21415.glb
     textures:
-    - 031/10
-    - 031/14
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21416
   components:
   - type: Mesh
-    mesh: models/21416.glb
+    mesh: $21416.glb
     textures:
-    - 031/2
-    - 031/12
-    - 031/14
+    - $031/2.png
+    - $031/12.png
+    - $031/14.png
 
 - type: entity
   id: Model21417
   components:
   - type: Mesh
-    mesh: models/21417.glb
+    mesh: $21417.glb
     textures:
-    - 031/0
-    - 031/1
-    - 031/2
-    - 031/3
+    - $031/0.png
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21418
   components:
   - type: Mesh
-    mesh: models/21418.glb
+    mesh: $21418.glb
     textures:
-    - 031/1
+    - $031/1.png
 
 - type: entity
   id: Model21419
   components:
   - type: Mesh
-    mesh: models/21419.glb
+    mesh: $21419.glb
     textures:
-    - 031/6
-    - 031/7
+    - $031/6.png
+    - $031/7.png
 
 - type: entity
   id: Model21420
   components:
   - type: Mesh
-    mesh: models/21420.glb
+    mesh: $21420.glb
     textures:
-    - 031/1
-    - 031/3
-    - 031/11
+    - $031/1.png
+    - $031/3.png
+    - $031/11.png
 
 - type: entity
   id: Model21421
   components:
   - type: Mesh
-    mesh: models/21421.glb
+    mesh: $21421.glb
     textures:
-    - 031/11
+    - $031/11.png
 
 - type: entity
   id: Model21422
   components:
   - type: Mesh
-    mesh: models/21422.glb
+    mesh: $21422.glb
     textures:
-    - 031/10
+    - $031/10.png
 
 - type: entity
   id: Model21423
   components:
   - type: Mesh
-    mesh: models/21423.glb
+    mesh: $21423.glb
     textures:
-    - 031/8
-    - 031/9
+    - $031/8.png
+    - $031/9.png
 
 - type: entity
   id: Model21424
   components:
   - type: Mesh
-    mesh: models/21424.glb
+    mesh: $21424.glb
     textures:
-    - 031/2
-    - 031/3
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21425
   components:
   - type: Mesh
-    mesh: models/21425.glb
+    mesh: $21425.glb
     textures:
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21426
   components:
   - type: Mesh
-    mesh: models/21426.glb
+    mesh: $21426.glb
     textures:
-    - 031/0
-    - 031/2
-    - 031/3
-    - 031/4
+    - $031/0.png
+    - $031/2.png
+    - $031/3.png
+    - $031/4.png
 
 - type: entity
   id: Model21427
   components:
   - type: Mesh
-    mesh: models/21427.glb
+    mesh: $21427.glb
     textures:
-    - 138/1
-    - 171/3
-    - 171/4
+    - $138/1.png
+    - $171/3.png
+    - $171/4.png
 
 - type: entity
   id: Model21428
   components:
   - type: Mesh
-    mesh: models/21428.glb
+    mesh: $21428.glb
     textures:
-    - 138/1
-    - 171/3
+    - $138/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21429
   components:
   - type: Mesh
-    mesh: models/21429.glb
+    mesh: $21429.glb
     textures:
-    - 138/1
-    - 171/3
+    - $138/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21430
   components:
   - type: Mesh
-    mesh: models/21430.glb
+    mesh: $21430.glb
     textures:
-    - 000/76
-    - 069/3
-    - 138/1
+    - $000/76.png
+    - $069/3.png
+    - $138/1.png
 
 - type: entity
   id: Model21431
   components:
   - type: Mesh
-    mesh: models/21431.glb
+    mesh: $21431.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21432
   components:
   - type: Mesh
-    mesh: models/21432.glb
+    mesh: $21432.glb
     textures:
-    - 000/76
-    - 069/3
-    - 138/1
+    - $000/76.png
+    - $069/3.png
+    - $138/1.png
 
 - type: entity
   id: Model21433
   components:
   - type: Mesh
-    mesh: models/21433.glb
+    mesh: $21433.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21434
   components:
   - type: Mesh
-    mesh: models/21434.glb
+    mesh: $21434.glb
     textures:
-    - 171/3
+    - $171/3.png
 
 - type: entity
   id: Model21435
   components:
   - type: Mesh
-    mesh: models/21435.glb
+    mesh: $21435.glb
     textures:
-    - 171/4
+    - $171/4.png
 
 - type: entity
   id: Model21436
   components:
   - type: Mesh
-    mesh: models/21436.glb
+    mesh: $21436.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21437
   components:
   - type: Mesh
-    mesh: models/21437.glb
+    mesh: $21437.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21438
   components:
   - type: Mesh
-    mesh: models/21438.glb
+    mesh: $21438.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21439
   components:
   - type: Mesh
-    mesh: models/21439.glb
+    mesh: $21439.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21440
   components:
   - type: Mesh
-    mesh: models/21440.glb
+    mesh: $21440.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21441
   components:
   - type: Mesh
-    mesh: models/21441.glb
+    mesh: $21441.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21442
   components:
   - type: Mesh
-    mesh: models/21442.glb
+    mesh: $21442.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21443
   components:
   - type: Mesh
-    mesh: models/21443.glb
+    mesh: $21443.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21444
   components:
   - type: Mesh
-    mesh: models/21444.glb
+    mesh: $21444.glb
     textures:
-    - 138/1
-    - 171/3
+    - $138/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21445
   components:
   - type: Mesh
-    mesh: models/21445.glb
+    mesh: $21445.glb
     textures:
-    - 056/5
-    - 074/2
-    - 138/1
+    - $056/5.png
+    - $074/2.png
+    - $138/1.png
 
 - type: entity
   id: Model21446
   components:
   - type: Mesh
-    mesh: models/21446.glb
+    mesh: $21446.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21447
   components:
   - type: Mesh
-    mesh: models/21447.glb
+    mesh: $21447.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21448
   components:
   - type: Mesh
-    mesh: models/21448.glb
+    mesh: $21448.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21449
   components:
   - type: Mesh
-    mesh: models/21449.glb
+    mesh: $21449.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21450
   components:
   - type: Mesh
-    mesh: models/21450.glb
+    mesh: $21450.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21451
   components:
   - type: Mesh
-    mesh: models/21451.glb
+    mesh: $21451.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21452
   components:
   - type: Mesh
-    mesh: models/21452.glb
+    mesh: $21452.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21453
   components:
   - type: Mesh
-    mesh: models/21453.glb
+    mesh: $21453.glb
     textures:
-    - 138/2
-    - 171/3
+    - $138/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21454
   components:
   - type: Mesh
-    mesh: models/21454.glb
+    mesh: $21454.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21455
   components:
   - type: Mesh
-    mesh: models/21455.glb
+    mesh: $21455.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21456
   components:
   - type: Mesh
-    mesh: models/21456.glb
+    mesh: $21456.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21457
   components:
   - type: Mesh
-    mesh: models/21457.glb
+    mesh: $21457.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21458
   components:
   - type: Mesh
-    mesh: models/21458.glb
+    mesh: $21458.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21459
   components:
   - type: Mesh
-    mesh: models/21459.glb
+    mesh: $21459.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21460
   components:
   - type: Mesh
-    mesh: models/21460.glb
+    mesh: $21460.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21461
   components:
   - type: Mesh
-    mesh: models/21461.glb
+    mesh: $21461.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21462
   components:
   - type: Mesh
-    mesh: models/21462.glb
+    mesh: $21462.glb
     textures:
-    - 138/1
+    - $138/1.png
 
 - type: entity
   id: Model21463
   components:
   - type: Mesh
-    mesh: models/21463.glb
+    mesh: $21463.glb
     textures:
-    - 006/0
-    - 006/2
-    - 006/3
+    - $006/0.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21500
   components:
   - type: Mesh
-    mesh: models/21500.glb
+    mesh: $21500.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21501
   components:
   - type: Mesh
-    mesh: models/21501.glb
+    mesh: $21501.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21502
   components:
   - type: Mesh
-    mesh: models/21502.glb
+    mesh: $21502.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21503
   components:
   - type: Mesh
-    mesh: models/21503.glb
+    mesh: $21503.glb
     textures:
-    - 067/14
+    - $067/14.png
 
 - type: entity
   id: Model21504
   components:
   - type: Mesh
-    mesh: models/21504.glb
+    mesh: $21504.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21505
   components:
   - type: Mesh
-    mesh: models/21505.glb
+    mesh: $21505.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21506
   components:
   - type: Mesh
-    mesh: models/21506.glb
+    mesh: $21506.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21507
   components:
   - type: Mesh
-    mesh: models/21507.glb
+    mesh: $21507.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21508
   components:
   - type: Mesh
-    mesh: models/21508.glb
+    mesh: $21508.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21509
   components:
   - type: Mesh
-    mesh: models/21509.glb
+    mesh: $21509.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21510
   components:
   - type: Mesh
-    mesh: models/21510.glb
+    mesh: $21510.glb
     textures:
-    - 031/3
+    - $031/3.png
 
 - type: entity
   id: Model21511
   components:
   - type: Mesh
-    mesh: models/21511.glb
+    mesh: $21511.glb
     textures:
-    - 031/1
-    - 031/2
-    - 031/3
-    - 031/12
-    - 031/13
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
+    - $031/12.png
+    - $031/13.png
 
 - type: entity
   id: Model21512
   components:
   - type: Mesh
-    mesh: models/21512.glb
+    mesh: $21512.glb
     textures:
-    - 031/1
-    - 031/9
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/1.png
+    - $031/9.png
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21513
   components:
   - type: Mesh
-    mesh: models/21513.glb
+    mesh: $21513.glb
     textures:
-    - 031/9
-    - 031/11
+    - $031/9.png
+    - $031/11.png
 
 - type: entity
   id: Model21514
   components:
   - type: Mesh
-    mesh: models/21514.glb
+    mesh: $21514.glb
     textures:
-    - 031/7
-    - 031/10
-    - 031/14
+    - $031/7.png
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21515
   components:
   - type: Mesh
-    mesh: models/21515.glb
+    mesh: $21515.glb
     textures:
-    - 031/10
-    - 031/14
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21516
   components:
   - type: Mesh
-    mesh: models/21516.glb
+    mesh: $21516.glb
     textures:
-    - 031/2
-    - 031/12
-    - 031/14
+    - $031/2.png
+    - $031/12.png
+    - $031/14.png
 
 - type: entity
   id: Model21517
   components:
   - type: Mesh
-    mesh: models/21517.glb
+    mesh: $21517.glb
     textures:
-    - 031/0
-    - 031/1
-    - 031/2
-    - 031/3
+    - $031/0.png
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21518
   components:
   - type: Mesh
-    mesh: models/21518.glb
+    mesh: $21518.glb
     textures:
-    - 031/1
+    - $031/1.png
 
 - type: entity
   id: Model21519
   components:
   - type: Mesh
-    mesh: models/21519.glb
+    mesh: $21519.glb
     textures:
-    - 031/6
-    - 031/7
+    - $031/6.png
+    - $031/7.png
 
 - type: entity
   id: Model21520
   components:
   - type: Mesh
-    mesh: models/21520.glb
+    mesh: $21520.glb
     textures:
-    - 031/1
-    - 031/3
-    - 031/11
+    - $031/1.png
+    - $031/3.png
+    - $031/11.png
 
 - type: entity
   id: Model21521
   components:
   - type: Mesh
-    mesh: models/21521.glb
+    mesh: $21521.glb
     textures:
-    - 031/11
+    - $031/11.png
 
 - type: entity
   id: Model21522
   components:
   - type: Mesh
-    mesh: models/21522.glb
+    mesh: $21522.glb
     textures:
-    - 031/10
+    - $031/10.png
 
 - type: entity
   id: Model21523
   components:
   - type: Mesh
-    mesh: models/21523.glb
+    mesh: $21523.glb
     textures:
-    - 031/8
-    - 031/9
+    - $031/8.png
+    - $031/9.png
 
 - type: entity
   id: Model21524
   components:
   - type: Mesh
-    mesh: models/21524.glb
+    mesh: $21524.glb
     textures:
-    - 031/2
-    - 031/3
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21525
   components:
   - type: Mesh
-    mesh: models/21525.glb
+    mesh: $21525.glb
     textures:
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21526
   components:
   - type: Mesh
-    mesh: models/21526.glb
+    mesh: $21526.glb
     textures:
-    - 031/0
-    - 031/2
-    - 031/3
-    - 031/4
+    - $031/0.png
+    - $031/2.png
+    - $031/3.png
+    - $031/4.png
 
 - type: entity
   id: Model21527
   components:
   - type: Mesh
-    mesh: models/21527.glb
+    mesh: $21527.glb
     textures:
-    - 142/1
-    - 171/3
-    - 171/4
+    - $142/1.png
+    - $171/3.png
+    - $171/4.png
 
 - type: entity
   id: Model21528
   components:
   - type: Mesh
-    mesh: models/21528.glb
+    mesh: $21528.glb
     textures:
-    - 142/1
-    - 171/3
+    - $142/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21529
   components:
   - type: Mesh
-    mesh: models/21529.glb
+    mesh: $21529.glb
     textures:
-    - 142/1
-    - 171/3
+    - $142/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21530
   components:
   - type: Mesh
-    mesh: models/21530.glb
+    mesh: $21530.glb
     textures:
-    - 000/76
-    - 069/3
-    - 142/1
+    - $000/76.png
+    - $069/3.png
+    - $142/1.png
 
 - type: entity
   id: Model21531
   components:
   - type: Mesh
-    mesh: models/21531.glb
+    mesh: $21531.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21532
   components:
   - type: Mesh
-    mesh: models/21532.glb
+    mesh: $21532.glb
     textures:
-    - 000/76
-    - 069/3
-    - 142/1
+    - $000/76.png
+    - $069/3.png
+    - $142/1.png
 
 - type: entity
   id: Model21533
   components:
   - type: Mesh
-    mesh: models/21533.glb
+    mesh: $21533.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21534
   components:
   - type: Mesh
-    mesh: models/21534.glb
+    mesh: $21534.glb
     textures:
-    - 171/3
+    - $171/3.png
 
 - type: entity
   id: Model21535
   components:
   - type: Mesh
-    mesh: models/21535.glb
+    mesh: $21535.glb
     textures:
-    - 171/4
+    - $171/4.png
 
 - type: entity
   id: Model21536
   components:
   - type: Mesh
-    mesh: models/21536.glb
+    mesh: $21536.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21537
   components:
   - type: Mesh
-    mesh: models/21537.glb
+    mesh: $21537.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21538
   components:
   - type: Mesh
-    mesh: models/21538.glb
+    mesh: $21538.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21539
   components:
   - type: Mesh
-    mesh: models/21539.glb
+    mesh: $21539.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21540
   components:
   - type: Mesh
-    mesh: models/21540.glb
+    mesh: $21540.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21541
   components:
   - type: Mesh
-    mesh: models/21541.glb
+    mesh: $21541.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21542
   components:
   - type: Mesh
-    mesh: models/21542.glb
+    mesh: $21542.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21543
   components:
   - type: Mesh
-    mesh: models/21543.glb
+    mesh: $21543.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21544
   components:
   - type: Mesh
-    mesh: models/21544.glb
+    mesh: $21544.glb
     textures:
-    - 142/1
-    - 171/3
+    - $142/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21545
   components:
   - type: Mesh
-    mesh: models/21545.glb
+    mesh: $21545.glb
     textures:
-    - 056/5
-    - 074/2
-    - 142/1
+    - $056/5.png
+    - $074/2.png
+    - $142/1.png
 
 - type: entity
   id: Model21546
   components:
   - type: Mesh
-    mesh: models/21546.glb
+    mesh: $21546.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21547
   components:
   - type: Mesh
-    mesh: models/21547.glb
+    mesh: $21547.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21548
   components:
   - type: Mesh
-    mesh: models/21548.glb
+    mesh: $21548.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21549
   components:
   - type: Mesh
-    mesh: models/21549.glb
+    mesh: $21549.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21550
   components:
   - type: Mesh
-    mesh: models/21550.glb
+    mesh: $21550.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21551
   components:
   - type: Mesh
-    mesh: models/21551.glb
+    mesh: $21551.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21552
   components:
   - type: Mesh
-    mesh: models/21552.glb
+    mesh: $21552.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21553
   components:
   - type: Mesh
-    mesh: models/21553.glb
+    mesh: $21553.glb
     textures:
-    - 142/2
-    - 171/3
+    - $142/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21554
   components:
   - type: Mesh
-    mesh: models/21554.glb
+    mesh: $21554.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21555
   components:
   - type: Mesh
-    mesh: models/21555.glb
+    mesh: $21555.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21556
   components:
   - type: Mesh
-    mesh: models/21556.glb
+    mesh: $21556.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21557
   components:
   - type: Mesh
-    mesh: models/21557.glb
+    mesh: $21557.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21558
   components:
   - type: Mesh
-    mesh: models/21558.glb
+    mesh: $21558.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21559
   components:
   - type: Mesh
-    mesh: models/21559.glb
+    mesh: $21559.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21560
   components:
   - type: Mesh
-    mesh: models/21560.glb
+    mesh: $21560.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21561
   components:
   - type: Mesh
-    mesh: models/21561.glb
+    mesh: $21561.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21562
   components:
   - type: Mesh
-    mesh: models/21562.glb
+    mesh: $21562.glb
     textures:
-    - 142/1
+    - $142/1.png
 
 - type: entity
   id: Model21563
   components:
   - type: Mesh
-    mesh: models/21563.glb
+    mesh: $21563.glb
     textures:
-    - 006/0
-    - 006/2
-    - 006/3
+    - $006/0.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21600
   components:
   - type: Mesh
-    mesh: models/21600.glb
+    mesh: $21600.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21601
   components:
   - type: Mesh
-    mesh: models/21601.glb
+    mesh: $21601.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21602
   components:
   - type: Mesh
-    mesh: models/21602.glb
+    mesh: $21602.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21603
   components:
   - type: Mesh
-    mesh: models/21603.glb
+    mesh: $21603.glb
     textures:
-    - 067/14
+    - $067/14.png
 
 - type: entity
   id: Model21604
   components:
   - type: Mesh
-    mesh: models/21604.glb
+    mesh: $21604.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21605
   components:
   - type: Mesh
-    mesh: models/21605.glb
+    mesh: $21605.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21606
   components:
   - type: Mesh
-    mesh: models/21606.glb
+    mesh: $21606.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21607
   components:
   - type: Mesh
-    mesh: models/21607.glb
+    mesh: $21607.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21608
   components:
   - type: Mesh
-    mesh: models/21608.glb
+    mesh: $21608.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21609
   components:
   - type: Mesh
-    mesh: models/21609.glb
+    mesh: $21609.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21610
   components:
   - type: Mesh
-    mesh: models/21610.glb
+    mesh: $21610.glb
     textures:
-    - 031/3
+    - $031/3.png
 
 - type: entity
   id: Model21611
   components:
   - type: Mesh
-    mesh: models/21611.glb
+    mesh: $21611.glb
     textures:
-    - 031/1
-    - 031/2
-    - 031/3
-    - 031/12
-    - 031/13
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
+    - $031/12.png
+    - $031/13.png
 
 - type: entity
   id: Model21612
   components:
   - type: Mesh
-    mesh: models/21612.glb
+    mesh: $21612.glb
     textures:
-    - 031/1
-    - 031/9
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/1.png
+    - $031/9.png
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21613
   components:
   - type: Mesh
-    mesh: models/21613.glb
+    mesh: $21613.glb
     textures:
-    - 031/9
-    - 031/11
+    - $031/9.png
+    - $031/11.png
 
 - type: entity
   id: Model21614
   components:
   - type: Mesh
-    mesh: models/21614.glb
+    mesh: $21614.glb
     textures:
-    - 031/7
-    - 031/10
-    - 031/14
+    - $031/7.png
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21615
   components:
   - type: Mesh
-    mesh: models/21615.glb
+    mesh: $21615.glb
     textures:
-    - 031/10
-    - 031/14
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21616
   components:
   - type: Mesh
-    mesh: models/21616.glb
+    mesh: $21616.glb
     textures:
-    - 031/2
-    - 031/12
-    - 031/14
+    - $031/2.png
+    - $031/12.png
+    - $031/14.png
 
 - type: entity
   id: Model21617
   components:
   - type: Mesh
-    mesh: models/21617.glb
+    mesh: $21617.glb
     textures:
-    - 031/0
-    - 031/1
-    - 031/2
-    - 031/3
+    - $031/0.png
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21618
   components:
   - type: Mesh
-    mesh: models/21618.glb
+    mesh: $21618.glb
     textures:
-    - 031/1
+    - $031/1.png
 
 - type: entity
   id: Model21619
   components:
   - type: Mesh
-    mesh: models/21619.glb
+    mesh: $21619.glb
     textures:
-    - 031/6
-    - 031/7
+    - $031/6.png
+    - $031/7.png
 
 - type: entity
   id: Model21620
   components:
   - type: Mesh
-    mesh: models/21620.glb
+    mesh: $21620.glb
     textures:
-    - 031/1
-    - 031/3
-    - 031/11
+    - $031/1.png
+    - $031/3.png
+    - $031/11.png
 
 - type: entity
   id: Model21621
   components:
   - type: Mesh
-    mesh: models/21621.glb
+    mesh: $21621.glb
     textures:
-    - 031/11
+    - $031/11.png
 
 - type: entity
   id: Model21622
   components:
   - type: Mesh
-    mesh: models/21622.glb
+    mesh: $21622.glb
     textures:
-    - 031/10
+    - $031/10.png
 
 - type: entity
   id: Model21623
   components:
   - type: Mesh
-    mesh: models/21623.glb
+    mesh: $21623.glb
     textures:
-    - 031/8
-    - 031/9
+    - $031/8.png
+    - $031/9.png
 
 - type: entity
   id: Model21624
   components:
   - type: Mesh
-    mesh: models/21624.glb
+    mesh: $21624.glb
     textures:
-    - 031/2
-    - 031/3
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21625
   components:
   - type: Mesh
-    mesh: models/21625.glb
+    mesh: $21625.glb
     textures:
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21626
   components:
   - type: Mesh
-    mesh: models/21626.glb
+    mesh: $21626.glb
     textures:
-    - 031/0
-    - 031/2
-    - 031/3
-    - 031/4
+    - $031/0.png
+    - $031/2.png
+    - $031/3.png
+    - $031/4.png
 
 - type: entity
   id: Model21627
   components:
   - type: Mesh
-    mesh: models/21627.glb
+    mesh: $21627.glb
     textures:
-    - 158/1
-    - 171/3
-    - 171/4
+    - $158/1.png
+    - $171/3.png
+    - $171/4.png
 
 - type: entity
   id: Model21628
   components:
   - type: Mesh
-    mesh: models/21628.glb
+    mesh: $21628.glb
     textures:
-    - 158/1
-    - 171/3
+    - $158/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21629
   components:
   - type: Mesh
-    mesh: models/21629.glb
+    mesh: $21629.glb
     textures:
-    - 158/1
-    - 171/3
+    - $158/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21630
   components:
   - type: Mesh
-    mesh: models/21630.glb
+    mesh: $21630.glb
     textures:
-    - 000/76
-    - 069/3
-    - 158/1
+    - $000/76.png
+    - $069/3.png
+    - $158/1.png
 
 - type: entity
   id: Model21631
   components:
   - type: Mesh
-    mesh: models/21631.glb
+    mesh: $21631.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21632
   components:
   - type: Mesh
-    mesh: models/21632.glb
+    mesh: $21632.glb
     textures:
-    - 000/76
-    - 069/3
-    - 158/1
+    - $000/76.png
+    - $069/3.png
+    - $158/1.png
 
 - type: entity
   id: Model21633
   components:
   - type: Mesh
-    mesh: models/21633.glb
+    mesh: $21633.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21634
   components:
   - type: Mesh
-    mesh: models/21634.glb
+    mesh: $21634.glb
     textures:
-    - 171/3
+    - $171/3.png
 
 - type: entity
   id: Model21635
   components:
   - type: Mesh
-    mesh: models/21635.glb
+    mesh: $21635.glb
     textures:
-    - 171/4
+    - $171/4.png
 
 - type: entity
   id: Model21636
   components:
   - type: Mesh
-    mesh: models/21636.glb
+    mesh: $21636.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21637
   components:
   - type: Mesh
-    mesh: models/21637.glb
+    mesh: $21637.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21638
   components:
   - type: Mesh
-    mesh: models/21638.glb
+    mesh: $21638.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21639
   components:
   - type: Mesh
-    mesh: models/21639.glb
+    mesh: $21639.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21640
   components:
   - type: Mesh
-    mesh: models/21640.glb
+    mesh: $21640.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21641
   components:
   - type: Mesh
-    mesh: models/21641.glb
+    mesh: $21641.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21642
   components:
   - type: Mesh
-    mesh: models/21642.glb
+    mesh: $21642.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21643
   components:
   - type: Mesh
-    mesh: models/21643.glb
+    mesh: $21643.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21644
   components:
   - type: Mesh
-    mesh: models/21644.glb
+    mesh: $21644.glb
     textures:
-    - 158/1
-    - 171/3
+    - $158/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21645
   components:
   - type: Mesh
-    mesh: models/21645.glb
+    mesh: $21645.glb
     textures:
-    - 056/5
-    - 074/2
-    - 158/1
+    - $056/5.png
+    - $074/2.png
+    - $158/1.png
 
 - type: entity
   id: Model21646
   components:
   - type: Mesh
-    mesh: models/21646.glb
+    mesh: $21646.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21647
   components:
   - type: Mesh
-    mesh: models/21647.glb
+    mesh: $21647.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21648
   components:
   - type: Mesh
-    mesh: models/21648.glb
+    mesh: $21648.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21649
   components:
   - type: Mesh
-    mesh: models/21649.glb
+    mesh: $21649.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21650
   components:
   - type: Mesh
-    mesh: models/21650.glb
+    mesh: $21650.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21651
   components:
   - type: Mesh
-    mesh: models/21651.glb
+    mesh: $21651.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21652
   components:
   - type: Mesh
-    mesh: models/21652.glb
+    mesh: $21652.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21653
   components:
   - type: Mesh
-    mesh: models/21653.glb
+    mesh: $21653.glb
     textures:
-    - 158/2
-    - 171/3
+    - $158/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21654
   components:
   - type: Mesh
-    mesh: models/21654.glb
+    mesh: $21654.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21655
   components:
   - type: Mesh
-    mesh: models/21655.glb
+    mesh: $21655.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21656
   components:
   - type: Mesh
-    mesh: models/21656.glb
+    mesh: $21656.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21657
   components:
   - type: Mesh
-    mesh: models/21657.glb
+    mesh: $21657.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21658
   components:
   - type: Mesh
-    mesh: models/21658.glb
+    mesh: $21658.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21659
   components:
   - type: Mesh
-    mesh: models/21659.glb
+    mesh: $21659.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21660
   components:
   - type: Mesh
-    mesh: models/21660.glb
+    mesh: $21660.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21661
   components:
   - type: Mesh
-    mesh: models/21661.glb
+    mesh: $21661.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21662
   components:
   - type: Mesh
-    mesh: models/21662.glb
+    mesh: $21662.glb
     textures:
-    - 158/1
+    - $158/1.png
 
 - type: entity
   id: Model21663
   components:
   - type: Mesh
-    mesh: models/21663.glb
+    mesh: $21663.glb
     textures:
-    - 006/0
-    - 006/2
-    - 006/3
+    - $006/0.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21700
   components:
   - type: Mesh
-    mesh: models/21700.glb
+    mesh: $21700.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21701
   components:
   - type: Mesh
-    mesh: models/21701.glb
+    mesh: $21701.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21702
   components:
   - type: Mesh
-    mesh: models/21702.glb
+    mesh: $21702.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21703
   components:
   - type: Mesh
-    mesh: models/21703.glb
+    mesh: $21703.glb
     textures:
-    - 067/14
+    - $067/14.png
 
 - type: entity
   id: Model21704
   components:
   - type: Mesh
-    mesh: models/21704.glb
+    mesh: $21704.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21705
   components:
   - type: Mesh
-    mesh: models/21705.glb
+    mesh: $21705.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21706
   components:
   - type: Mesh
-    mesh: models/21706.glb
+    mesh: $21706.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21707
   components:
   - type: Mesh
-    mesh: models/21707.glb
+    mesh: $21707.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21708
   components:
   - type: Mesh
-    mesh: models/21708.glb
+    mesh: $21708.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21709
   components:
   - type: Mesh
-    mesh: models/21709.glb
+    mesh: $21709.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21710
   components:
   - type: Mesh
-    mesh: models/21710.glb
+    mesh: $21710.glb
     textures:
-    - 031/3
+    - $031/3.png
 
 - type: entity
   id: Model21711
   components:
   - type: Mesh
-    mesh: models/21711.glb
+    mesh: $21711.glb
     textures:
-    - 031/1
-    - 031/2
-    - 031/3
-    - 031/12
-    - 031/13
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
+    - $031/12.png
+    - $031/13.png
 
 - type: entity
   id: Model21712
   components:
   - type: Mesh
-    mesh: models/21712.glb
+    mesh: $21712.glb
     textures:
-    - 031/1
-    - 031/9
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/1.png
+    - $031/9.png
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21713
   components:
   - type: Mesh
-    mesh: models/21713.glb
+    mesh: $21713.glb
     textures:
-    - 031/9
-    - 031/11
+    - $031/9.png
+    - $031/11.png
 
 - type: entity
   id: Model21714
   components:
   - type: Mesh
-    mesh: models/21714.glb
+    mesh: $21714.glb
     textures:
-    - 031/7
-    - 031/10
-    - 031/14
+    - $031/7.png
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21715
   components:
   - type: Mesh
-    mesh: models/21715.glb
+    mesh: $21715.glb
     textures:
-    - 031/10
-    - 031/14
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21716
   components:
   - type: Mesh
-    mesh: models/21716.glb
+    mesh: $21716.glb
     textures:
-    - 031/2
-    - 031/12
-    - 031/14
+    - $031/2.png
+    - $031/12.png
+    - $031/14.png
 
 - type: entity
   id: Model21717
   components:
   - type: Mesh
-    mesh: models/21717.glb
+    mesh: $21717.glb
     textures:
-    - 031/0
-    - 031/1
-    - 031/2
-    - 031/3
+    - $031/0.png
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21718
   components:
   - type: Mesh
-    mesh: models/21718.glb
+    mesh: $21718.glb
     textures:
-    - 031/1
+    - $031/1.png
 
 - type: entity
   id: Model21719
   components:
   - type: Mesh
-    mesh: models/21719.glb
+    mesh: $21719.glb
     textures:
-    - 031/6
-    - 031/7
+    - $031/6.png
+    - $031/7.png
 
 - type: entity
   id: Model21720
   components:
   - type: Mesh
-    mesh: models/21720.glb
+    mesh: $21720.glb
     textures:
-    - 031/1
-    - 031/3
-    - 031/11
+    - $031/1.png
+    - $031/3.png
+    - $031/11.png
 
 - type: entity
   id: Model21721
   components:
   - type: Mesh
-    mesh: models/21721.glb
+    mesh: $21721.glb
     textures:
-    - 031/11
+    - $031/11.png
 
 - type: entity
   id: Model21722
   components:
   - type: Mesh
-    mesh: models/21722.glb
+    mesh: $21722.glb
     textures:
-    - 031/10
+    - $031/10.png
 
 - type: entity
   id: Model21723
   components:
   - type: Mesh
-    mesh: models/21723.glb
+    mesh: $21723.glb
     textures:
-    - 031/8
-    - 031/9
+    - $031/8.png
+    - $031/9.png
 
 - type: entity
   id: Model21724
   components:
   - type: Mesh
-    mesh: models/21724.glb
+    mesh: $21724.glb
     textures:
-    - 031/2
-    - 031/3
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21725
   components:
   - type: Mesh
-    mesh: models/21725.glb
+    mesh: $21725.glb
     textures:
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21726
   components:
   - type: Mesh
-    mesh: models/21726.glb
+    mesh: $21726.glb
     textures:
-    - 031/0
-    - 031/2
-    - 031/3
-    - 031/4
+    - $031/0.png
+    - $031/2.png
+    - $031/3.png
+    - $031/4.png
 
 - type: entity
   id: Model21727
   components:
   - type: Mesh
-    mesh: models/21727.glb
+    mesh: $21727.glb
     textures:
-    - 161/1
-    - 171/3
-    - 171/4
+    - $161/1.png
+    - $171/3.png
+    - $171/4.png
 
 - type: entity
   id: Model21728
   components:
   - type: Mesh
-    mesh: models/21728.glb
+    mesh: $21728.glb
     textures:
-    - 161/1
-    - 171/3
+    - $161/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21729
   components:
   - type: Mesh
-    mesh: models/21729.glb
+    mesh: $21729.glb
     textures:
-    - 161/1
-    - 171/3
+    - $161/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21730
   components:
   - type: Mesh
-    mesh: models/21730.glb
+    mesh: $21730.glb
     textures:
-    - 000/76
-    - 069/3
-    - 161/1
+    - $000/76.png
+    - $069/3.png
+    - $161/1.png
 
 - type: entity
   id: Model21731
   components:
   - type: Mesh
-    mesh: models/21731.glb
+    mesh: $21731.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21732
   components:
   - type: Mesh
-    mesh: models/21732.glb
+    mesh: $21732.glb
     textures:
-    - 000/76
-    - 069/3
-    - 161/1
+    - $000/76.png
+    - $069/3.png
+    - $161/1.png
 
 - type: entity
   id: Model21733
   components:
   - type: Mesh
-    mesh: models/21733.glb
+    mesh: $21733.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21734
   components:
   - type: Mesh
-    mesh: models/21734.glb
+    mesh: $21734.glb
     textures:
-    - 171/3
+    - $171/3.png
 
 - type: entity
   id: Model21735
   components:
   - type: Mesh
-    mesh: models/21735.glb
+    mesh: $21735.glb
     textures:
-    - 171/4
+    - $171/4.png
 
 - type: entity
   id: Model21736
   components:
   - type: Mesh
-    mesh: models/21736.glb
+    mesh: $21736.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21737
   components:
   - type: Mesh
-    mesh: models/21737.glb
+    mesh: $21737.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21738
   components:
   - type: Mesh
-    mesh: models/21738.glb
+    mesh: $21738.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21739
   components:
   - type: Mesh
-    mesh: models/21739.glb
+    mesh: $21739.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21740
   components:
   - type: Mesh
-    mesh: models/21740.glb
+    mesh: $21740.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21741
   components:
   - type: Mesh
-    mesh: models/21741.glb
+    mesh: $21741.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21742
   components:
   - type: Mesh
-    mesh: models/21742.glb
+    mesh: $21742.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21743
   components:
   - type: Mesh
-    mesh: models/21743.glb
+    mesh: $21743.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21744
   components:
   - type: Mesh
-    mesh: models/21744.glb
+    mesh: $21744.glb
     textures:
-    - 161/1
-    - 171/3
+    - $161/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21745
   components:
   - type: Mesh
-    mesh: models/21745.glb
+    mesh: $21745.glb
     textures:
-    - 056/5
-    - 074/2
-    - 161/1
+    - $056/5.png
+    - $074/2.png
+    - $161/1.png
 
 - type: entity
   id: Model21746
   components:
   - type: Mesh
-    mesh: models/21746.glb
+    mesh: $21746.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21747
   components:
   - type: Mesh
-    mesh: models/21747.glb
+    mesh: $21747.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21748
   components:
   - type: Mesh
-    mesh: models/21748.glb
+    mesh: $21748.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21749
   components:
   - type: Mesh
-    mesh: models/21749.glb
+    mesh: $21749.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21750
   components:
   - type: Mesh
-    mesh: models/21750.glb
+    mesh: $21750.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21751
   components:
   - type: Mesh
-    mesh: models/21751.glb
+    mesh: $21751.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21752
   components:
   - type: Mesh
-    mesh: models/21752.glb
+    mesh: $21752.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21753
   components:
   - type: Mesh
-    mesh: models/21753.glb
+    mesh: $21753.glb
     textures:
-    - 161/2
-    - 171/3
+    - $161/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21754
   components:
   - type: Mesh
-    mesh: models/21754.glb
+    mesh: $21754.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21755
   components:
   - type: Mesh
-    mesh: models/21755.glb
+    mesh: $21755.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21756
   components:
   - type: Mesh
-    mesh: models/21756.glb
+    mesh: $21756.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21757
   components:
   - type: Mesh
-    mesh: models/21757.glb
+    mesh: $21757.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21758
   components:
   - type: Mesh
-    mesh: models/21758.glb
+    mesh: $21758.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21759
   components:
   - type: Mesh
-    mesh: models/21759.glb
+    mesh: $21759.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21760
   components:
   - type: Mesh
-    mesh: models/21760.glb
+    mesh: $21760.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21761
   components:
   - type: Mesh
-    mesh: models/21761.glb
+    mesh: $21761.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21762
   components:
   - type: Mesh
-    mesh: models/21762.glb
+    mesh: $21762.glb
     textures:
-    - 161/1
+    - $161/1.png
 
 - type: entity
   id: Model21763
   components:
   - type: Mesh
-    mesh: models/21763.glb
+    mesh: $21763.glb
     textures:
-    - 006/0
-    - 006/2
-    - 006/3
+    - $006/0.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21800
   components:
   - type: Mesh
-    mesh: models/21800.glb
+    mesh: $21800.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21801
   components:
   - type: Mesh
-    mesh: models/21801.glb
+    mesh: $21801.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21802
   components:
   - type: Mesh
-    mesh: models/21802.glb
+    mesh: $21802.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21803
   components:
   - type: Mesh
-    mesh: models/21803.glb
+    mesh: $21803.glb
     textures:
-    - 067/14
+    - $067/14.png
 
 - type: entity
   id: Model21804
   components:
   - type: Mesh
-    mesh: models/21804.glb
+    mesh: $21804.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21805
   components:
   - type: Mesh
-    mesh: models/21805.glb
+    mesh: $21805.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21806
   components:
   - type: Mesh
-    mesh: models/21806.glb
+    mesh: $21806.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21807
   components:
   - type: Mesh
-    mesh: models/21807.glb
+    mesh: $21807.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21808
   components:
   - type: Mesh
-    mesh: models/21808.glb
+    mesh: $21808.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21809
   components:
   - type: Mesh
-    mesh: models/21809.glb
+    mesh: $21809.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21810
   components:
   - type: Mesh
-    mesh: models/21810.glb
+    mesh: $21810.glb
     textures:
-    - 031/3
+    - $031/3.png
 
 - type: entity
   id: Model21811
   components:
   - type: Mesh
-    mesh: models/21811.glb
+    mesh: $21811.glb
     textures:
-    - 031/1
-    - 031/2
-    - 031/3
-    - 031/12
-    - 031/13
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
+    - $031/12.png
+    - $031/13.png
 
 - type: entity
   id: Model21812
   components:
   - type: Mesh
-    mesh: models/21812.glb
+    mesh: $21812.glb
     textures:
-    - 031/1
-    - 031/9
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/1.png
+    - $031/9.png
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21813
   components:
   - type: Mesh
-    mesh: models/21813.glb
+    mesh: $21813.glb
     textures:
-    - 031/9
-    - 031/11
+    - $031/9.png
+    - $031/11.png
 
 - type: entity
   id: Model21814
   components:
   - type: Mesh
-    mesh: models/21814.glb
+    mesh: $21814.glb
     textures:
-    - 031/7
-    - 031/10
-    - 031/14
+    - $031/7.png
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21815
   components:
   - type: Mesh
-    mesh: models/21815.glb
+    mesh: $21815.glb
     textures:
-    - 031/10
-    - 031/14
+    - $031/10.png
+    - $031/14.png
 
 - type: entity
   id: Model21816
   components:
   - type: Mesh
-    mesh: models/21816.glb
+    mesh: $21816.glb
     textures:
-    - 031/2
-    - 031/12
-    - 031/14
+    - $031/2.png
+    - $031/12.png
+    - $031/14.png
 
 - type: entity
   id: Model21817
   components:
   - type: Mesh
-    mesh: models/21817.glb
+    mesh: $21817.glb
     textures:
-    - 031/0
-    - 031/1
-    - 031/2
-    - 031/3
+    - $031/0.png
+    - $031/1.png
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21818
   components:
   - type: Mesh
-    mesh: models/21818.glb
+    mesh: $21818.glb
     textures:
-    - 031/1
+    - $031/1.png
 
 - type: entity
   id: Model21819
   components:
   - type: Mesh
-    mesh: models/21819.glb
+    mesh: $21819.glb
     textures:
-    - 031/6
-    - 031/7
+    - $031/6.png
+    - $031/7.png
 
 - type: entity
   id: Model21820
   components:
   - type: Mesh
-    mesh: models/21820.glb
+    mesh: $21820.glb
     textures:
-    - 031/1
-    - 031/3
-    - 031/11
+    - $031/1.png
+    - $031/3.png
+    - $031/11.png
 
 - type: entity
   id: Model21821
   components:
   - type: Mesh
-    mesh: models/21821.glb
+    mesh: $21821.glb
     textures:
-    - 031/11
+    - $031/11.png
 
 - type: entity
   id: Model21822
   components:
   - type: Mesh
-    mesh: models/21822.glb
+    mesh: $21822.glb
     textures:
-    - 031/10
+    - $031/10.png
 
 - type: entity
   id: Model21823
   components:
   - type: Mesh
-    mesh: models/21823.glb
+    mesh: $21823.glb
     textures:
-    - 031/8
-    - 031/9
+    - $031/8.png
+    - $031/9.png
 
 - type: entity
   id: Model21824
   components:
   - type: Mesh
-    mesh: models/21824.glb
+    mesh: $21824.glb
     textures:
-    - 031/2
-    - 031/3
+    - $031/2.png
+    - $031/3.png
 
 - type: entity
   id: Model21825
   components:
   - type: Mesh
-    mesh: models/21825.glb
+    mesh: $21825.glb
     textures:
-    - 031/10
-    - 031/11
-    - 031/12
-    - 031/13
-    - 031/14
-    - 031/15
+    - $031/10.png
+    - $031/11.png
+    - $031/12.png
+    - $031/13.png
+    - $031/14.png
+    - $031/15.png
 
 - type: entity
   id: Model21826
   components:
   - type: Mesh
-    mesh: models/21826.glb
+    mesh: $21826.glb
     textures:
-    - 031/0
-    - 031/2
-    - 031/3
-    - 031/4
+    - $031/0.png
+    - $031/2.png
+    - $031/3.png
+    - $031/4.png
 
 - type: entity
   id: Model21827
   components:
   - type: Mesh
-    mesh: models/21827.glb
+    mesh: $21827.glb
     textures:
-    - 164/1
-    - 171/3
-    - 171/4
+    - $164/1.png
+    - $171/3.png
+    - $171/4.png
 
 - type: entity
   id: Model21828
   components:
   - type: Mesh
-    mesh: models/21828.glb
+    mesh: $21828.glb
     textures:
-    - 164/1
-    - 171/3
+    - $164/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21829
   components:
   - type: Mesh
-    mesh: models/21829.glb
+    mesh: $21829.glb
     textures:
-    - 164/1
-    - 171/3
+    - $164/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21830
   components:
   - type: Mesh
-    mesh: models/21830.glb
+    mesh: $21830.glb
     textures:
-    - 000/76
-    - 069/3
-    - 164/1
+    - $000/76.png
+    - $069/3.png
+    - $164/1.png
 
 - type: entity
   id: Model21831
   components:
   - type: Mesh
-    mesh: models/21831.glb
+    mesh: $21831.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21832
   components:
   - type: Mesh
-    mesh: models/21832.glb
+    mesh: $21832.glb
     textures:
-    - 000/76
-    - 069/3
-    - 164/1
+    - $000/76.png
+    - $069/3.png
+    - $164/1.png
 
 - type: entity
   id: Model21833
   components:
   - type: Mesh
-    mesh: models/21833.glb
+    mesh: $21833.glb
     textures:
-    - 000/76
-    - 069/3
+    - $000/76.png
+    - $069/3.png
 
 - type: entity
   id: Model21834
   components:
   - type: Mesh
-    mesh: models/21834.glb
+    mesh: $21834.glb
     textures:
-    - 171/3
+    - $171/3.png
 
 - type: entity
   id: Model21835
   components:
   - type: Mesh
-    mesh: models/21835.glb
+    mesh: $21835.glb
     textures:
-    - 171/4
+    - $171/4.png
 
 - type: entity
   id: Model21836
   components:
   - type: Mesh
-    mesh: models/21836.glb
+    mesh: $21836.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21837
   components:
   - type: Mesh
-    mesh: models/21837.glb
+    mesh: $21837.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21838
   components:
   - type: Mesh
-    mesh: models/21838.glb
+    mesh: $21838.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21839
   components:
   - type: Mesh
-    mesh: models/21839.glb
+    mesh: $21839.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21840
   components:
   - type: Mesh
-    mesh: models/21840.glb
+    mesh: $21840.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21841
   components:
   - type: Mesh
-    mesh: models/21841.glb
+    mesh: $21841.glb
     textures:
-    - 029/0
-    - 029/1
+    - $029/0.png
+    - $029/1.png
 
 - type: entity
   id: Model21842
   components:
   - type: Mesh
-    mesh: models/21842.glb
+    mesh: $21842.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21843
   components:
   - type: Mesh
-    mesh: models/21843.glb
+    mesh: $21843.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21844
   components:
   - type: Mesh
-    mesh: models/21844.glb
+    mesh: $21844.glb
     textures:
-    - 164/1
-    - 171/3
+    - $164/1.png
+    - $171/3.png
 
 - type: entity
   id: Model21845
   components:
   - type: Mesh
-    mesh: models/21845.glb
+    mesh: $21845.glb
     textures:
-    - 056/5
-    - 074/2
-    - 164/1
+    - $056/5.png
+    - $074/2.png
+    - $164/1.png
 
 - type: entity
   id: Model21846
   components:
   - type: Mesh
-    mesh: models/21846.glb
+    mesh: $21846.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21847
   components:
   - type: Mesh
-    mesh: models/21847.glb
+    mesh: $21847.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21848
   components:
   - type: Mesh
-    mesh: models/21848.glb
+    mesh: $21848.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21849
   components:
   - type: Mesh
-    mesh: models/21849.glb
+    mesh: $21849.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21850
   components:
   - type: Mesh
-    mesh: models/21850.glb
+    mesh: $21850.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21851
   components:
   - type: Mesh
-    mesh: models/21851.glb
+    mesh: $21851.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21852
   components:
   - type: Mesh
-    mesh: models/21852.glb
+    mesh: $21852.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21853
   components:
   - type: Mesh
-    mesh: models/21853.glb
+    mesh: $21853.glb
     textures:
-    - 164/2
-    - 171/3
+    - $164/2.png
+    - $171/3.png
 
 - type: entity
   id: Model21854
   components:
   - type: Mesh
-    mesh: models/21854.glb
+    mesh: $21854.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21855
   components:
   - type: Mesh
-    mesh: models/21855.glb
+    mesh: $21855.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21856
   components:
   - type: Mesh
-    mesh: models/21856.glb
+    mesh: $21856.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21857
   components:
   - type: Mesh
-    mesh: models/21857.glb
+    mesh: $21857.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21858
   components:
   - type: Mesh
-    mesh: models/21858.glb
+    mesh: $21858.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21859
   components:
   - type: Mesh
-    mesh: models/21859.glb
+    mesh: $21859.glb
     textures:
-    - 006/1
-    - 006/2
-    - 006/3
+    - $006/1.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model21860
   components:
   - type: Mesh
-    mesh: models/21860.glb
+    mesh: $21860.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21861
   components:
   - type: Mesh
-    mesh: models/21861.glb
+    mesh: $21861.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21862
   components:
   - type: Mesh
-    mesh: models/21862.glb
+    mesh: $21862.glb
     textures:
-    - 164/1
+    - $164/1.png
 
 - type: entity
   id: Model21863
   components:
   - type: Mesh
-    mesh: models/21863.glb
+    mesh: $21863.glb
     textures:
-    - 006/0
-    - 006/2
-    - 006/3
+    - $006/0.png
+    - $006/2.png
+    - $006/3.png
 
 - type: entity
   id: Model22000
   components:
   - type: Mesh
-    mesh: models/22000.glb
+    mesh: $22000.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22001
   components:
   - type: Mesh
-    mesh: models/22001.glb
+    mesh: $22001.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22002
   components:
   - type: Mesh
-    mesh: models/22002.glb
+    mesh: $22002.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22003
   components:
   - type: Mesh
-    mesh: models/22003.glb
+    mesh: $22003.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22004
   components:
   - type: Mesh
-    mesh: models/22004.glb
+    mesh: $22004.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22005
   components:
   - type: Mesh
-    mesh: models/22005.glb
+    mesh: $22005.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22006
   components:
   - type: Mesh
-    mesh: models/22006.glb
+    mesh: $22006.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22007
   components:
   - type: Mesh
-    mesh: models/22007.glb
+    mesh: $22007.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22008
   components:
   - type: Mesh
-    mesh: models/22008.glb
+    mesh: $22008.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22009
   components:
   - type: Mesh
-    mesh: models/22009.glb
+    mesh: $22009.glb
     textures:
-    - 069/3
-    - 112/1
+    - $069/3.png
+    - $112/1.png
 
 - type: entity
   id: Model22010
   components:
   - type: Mesh
-    mesh: models/22010.glb
+    mesh: $22010.glb
     textures:
-    - 112/1
-    - 169/0
+    - $112/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22011
   components:
   - type: Mesh
-    mesh: models/22011.glb
+    mesh: $22011.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22012
   components:
   - type: Mesh
-    mesh: models/22012.glb
+    mesh: $22012.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22013
   components:
   - type: Mesh
-    mesh: models/22013.glb
+    mesh: $22013.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22014
   components:
   - type: Mesh
-    mesh: models/22014.glb
+    mesh: $22014.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22015
   components:
   - type: Mesh
-    mesh: models/22015.glb
+    mesh: $22015.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22016
   components:
   - type: Mesh
-    mesh: models/22016.glb
+    mesh: $22016.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22017
   components:
   - type: Mesh
-    mesh: models/22017.glb
+    mesh: $22017.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22018
   components:
   - type: Mesh
-    mesh: models/22018.glb
+    mesh: $22018.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22019
   components:
   - type: Mesh
-    mesh: models/22019.glb
+    mesh: $22019.glb
     textures:
-    - 069/3
-    - 112/1
+    - $069/3.png
+    - $112/1.png
 
 - type: entity
   id: Model22020
   components:
   - type: Mesh
-    mesh: models/22020.glb
+    mesh: $22020.glb
     textures:
-    - 069/3
-    - 112/1
+    - $069/3.png
+    - $112/1.png
 
 - type: entity
   id: Model22021
   components:
   - type: Mesh
-    mesh: models/22021.glb
+    mesh: $22021.glb
     textures:
-    - 112/1
-    - 169/0
+    - $112/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22022
   components:
   - type: Mesh
-    mesh: models/22022.glb
+    mesh: $22022.glb
     textures:
-    - 112/1
-    - 169/0
+    - $112/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22023
   components:
   - type: Mesh
-    mesh: models/22023.glb
+    mesh: $22023.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22024
   components:
   - type: Mesh
-    mesh: models/22024.glb
+    mesh: $22024.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22025
   components:
   - type: Mesh
-    mesh: models/22025.glb
+    mesh: $22025.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22026
   components:
   - type: Mesh
-    mesh: models/22026.glb
+    mesh: $22026.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22027
   components:
   - type: Mesh
-    mesh: models/22027.glb
+    mesh: $22027.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22028
   components:
   - type: Mesh
-    mesh: models/22028.glb
+    mesh: $22028.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22029
   components:
   - type: Mesh
-    mesh: models/22029.glb
+    mesh: $22029.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22030
   components:
   - type: Mesh
-    mesh: models/22030.glb
+    mesh: $22030.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22031
   components:
   - type: Mesh
-    mesh: models/22031.glb
+    mesh: $22031.glb
     textures:
-    - 069/3
-    - 112/1
+    - $069/3.png
+    - $112/1.png
 
 - type: entity
   id: Model22032
   components:
   - type: Mesh
-    mesh: models/22032.glb
+    mesh: $22032.glb
     textures:
-    - 069/3
-    - 112/1
+    - $069/3.png
+    - $112/1.png
 
 - type: entity
   id: Model22033
   components:
   - type: Mesh
-    mesh: models/22033.glb
+    mesh: $22033.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22034
   components:
   - type: Mesh
-    mesh: models/22034.glb
+    mesh: $22034.glb
     textures:
-    - 112/3
-    - 169/0
+    - $112/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22035
   components:
   - type: Mesh
-    mesh: models/22035.glb
+    mesh: $22035.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22036
   components:
   - type: Mesh
-    mesh: models/22036.glb
+    mesh: $22036.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22100
   components:
   - type: Mesh
-    mesh: models/22100.glb
+    mesh: $22100.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22101
   components:
   - type: Mesh
-    mesh: models/22101.glb
+    mesh: $22101.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22102
   components:
   - type: Mesh
-    mesh: models/22102.glb
+    mesh: $22102.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22103
   components:
   - type: Mesh
-    mesh: models/22103.glb
+    mesh: $22103.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22104
   components:
   - type: Mesh
-    mesh: models/22104.glb
+    mesh: $22104.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22105
   components:
   - type: Mesh
-    mesh: models/22105.glb
+    mesh: $22105.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22106
   components:
   - type: Mesh
-    mesh: models/22106.glb
+    mesh: $22106.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22107
   components:
   - type: Mesh
-    mesh: models/22107.glb
+    mesh: $22107.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22108
   components:
   - type: Mesh
-    mesh: models/22108.glb
+    mesh: $22108.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22109
   components:
   - type: Mesh
-    mesh: models/22109.glb
+    mesh: $22109.glb
     textures:
-    - 069/3
-    - 114/1
+    - $069/3.png
+    - $114/1.png
 
 - type: entity
   id: Model22110
   components:
   - type: Mesh
-    mesh: models/22110.glb
+    mesh: $22110.glb
     textures:
-    - 114/1
-    - 169/0
+    - $114/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22111
   components:
   - type: Mesh
-    mesh: models/22111.glb
+    mesh: $22111.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22112
   components:
   - type: Mesh
-    mesh: models/22112.glb
+    mesh: $22112.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22113
   components:
   - type: Mesh
-    mesh: models/22113.glb
+    mesh: $22113.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22114
   components:
   - type: Mesh
-    mesh: models/22114.glb
+    mesh: $22114.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22115
   components:
   - type: Mesh
-    mesh: models/22115.glb
+    mesh: $22115.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22116
   components:
   - type: Mesh
-    mesh: models/22116.glb
+    mesh: $22116.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22117
   components:
   - type: Mesh
-    mesh: models/22117.glb
+    mesh: $22117.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22118
   components:
   - type: Mesh
-    mesh: models/22118.glb
+    mesh: $22118.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22119
   components:
   - type: Mesh
-    mesh: models/22119.glb
+    mesh: $22119.glb
     textures:
-    - 069/3
-    - 114/1
+    - $069/3.png
+    - $114/1.png
 
 - type: entity
   id: Model22120
   components:
   - type: Mesh
-    mesh: models/22120.glb
+    mesh: $22120.glb
     textures:
-    - 069/3
-    - 114/1
+    - $069/3.png
+    - $114/1.png
 
 - type: entity
   id: Model22121
   components:
   - type: Mesh
-    mesh: models/22121.glb
+    mesh: $22121.glb
     textures:
-    - 114/1
-    - 169/0
+    - $114/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22122
   components:
   - type: Mesh
-    mesh: models/22122.glb
+    mesh: $22122.glb
     textures:
-    - 114/1
-    - 169/0
+    - $114/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22123
   components:
   - type: Mesh
-    mesh: models/22123.glb
+    mesh: $22123.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22124
   components:
   - type: Mesh
-    mesh: models/22124.glb
+    mesh: $22124.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22125
   components:
   - type: Mesh
-    mesh: models/22125.glb
+    mesh: $22125.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22126
   components:
   - type: Mesh
-    mesh: models/22126.glb
+    mesh: $22126.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22127
   components:
   - type: Mesh
-    mesh: models/22127.glb
+    mesh: $22127.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22128
   components:
   - type: Mesh
-    mesh: models/22128.glb
+    mesh: $22128.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22129
   components:
   - type: Mesh
-    mesh: models/22129.glb
+    mesh: $22129.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22130
   components:
   - type: Mesh
-    mesh: models/22130.glb
+    mesh: $22130.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22131
   components:
   - type: Mesh
-    mesh: models/22131.glb
+    mesh: $22131.glb
     textures:
-    - 069/3
-    - 114/1
+    - $069/3.png
+    - $114/1.png
 
 - type: entity
   id: Model22132
   components:
   - type: Mesh
-    mesh: models/22132.glb
+    mesh: $22132.glb
     textures:
-    - 069/3
-    - 114/1
+    - $069/3.png
+    - $114/1.png
 
 - type: entity
   id: Model22133
   components:
   - type: Mesh
-    mesh: models/22133.glb
+    mesh: $22133.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22134
   components:
   - type: Mesh
-    mesh: models/22134.glb
+    mesh: $22134.glb
     textures:
-    - 114/3
-    - 169/0
+    - $114/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22135
   components:
   - type: Mesh
-    mesh: models/22135.glb
+    mesh: $22135.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22136
   components:
   - type: Mesh
-    mesh: models/22136.glb
+    mesh: $22136.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22200
   components:
   - type: Mesh
-    mesh: models/22200.glb
+    mesh: $22200.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22201
   components:
   - type: Mesh
-    mesh: models/22201.glb
+    mesh: $22201.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22202
   components:
   - type: Mesh
-    mesh: models/22202.glb
+    mesh: $22202.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22203
   components:
   - type: Mesh
-    mesh: models/22203.glb
+    mesh: $22203.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22204
   components:
   - type: Mesh
-    mesh: models/22204.glb
+    mesh: $22204.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22205
   components:
   - type: Mesh
-    mesh: models/22205.glb
+    mesh: $22205.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22206
   components:
   - type: Mesh
-    mesh: models/22206.glb
+    mesh: $22206.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22207
   components:
   - type: Mesh
-    mesh: models/22207.glb
+    mesh: $22207.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22208
   components:
   - type: Mesh
-    mesh: models/22208.glb
+    mesh: $22208.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22209
   components:
   - type: Mesh
-    mesh: models/22209.glb
+    mesh: $22209.glb
     textures:
-    - 069/3
-    - 126/1
+    - $069/3.png
+    - $126/1.png
 
 - type: entity
   id: Model22210
   components:
   - type: Mesh
-    mesh: models/22210.glb
+    mesh: $22210.glb
     textures:
-    - 126/1
-    - 169/0
+    - $126/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22211
   components:
   - type: Mesh
-    mesh: models/22211.glb
+    mesh: $22211.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22212
   components:
   - type: Mesh
-    mesh: models/22212.glb
+    mesh: $22212.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22213
   components:
   - type: Mesh
-    mesh: models/22213.glb
+    mesh: $22213.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22214
   components:
   - type: Mesh
-    mesh: models/22214.glb
+    mesh: $22214.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22215
   components:
   - type: Mesh
-    mesh: models/22215.glb
+    mesh: $22215.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22216
   components:
   - type: Mesh
-    mesh: models/22216.glb
+    mesh: $22216.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22217
   components:
   - type: Mesh
-    mesh: models/22217.glb
+    mesh: $22217.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22218
   components:
   - type: Mesh
-    mesh: models/22218.glb
+    mesh: $22218.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22219
   components:
   - type: Mesh
-    mesh: models/22219.glb
+    mesh: $22219.glb
     textures:
-    - 069/3
-    - 126/1
+    - $069/3.png
+    - $126/1.png
 
 - type: entity
   id: Model22220
   components:
   - type: Mesh
-    mesh: models/22220.glb
+    mesh: $22220.glb
     textures:
-    - 069/3
-    - 126/1
+    - $069/3.png
+    - $126/1.png
 
 - type: entity
   id: Model22221
   components:
   - type: Mesh
-    mesh: models/22221.glb
+    mesh: $22221.glb
     textures:
-    - 126/1
-    - 169/0
+    - $126/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22222
   components:
   - type: Mesh
-    mesh: models/22222.glb
+    mesh: $22222.glb
     textures:
-    - 126/1
-    - 169/0
+    - $126/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22223
   components:
   - type: Mesh
-    mesh: models/22223.glb
+    mesh: $22223.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22224
   components:
   - type: Mesh
-    mesh: models/22224.glb
+    mesh: $22224.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22225
   components:
   - type: Mesh
-    mesh: models/22225.glb
+    mesh: $22225.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22226
   components:
   - type: Mesh
-    mesh: models/22226.glb
+    mesh: $22226.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22227
   components:
   - type: Mesh
-    mesh: models/22227.glb
+    mesh: $22227.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22228
   components:
   - type: Mesh
-    mesh: models/22228.glb
+    mesh: $22228.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22229
   components:
   - type: Mesh
-    mesh: models/22229.glb
+    mesh: $22229.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22230
   components:
   - type: Mesh
-    mesh: models/22230.glb
+    mesh: $22230.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22231
   components:
   - type: Mesh
-    mesh: models/22231.glb
+    mesh: $22231.glb
     textures:
-    - 069/3
-    - 126/1
+    - $069/3.png
+    - $126/1.png
 
 - type: entity
   id: Model22232
   components:
   - type: Mesh
-    mesh: models/22232.glb
+    mesh: $22232.glb
     textures:
-    - 069/3
-    - 126/1
+    - $069/3.png
+    - $126/1.png
 
 - type: entity
   id: Model22233
   components:
   - type: Mesh
-    mesh: models/22233.glb
+    mesh: $22233.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22234
   components:
   - type: Mesh
-    mesh: models/22234.glb
+    mesh: $22234.glb
     textures:
-    - 126/3
-    - 169/0
+    - $126/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22235
   components:
   - type: Mesh
-    mesh: models/22235.glb
+    mesh: $22235.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22236
   components:
   - type: Mesh
-    mesh: models/22236.glb
+    mesh: $22236.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22300
   components:
   - type: Mesh
-    mesh: models/22300.glb
+    mesh: $22300.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22301
   components:
   - type: Mesh
-    mesh: models/22301.glb
+    mesh: $22301.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22302
   components:
   - type: Mesh
-    mesh: models/22302.glb
+    mesh: $22302.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22303
   components:
   - type: Mesh
-    mesh: models/22303.glb
+    mesh: $22303.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22304
   components:
   - type: Mesh
-    mesh: models/22304.glb
+    mesh: $22304.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22305
   components:
   - type: Mesh
-    mesh: models/22305.glb
+    mesh: $22305.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22306
   components:
   - type: Mesh
-    mesh: models/22306.glb
+    mesh: $22306.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22307
   components:
   - type: Mesh
-    mesh: models/22307.glb
+    mesh: $22307.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22308
   components:
   - type: Mesh
-    mesh: models/22308.glb
+    mesh: $22308.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22309
   components:
   - type: Mesh
-    mesh: models/22309.glb
+    mesh: $22309.glb
     textures:
-    - 069/3
-    - 135/1
+    - $069/3.png
+    - $135/1.png
 
 - type: entity
   id: Model22310
   components:
   - type: Mesh
-    mesh: models/22310.glb
+    mesh: $22310.glb
     textures:
-    - 135/1
-    - 169/0
+    - $135/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22311
   components:
   - type: Mesh
-    mesh: models/22311.glb
+    mesh: $22311.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22312
   components:
   - type: Mesh
-    mesh: models/22312.glb
+    mesh: $22312.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22313
   components:
   - type: Mesh
-    mesh: models/22313.glb
+    mesh: $22313.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22314
   components:
   - type: Mesh
-    mesh: models/22314.glb
+    mesh: $22314.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22315
   components:
   - type: Mesh
-    mesh: models/22315.glb
+    mesh: $22315.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22316
   components:
   - type: Mesh
-    mesh: models/22316.glb
+    mesh: $22316.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22317
   components:
   - type: Mesh
-    mesh: models/22317.glb
+    mesh: $22317.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22318
   components:
   - type: Mesh
-    mesh: models/22318.glb
+    mesh: $22318.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22319
   components:
   - type: Mesh
-    mesh: models/22319.glb
+    mesh: $22319.glb
     textures:
-    - 069/3
-    - 135/1
+    - $069/3.png
+    - $135/1.png
 
 - type: entity
   id: Model22320
   components:
   - type: Mesh
-    mesh: models/22320.glb
+    mesh: $22320.glb
     textures:
-    - 069/3
-    - 135/1
+    - $069/3.png
+    - $135/1.png
 
 - type: entity
   id: Model22321
   components:
   - type: Mesh
-    mesh: models/22321.glb
+    mesh: $22321.glb
     textures:
-    - 135/1
-    - 169/0
+    - $135/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22322
   components:
   - type: Mesh
-    mesh: models/22322.glb
+    mesh: $22322.glb
     textures:
-    - 135/1
-    - 169/0
+    - $135/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22323
   components:
   - type: Mesh
-    mesh: models/22323.glb
+    mesh: $22323.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22324
   components:
   - type: Mesh
-    mesh: models/22324.glb
+    mesh: $22324.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22325
   components:
   - type: Mesh
-    mesh: models/22325.glb
+    mesh: $22325.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22326
   components:
   - type: Mesh
-    mesh: models/22326.glb
+    mesh: $22326.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22327
   components:
   - type: Mesh
-    mesh: models/22327.glb
+    mesh: $22327.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22328
   components:
   - type: Mesh
-    mesh: models/22328.glb
+    mesh: $22328.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22329
   components:
   - type: Mesh
-    mesh: models/22329.glb
+    mesh: $22329.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22330
   components:
   - type: Mesh
-    mesh: models/22330.glb
+    mesh: $22330.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22331
   components:
   - type: Mesh
-    mesh: models/22331.glb
+    mesh: $22331.glb
     textures:
-    - 069/3
-    - 135/1
+    - $069/3.png
+    - $135/1.png
 
 - type: entity
   id: Model22332
   components:
   - type: Mesh
-    mesh: models/22332.glb
+    mesh: $22332.glb
     textures:
-    - 069/3
-    - 135/1
+    - $069/3.png
+    - $135/1.png
 
 - type: entity
   id: Model22333
   components:
   - type: Mesh
-    mesh: models/22333.glb
+    mesh: $22333.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22334
   components:
   - type: Mesh
-    mesh: models/22334.glb
+    mesh: $22334.glb
     textures:
-    - 135/3
-    - 169/0
+    - $135/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22335
   components:
   - type: Mesh
-    mesh: models/22335.glb
+    mesh: $22335.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22336
   components:
   - type: Mesh
-    mesh: models/22336.glb
+    mesh: $22336.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22400
   components:
   - type: Mesh
-    mesh: models/22400.glb
+    mesh: $22400.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22401
   components:
   - type: Mesh
-    mesh: models/22401.glb
+    mesh: $22401.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22402
   components:
   - type: Mesh
-    mesh: models/22402.glb
+    mesh: $22402.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22403
   components:
   - type: Mesh
-    mesh: models/22403.glb
+    mesh: $22403.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22404
   components:
   - type: Mesh
-    mesh: models/22404.glb
+    mesh: $22404.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22405
   components:
   - type: Mesh
-    mesh: models/22405.glb
+    mesh: $22405.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22406
   components:
   - type: Mesh
-    mesh: models/22406.glb
+    mesh: $22406.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22407
   components:
   - type: Mesh
-    mesh: models/22407.glb
+    mesh: $22407.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22408
   components:
   - type: Mesh
-    mesh: models/22408.glb
+    mesh: $22408.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22409
   components:
   - type: Mesh
-    mesh: models/22409.glb
+    mesh: $22409.glb
     textures:
-    - 069/3
-    - 138/1
+    - $069/3.png
+    - $138/1.png
 
 - type: entity
   id: Model22410
   components:
   - type: Mesh
-    mesh: models/22410.glb
+    mesh: $22410.glb
     textures:
-    - 138/1
-    - 169/0
+    - $138/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22411
   components:
   - type: Mesh
-    mesh: models/22411.glb
+    mesh: $22411.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22412
   components:
   - type: Mesh
-    mesh: models/22412.glb
+    mesh: $22412.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22413
   components:
   - type: Mesh
-    mesh: models/22413.glb
+    mesh: $22413.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22414
   components:
   - type: Mesh
-    mesh: models/22414.glb
+    mesh: $22414.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22415
   components:
   - type: Mesh
-    mesh: models/22415.glb
+    mesh: $22415.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22416
   components:
   - type: Mesh
-    mesh: models/22416.glb
+    mesh: $22416.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22417
   components:
   - type: Mesh
-    mesh: models/22417.glb
+    mesh: $22417.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22418
   components:
   - type: Mesh
-    mesh: models/22418.glb
+    mesh: $22418.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22419
   components:
   - type: Mesh
-    mesh: models/22419.glb
+    mesh: $22419.glb
     textures:
-    - 069/3
-    - 138/1
+    - $069/3.png
+    - $138/1.png
 
 - type: entity
   id: Model22420
   components:
   - type: Mesh
-    mesh: models/22420.glb
+    mesh: $22420.glb
     textures:
-    - 069/3
-    - 138/1
+    - $069/3.png
+    - $138/1.png
 
 - type: entity
   id: Model22421
   components:
   - type: Mesh
-    mesh: models/22421.glb
+    mesh: $22421.glb
     textures:
-    - 138/1
-    - 169/0
+    - $138/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22422
   components:
   - type: Mesh
-    mesh: models/22422.glb
+    mesh: $22422.glb
     textures:
-    - 138/1
-    - 169/0
+    - $138/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22423
   components:
   - type: Mesh
-    mesh: models/22423.glb
+    mesh: $22423.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22424
   components:
   - type: Mesh
-    mesh: models/22424.glb
+    mesh: $22424.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22425
   components:
   - type: Mesh
-    mesh: models/22425.glb
+    mesh: $22425.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22426
   components:
   - type: Mesh
-    mesh: models/22426.glb
+    mesh: $22426.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22427
   components:
   - type: Mesh
-    mesh: models/22427.glb
+    mesh: $22427.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22428
   components:
   - type: Mesh
-    mesh: models/22428.glb
+    mesh: $22428.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22429
   components:
   - type: Mesh
-    mesh: models/22429.glb
+    mesh: $22429.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22430
   components:
   - type: Mesh
-    mesh: models/22430.glb
+    mesh: $22430.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22431
   components:
   - type: Mesh
-    mesh: models/22431.glb
+    mesh: $22431.glb
     textures:
-    - 069/3
-    - 138/1
+    - $069/3.png
+    - $138/1.png
 
 - type: entity
   id: Model22432
   components:
   - type: Mesh
-    mesh: models/22432.glb
+    mesh: $22432.glb
     textures:
-    - 069/3
-    - 138/1
+    - $069/3.png
+    - $138/1.png
 
 - type: entity
   id: Model22433
   components:
   - type: Mesh
-    mesh: models/22433.glb
+    mesh: $22433.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22434
   components:
   - type: Mesh
-    mesh: models/22434.glb
+    mesh: $22434.glb
     textures:
-    - 138/3
-    - 169/0
+    - $138/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22435
   components:
   - type: Mesh
-    mesh: models/22435.glb
+    mesh: $22435.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22436
   components:
   - type: Mesh
-    mesh: models/22436.glb
+    mesh: $22436.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22500
   components:
   - type: Mesh
-    mesh: models/22500.glb
+    mesh: $22500.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22501
   components:
   - type: Mesh
-    mesh: models/22501.glb
+    mesh: $22501.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22502
   components:
   - type: Mesh
-    mesh: models/22502.glb
+    mesh: $22502.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22503
   components:
   - type: Mesh
-    mesh: models/22503.glb
+    mesh: $22503.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22504
   components:
   - type: Mesh
-    mesh: models/22504.glb
+    mesh: $22504.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22505
   components:
   - type: Mesh
-    mesh: models/22505.glb
+    mesh: $22505.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22506
   components:
   - type: Mesh
-    mesh: models/22506.glb
+    mesh: $22506.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22507
   components:
   - type: Mesh
-    mesh: models/22507.glb
+    mesh: $22507.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22508
   components:
   - type: Mesh
-    mesh: models/22508.glb
+    mesh: $22508.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22509
   components:
   - type: Mesh
-    mesh: models/22509.glb
+    mesh: $22509.glb
     textures:
-    - 069/3
-    - 142/1
+    - $069/3.png
+    - $142/1.png
 
 - type: entity
   id: Model22510
   components:
   - type: Mesh
-    mesh: models/22510.glb
+    mesh: $22510.glb
     textures:
-    - 142/1
-    - 169/0
+    - $142/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22511
   components:
   - type: Mesh
-    mesh: models/22511.glb
+    mesh: $22511.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22512
   components:
   - type: Mesh
-    mesh: models/22512.glb
+    mesh: $22512.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22513
   components:
   - type: Mesh
-    mesh: models/22513.glb
+    mesh: $22513.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22514
   components:
   - type: Mesh
-    mesh: models/22514.glb
+    mesh: $22514.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22515
   components:
   - type: Mesh
-    mesh: models/22515.glb
+    mesh: $22515.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22516
   components:
   - type: Mesh
-    mesh: models/22516.glb
+    mesh: $22516.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22517
   components:
   - type: Mesh
-    mesh: models/22517.glb
+    mesh: $22517.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22518
   components:
   - type: Mesh
-    mesh: models/22518.glb
+    mesh: $22518.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22519
   components:
   - type: Mesh
-    mesh: models/22519.glb
+    mesh: $22519.glb
     textures:
-    - 069/3
-    - 142/1
+    - $069/3.png
+    - $142/1.png
 
 - type: entity
   id: Model22520
   components:
   - type: Mesh
-    mesh: models/22520.glb
+    mesh: $22520.glb
     textures:
-    - 069/3
-    - 142/1
+    - $069/3.png
+    - $142/1.png
 
 - type: entity
   id: Model22521
   components:
   - type: Mesh
-    mesh: models/22521.glb
+    mesh: $22521.glb
     textures:
-    - 142/1
-    - 169/0
+    - $142/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22522
   components:
   - type: Mesh
-    mesh: models/22522.glb
+    mesh: $22522.glb
     textures:
-    - 142/1
-    - 169/0
+    - $142/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22523
   components:
   - type: Mesh
-    mesh: models/22523.glb
+    mesh: $22523.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22524
   components:
   - type: Mesh
-    mesh: models/22524.glb
+    mesh: $22524.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22525
   components:
   - type: Mesh
-    mesh: models/22525.glb
+    mesh: $22525.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22526
   components:
   - type: Mesh
-    mesh: models/22526.glb
+    mesh: $22526.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22527
   components:
   - type: Mesh
-    mesh: models/22527.glb
+    mesh: $22527.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22528
   components:
   - type: Mesh
-    mesh: models/22528.glb
+    mesh: $22528.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22529
   components:
   - type: Mesh
-    mesh: models/22529.glb
+    mesh: $22529.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22530
   components:
   - type: Mesh
-    mesh: models/22530.glb
+    mesh: $22530.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22531
   components:
   - type: Mesh
-    mesh: models/22531.glb
+    mesh: $22531.glb
     textures:
-    - 069/3
-    - 142/1
+    - $069/3.png
+    - $142/1.png
 
 - type: entity
   id: Model22532
   components:
   - type: Mesh
-    mesh: models/22532.glb
+    mesh: $22532.glb
     textures:
-    - 069/3
-    - 142/1
+    - $069/3.png
+    - $142/1.png
 
 - type: entity
   id: Model22533
   components:
   - type: Mesh
-    mesh: models/22533.glb
+    mesh: $22533.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22534
   components:
   - type: Mesh
-    mesh: models/22534.glb
+    mesh: $22534.glb
     textures:
-    - 142/3
-    - 169/0
+    - $142/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22535
   components:
   - type: Mesh
-    mesh: models/22535.glb
+    mesh: $22535.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22536
   components:
   - type: Mesh
-    mesh: models/22536.glb
+    mesh: $22536.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22600
   components:
   - type: Mesh
-    mesh: models/22600.glb
+    mesh: $22600.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22601
   components:
   - type: Mesh
-    mesh: models/22601.glb
+    mesh: $22601.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22602
   components:
   - type: Mesh
-    mesh: models/22602.glb
+    mesh: $22602.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22603
   components:
   - type: Mesh
-    mesh: models/22603.glb
+    mesh: $22603.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22604
   components:
   - type: Mesh
-    mesh: models/22604.glb
+    mesh: $22604.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22605
   components:
   - type: Mesh
-    mesh: models/22605.glb
+    mesh: $22605.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22606
   components:
   - type: Mesh
-    mesh: models/22606.glb
+    mesh: $22606.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22607
   components:
   - type: Mesh
-    mesh: models/22607.glb
+    mesh: $22607.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22608
   components:
   - type: Mesh
-    mesh: models/22608.glb
+    mesh: $22608.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22609
   components:
   - type: Mesh
-    mesh: models/22609.glb
+    mesh: $22609.glb
     textures:
-    - 069/3
-    - 158/1
+    - $069/3.png
+    - $158/1.png
 
 - type: entity
   id: Model22610
   components:
   - type: Mesh
-    mesh: models/22610.glb
+    mesh: $22610.glb
     textures:
-    - 158/1
-    - 169/0
+    - $158/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22611
   components:
   - type: Mesh
-    mesh: models/22611.glb
+    mesh: $22611.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22612
   components:
   - type: Mesh
-    mesh: models/22612.glb
+    mesh: $22612.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22613
   components:
   - type: Mesh
-    mesh: models/22613.glb
+    mesh: $22613.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22614
   components:
   - type: Mesh
-    mesh: models/22614.glb
+    mesh: $22614.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22615
   components:
   - type: Mesh
-    mesh: models/22615.glb
+    mesh: $22615.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22616
   components:
   - type: Mesh
-    mesh: models/22616.glb
+    mesh: $22616.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22617
   components:
   - type: Mesh
-    mesh: models/22617.glb
+    mesh: $22617.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22618
   components:
   - type: Mesh
-    mesh: models/22618.glb
+    mesh: $22618.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22619
   components:
   - type: Mesh
-    mesh: models/22619.glb
+    mesh: $22619.glb
     textures:
-    - 069/3
-    - 158/1
+    - $069/3.png
+    - $158/1.png
 
 - type: entity
   id: Model22620
   components:
   - type: Mesh
-    mesh: models/22620.glb
+    mesh: $22620.glb
     textures:
-    - 069/3
-    - 158/1
+    - $069/3.png
+    - $158/1.png
 
 - type: entity
   id: Model22621
   components:
   - type: Mesh
-    mesh: models/22621.glb
+    mesh: $22621.glb
     textures:
-    - 158/1
-    - 169/0
+    - $158/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22622
   components:
   - type: Mesh
-    mesh: models/22622.glb
+    mesh: $22622.glb
     textures:
-    - 158/1
-    - 169/0
+    - $158/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22623
   components:
   - type: Mesh
-    mesh: models/22623.glb
+    mesh: $22623.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22624
   components:
   - type: Mesh
-    mesh: models/22624.glb
+    mesh: $22624.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22625
   components:
   - type: Mesh
-    mesh: models/22625.glb
+    mesh: $22625.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22626
   components:
   - type: Mesh
-    mesh: models/22626.glb
+    mesh: $22626.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22627
   components:
   - type: Mesh
-    mesh: models/22627.glb
+    mesh: $22627.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22628
   components:
   - type: Mesh
-    mesh: models/22628.glb
+    mesh: $22628.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22629
   components:
   - type: Mesh
-    mesh: models/22629.glb
+    mesh: $22629.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22630
   components:
   - type: Mesh
-    mesh: models/22630.glb
+    mesh: $22630.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22631
   components:
   - type: Mesh
-    mesh: models/22631.glb
+    mesh: $22631.glb
     textures:
-    - 069/3
-    - 158/1
+    - $069/3.png
+    - $158/1.png
 
 - type: entity
   id: Model22632
   components:
   - type: Mesh
-    mesh: models/22632.glb
+    mesh: $22632.glb
     textures:
-    - 069/3
-    - 158/1
+    - $069/3.png
+    - $158/1.png
 
 - type: entity
   id: Model22633
   components:
   - type: Mesh
-    mesh: models/22633.glb
+    mesh: $22633.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22634
   components:
   - type: Mesh
-    mesh: models/22634.glb
+    mesh: $22634.glb
     textures:
-    - 158/3
-    - 169/0
+    - $158/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22635
   components:
   - type: Mesh
-    mesh: models/22635.glb
+    mesh: $22635.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22636
   components:
   - type: Mesh
-    mesh: models/22636.glb
+    mesh: $22636.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22700
   components:
   - type: Mesh
-    mesh: models/22700.glb
+    mesh: $22700.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22701
   components:
   - type: Mesh
-    mesh: models/22701.glb
+    mesh: $22701.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22702
   components:
   - type: Mesh
-    mesh: models/22702.glb
+    mesh: $22702.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22703
   components:
   - type: Mesh
-    mesh: models/22703.glb
+    mesh: $22703.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22704
   components:
   - type: Mesh
-    mesh: models/22704.glb
+    mesh: $22704.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22705
   components:
   - type: Mesh
-    mesh: models/22705.glb
+    mesh: $22705.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22706
   components:
   - type: Mesh
-    mesh: models/22706.glb
+    mesh: $22706.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22707
   components:
   - type: Mesh
-    mesh: models/22707.glb
+    mesh: $22707.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22708
   components:
   - type: Mesh
-    mesh: models/22708.glb
+    mesh: $22708.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22709
   components:
   - type: Mesh
-    mesh: models/22709.glb
+    mesh: $22709.glb
     textures:
-    - 069/3
-    - 161/1
+    - $069/3.png
+    - $161/1.png
 
 - type: entity
   id: Model22710
   components:
   - type: Mesh
-    mesh: models/22710.glb
+    mesh: $22710.glb
     textures:
-    - 161/1
-    - 169/0
+    - $161/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22711
   components:
   - type: Mesh
-    mesh: models/22711.glb
+    mesh: $22711.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22712
   components:
   - type: Mesh
-    mesh: models/22712.glb
+    mesh: $22712.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22713
   components:
   - type: Mesh
-    mesh: models/22713.glb
+    mesh: $22713.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22714
   components:
   - type: Mesh
-    mesh: models/22714.glb
+    mesh: $22714.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22715
   components:
   - type: Mesh
-    mesh: models/22715.glb
+    mesh: $22715.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22716
   components:
   - type: Mesh
-    mesh: models/22716.glb
+    mesh: $22716.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22717
   components:
   - type: Mesh
-    mesh: models/22717.glb
+    mesh: $22717.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22718
   components:
   - type: Mesh
-    mesh: models/22718.glb
+    mesh: $22718.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22719
   components:
   - type: Mesh
-    mesh: models/22719.glb
+    mesh: $22719.glb
     textures:
-    - 069/3
-    - 161/1
+    - $069/3.png
+    - $161/1.png
 
 - type: entity
   id: Model22720
   components:
   - type: Mesh
-    mesh: models/22720.glb
+    mesh: $22720.glb
     textures:
-    - 069/3
-    - 161/1
+    - $069/3.png
+    - $161/1.png
 
 - type: entity
   id: Model22721
   components:
   - type: Mesh
-    mesh: models/22721.glb
+    mesh: $22721.glb
     textures:
-    - 161/1
-    - 169/0
+    - $161/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22722
   components:
   - type: Mesh
-    mesh: models/22722.glb
+    mesh: $22722.glb
     textures:
-    - 161/1
-    - 169/0
+    - $161/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22723
   components:
   - type: Mesh
-    mesh: models/22723.glb
+    mesh: $22723.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22724
   components:
   - type: Mesh
-    mesh: models/22724.glb
+    mesh: $22724.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22725
   components:
   - type: Mesh
-    mesh: models/22725.glb
+    mesh: $22725.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22726
   components:
   - type: Mesh
-    mesh: models/22726.glb
+    mesh: $22726.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22727
   components:
   - type: Mesh
-    mesh: models/22727.glb
+    mesh: $22727.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22728
   components:
   - type: Mesh
-    mesh: models/22728.glb
+    mesh: $22728.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22729
   components:
   - type: Mesh
-    mesh: models/22729.glb
+    mesh: $22729.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22730
   components:
   - type: Mesh
-    mesh: models/22730.glb
+    mesh: $22730.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22731
   components:
   - type: Mesh
-    mesh: models/22731.glb
+    mesh: $22731.glb
     textures:
-    - 069/3
-    - 161/1
+    - $069/3.png
+    - $161/1.png
 
 - type: entity
   id: Model22732
   components:
   - type: Mesh
-    mesh: models/22732.glb
+    mesh: $22732.glb
     textures:
-    - 069/3
-    - 161/1
+    - $069/3.png
+    - $161/1.png
 
 - type: entity
   id: Model22733
   components:
   - type: Mesh
-    mesh: models/22733.glb
+    mesh: $22733.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22734
   components:
   - type: Mesh
-    mesh: models/22734.glb
+    mesh: $22734.glb
     textures:
-    - 161/3
-    - 169/0
+    - $161/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22735
   components:
   - type: Mesh
-    mesh: models/22735.glb
+    mesh: $22735.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22736
   components:
   - type: Mesh
-    mesh: models/22736.glb
+    mesh: $22736.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22800
   components:
   - type: Mesh
-    mesh: models/22800.glb
+    mesh: $22800.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22801
   components:
   - type: Mesh
-    mesh: models/22801.glb
+    mesh: $22801.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22802
   components:
   - type: Mesh
-    mesh: models/22802.glb
+    mesh: $22802.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22803
   components:
   - type: Mesh
-    mesh: models/22803.glb
+    mesh: $22803.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22804
   components:
   - type: Mesh
-    mesh: models/22804.glb
+    mesh: $22804.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22805
   components:
   - type: Mesh
-    mesh: models/22805.glb
+    mesh: $22805.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22806
   components:
   - type: Mesh
-    mesh: models/22806.glb
+    mesh: $22806.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22807
   components:
   - type: Mesh
-    mesh: models/22807.glb
+    mesh: $22807.glb
     textures:
-    - 069/3
+    - $069/3.png
 
 - type: entity
   id: Model22808
   components:
   - type: Mesh
-    mesh: models/22808.glb
+    mesh: $22808.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22809
   components:
   - type: Mesh
-    mesh: models/22809.glb
+    mesh: $22809.glb
     textures:
-    - 069/3
-    - 164/1
+    - $069/3.png
+    - $164/1.png
 
 - type: entity
   id: Model22810
   components:
   - type: Mesh
-    mesh: models/22810.glb
+    mesh: $22810.glb
     textures:
-    - 164/1
-    - 169/0
+    - $164/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22811
   components:
   - type: Mesh
-    mesh: models/22811.glb
+    mesh: $22811.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22812
   components:
   - type: Mesh
-    mesh: models/22812.glb
+    mesh: $22812.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22813
   components:
   - type: Mesh
-    mesh: models/22813.glb
+    mesh: $22813.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22814
   components:
   - type: Mesh
-    mesh: models/22814.glb
+    mesh: $22814.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22815
   components:
   - type: Mesh
-    mesh: models/22815.glb
+    mesh: $22815.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22816
   components:
   - type: Mesh
-    mesh: models/22816.glb
+    mesh: $22816.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22817
   components:
   - type: Mesh
-    mesh: models/22817.glb
+    mesh: $22817.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22818
   components:
   - type: Mesh
-    mesh: models/22818.glb
+    mesh: $22818.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22819
   components:
   - type: Mesh
-    mesh: models/22819.glb
+    mesh: $22819.glb
     textures:
-    - 069/3
-    - 164/1
+    - $069/3.png
+    - $164/1.png
 
 - type: entity
   id: Model22820
   components:
   - type: Mesh
-    mesh: models/22820.glb
+    mesh: $22820.glb
     textures:
-    - 069/3
-    - 164/1
+    - $069/3.png
+    - $164/1.png
 
 - type: entity
   id: Model22821
   components:
   - type: Mesh
-    mesh: models/22821.glb
+    mesh: $22821.glb
     textures:
-    - 164/1
-    - 169/0
+    - $164/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22822
   components:
   - type: Mesh
-    mesh: models/22822.glb
+    mesh: $22822.glb
     textures:
-    - 164/1
-    - 169/0
+    - $164/1.png
+    - $169/0.png
 
 - type: entity
   id: Model22823
   components:
   - type: Mesh
-    mesh: models/22823.glb
+    mesh: $22823.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22824
   components:
   - type: Mesh
-    mesh: models/22824.glb
+    mesh: $22824.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22825
   components:
   - type: Mesh
-    mesh: models/22825.glb
+    mesh: $22825.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22826
   components:
   - type: Mesh
-    mesh: models/22826.glb
+    mesh: $22826.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22827
   components:
   - type: Mesh
-    mesh: models/22827.glb
+    mesh: $22827.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22828
   components:
   - type: Mesh
-    mesh: models/22828.glb
+    mesh: $22828.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22829
   components:
   - type: Mesh
-    mesh: models/22829.glb
+    mesh: $22829.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model22830
   components:
   - type: Mesh
-    mesh: models/22830.glb
+    mesh: $22830.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22831
   components:
   - type: Mesh
-    mesh: models/22831.glb
+    mesh: $22831.glb
     textures:
-    - 069/3
-    - 164/1
+    - $069/3.png
+    - $164/1.png
 
 - type: entity
   id: Model22832
   components:
   - type: Mesh
-    mesh: models/22832.glb
+    mesh: $22832.glb
     textures:
-    - 069/3
-    - 164/1
+    - $069/3.png
+    - $164/1.png
 
 - type: entity
   id: Model22833
   components:
   - type: Mesh
-    mesh: models/22833.glb
+    mesh: $22833.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22834
   components:
   - type: Mesh
-    mesh: models/22834.glb
+    mesh: $22834.glb
     textures:
-    - 164/3
-    - 169/0
+    - $164/3.png
+    - $169/0.png
 
 - type: entity
   id: Model22835
   components:
   - type: Mesh
-    mesh: models/22835.glb
+    mesh: $22835.glb
     textures:
-    - 000/50
+    - $000/50.png
 
 - type: entity
   id: Model22836
   components:
   - type: Mesh
-    mesh: models/22836.glb
+    mesh: $22836.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23000
   components:
   - type: Mesh
-    mesh: models/23000.glb
+    mesh: $23000.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23001
   components:
   - type: Mesh
-    mesh: models/23001.glb
+    mesh: $23001.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23002
   components:
   - type: Mesh
-    mesh: models/23002.glb
+    mesh: $23002.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23003
   components:
   - type: Mesh
-    mesh: models/23003.glb
+    mesh: $23003.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23004
   components:
   - type: Mesh
-    mesh: models/23004.glb
+    mesh: $23004.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23005
   components:
   - type: Mesh
-    mesh: models/23005.glb
+    mesh: $23005.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23006
   components:
   - type: Mesh
-    mesh: models/23006.glb
+    mesh: $23006.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23007
   components:
   - type: Mesh
-    mesh: models/23007.glb
+    mesh: $23007.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23008
   components:
   - type: Mesh
-    mesh: models/23008.glb
+    mesh: $23008.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23009
   components:
   - type: Mesh
-    mesh: models/23009.glb
+    mesh: $23009.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23010
   components:
   - type: Mesh
-    mesh: models/23010.glb
+    mesh: $23010.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23011
   components:
   - type: Mesh
-    mesh: models/23011.glb
+    mesh: $23011.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23012
   components:
   - type: Mesh
-    mesh: models/23012.glb
+    mesh: $23012.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23013
   components:
   - type: Mesh
-    mesh: models/23013.glb
+    mesh: $23013.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23014
   components:
   - type: Mesh
-    mesh: models/23014.glb
+    mesh: $23014.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23015
   components:
   - type: Mesh
-    mesh: models/23015.glb
+    mesh: $23015.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23016
   components:
   - type: Mesh
-    mesh: models/23016.glb
+    mesh: $23016.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23017
   components:
   - type: Mesh
-    mesh: models/23017.glb
+    mesh: $23017.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23018
   components:
   - type: Mesh
-    mesh: models/23018.glb
+    mesh: $23018.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23019
   components:
   - type: Mesh
-    mesh: models/23019.glb
+    mesh: $23019.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23100
   components:
   - type: Mesh
-    mesh: models/23100.glb
+    mesh: $23100.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23101
   components:
   - type: Mesh
-    mesh: models/23101.glb
+    mesh: $23101.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23102
   components:
   - type: Mesh
-    mesh: models/23102.glb
+    mesh: $23102.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23103
   components:
   - type: Mesh
-    mesh: models/23103.glb
+    mesh: $23103.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23104
   components:
   - type: Mesh
-    mesh: models/23104.glb
+    mesh: $23104.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23105
   components:
   - type: Mesh
-    mesh: models/23105.glb
+    mesh: $23105.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23106
   components:
   - type: Mesh
-    mesh: models/23106.glb
+    mesh: $23106.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23107
   components:
   - type: Mesh
-    mesh: models/23107.glb
+    mesh: $23107.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23108
   components:
   - type: Mesh
-    mesh: models/23108.glb
+    mesh: $23108.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23109
   components:
   - type: Mesh
-    mesh: models/23109.glb
+    mesh: $23109.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23110
   components:
   - type: Mesh
-    mesh: models/23110.glb
+    mesh: $23110.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23111
   components:
   - type: Mesh
-    mesh: models/23111.glb
+    mesh: $23111.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23112
   components:
   - type: Mesh
-    mesh: models/23112.glb
+    mesh: $23112.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23113
   components:
   - type: Mesh
-    mesh: models/23113.glb
+    mesh: $23113.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23114
   components:
   - type: Mesh
-    mesh: models/23114.glb
+    mesh: $23114.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23115
   components:
   - type: Mesh
-    mesh: models/23115.glb
+    mesh: $23115.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23116
   components:
   - type: Mesh
-    mesh: models/23116.glb
+    mesh: $23116.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23117
   components:
   - type: Mesh
-    mesh: models/23117.glb
+    mesh: $23117.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23118
   components:
   - type: Mesh
-    mesh: models/23118.glb
+    mesh: $23118.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23119
   components:
   - type: Mesh
-    mesh: models/23119.glb
+    mesh: $23119.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23200
   components:
   - type: Mesh
-    mesh: models/23200.glb
+    mesh: $23200.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23201
   components:
   - type: Mesh
-    mesh: models/23201.glb
+    mesh: $23201.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23202
   components:
   - type: Mesh
-    mesh: models/23202.glb
+    mesh: $23202.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23203
   components:
   - type: Mesh
-    mesh: models/23203.glb
+    mesh: $23203.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23204
   components:
   - type: Mesh
-    mesh: models/23204.glb
+    mesh: $23204.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23205
   components:
   - type: Mesh
-    mesh: models/23205.glb
+    mesh: $23205.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23206
   components:
   - type: Mesh
-    mesh: models/23206.glb
+    mesh: $23206.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23207
   components:
   - type: Mesh
-    mesh: models/23207.glb
+    mesh: $23207.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23208
   components:
   - type: Mesh
-    mesh: models/23208.glb
+    mesh: $23208.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23209
   components:
   - type: Mesh
-    mesh: models/23209.glb
+    mesh: $23209.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23210
   components:
   - type: Mesh
-    mesh: models/23210.glb
+    mesh: $23210.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23211
   components:
   - type: Mesh
-    mesh: models/23211.glb
+    mesh: $23211.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23212
   components:
   - type: Mesh
-    mesh: models/23212.glb
+    mesh: $23212.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23213
   components:
   - type: Mesh
-    mesh: models/23213.glb
+    mesh: $23213.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23214
   components:
   - type: Mesh
-    mesh: models/23214.glb
+    mesh: $23214.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23215
   components:
   - type: Mesh
-    mesh: models/23215.glb
+    mesh: $23215.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23216
   components:
   - type: Mesh
-    mesh: models/23216.glb
+    mesh: $23216.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23217
   components:
   - type: Mesh
-    mesh: models/23217.glb
+    mesh: $23217.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23218
   components:
   - type: Mesh
-    mesh: models/23218.glb
+    mesh: $23218.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23219
   components:
   - type: Mesh
-    mesh: models/23219.glb
+    mesh: $23219.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23300
   components:
   - type: Mesh
-    mesh: models/23300.glb
+    mesh: $23300.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23301
   components:
   - type: Mesh
-    mesh: models/23301.glb
+    mesh: $23301.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23302
   components:
   - type: Mesh
-    mesh: models/23302.glb
+    mesh: $23302.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23303
   components:
   - type: Mesh
-    mesh: models/23303.glb
+    mesh: $23303.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23304
   components:
   - type: Mesh
-    mesh: models/23304.glb
+    mesh: $23304.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23305
   components:
   - type: Mesh
-    mesh: models/23305.glb
+    mesh: $23305.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23306
   components:
   - type: Mesh
-    mesh: models/23306.glb
+    mesh: $23306.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23307
   components:
   - type: Mesh
-    mesh: models/23307.glb
+    mesh: $23307.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23308
   components:
   - type: Mesh
-    mesh: models/23308.glb
+    mesh: $23308.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23309
   components:
   - type: Mesh
-    mesh: models/23309.glb
+    mesh: $23309.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23310
   components:
   - type: Mesh
-    mesh: models/23310.glb
+    mesh: $23310.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23311
   components:
   - type: Mesh
-    mesh: models/23311.glb
+    mesh: $23311.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23312
   components:
   - type: Mesh
-    mesh: models/23312.glb
+    mesh: $23312.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23313
   components:
   - type: Mesh
-    mesh: models/23313.glb
+    mesh: $23313.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23314
   components:
   - type: Mesh
-    mesh: models/23314.glb
+    mesh: $23314.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23315
   components:
   - type: Mesh
-    mesh: models/23315.glb
+    mesh: $23315.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23316
   components:
   - type: Mesh
-    mesh: models/23316.glb
+    mesh: $23316.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23317
   components:
   - type: Mesh
-    mesh: models/23317.glb
+    mesh: $23317.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23318
   components:
   - type: Mesh
-    mesh: models/23318.glb
+    mesh: $23318.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23319
   components:
   - type: Mesh
-    mesh: models/23319.glb
+    mesh: $23319.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23400
   components:
   - type: Mesh
-    mesh: models/23400.glb
+    mesh: $23400.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23401
   components:
   - type: Mesh
-    mesh: models/23401.glb
+    mesh: $23401.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23402
   components:
   - type: Mesh
-    mesh: models/23402.glb
+    mesh: $23402.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23403
   components:
   - type: Mesh
-    mesh: models/23403.glb
+    mesh: $23403.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23404
   components:
   - type: Mesh
-    mesh: models/23404.glb
+    mesh: $23404.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23405
   components:
   - type: Mesh
-    mesh: models/23405.glb
+    mesh: $23405.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23406
   components:
   - type: Mesh
-    mesh: models/23406.glb
+    mesh: $23406.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23407
   components:
   - type: Mesh
-    mesh: models/23407.glb
+    mesh: $23407.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23408
   components:
   - type: Mesh
-    mesh: models/23408.glb
+    mesh: $23408.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23409
   components:
   - type: Mesh
-    mesh: models/23409.glb
+    mesh: $23409.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23410
   components:
   - type: Mesh
-    mesh: models/23410.glb
+    mesh: $23410.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23411
   components:
   - type: Mesh
-    mesh: models/23411.glb
+    mesh: $23411.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23412
   components:
   - type: Mesh
-    mesh: models/23412.glb
+    mesh: $23412.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23413
   components:
   - type: Mesh
-    mesh: models/23413.glb
+    mesh: $23413.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23414
   components:
   - type: Mesh
-    mesh: models/23414.glb
+    mesh: $23414.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23415
   components:
   - type: Mesh
-    mesh: models/23415.glb
+    mesh: $23415.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23416
   components:
   - type: Mesh
-    mesh: models/23416.glb
+    mesh: $23416.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23417
   components:
   - type: Mesh
-    mesh: models/23417.glb
+    mesh: $23417.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23418
   components:
   - type: Mesh
-    mesh: models/23418.glb
+    mesh: $23418.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23419
   components:
   - type: Mesh
-    mesh: models/23419.glb
+    mesh: $23419.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23500
   components:
   - type: Mesh
-    mesh: models/23500.glb
+    mesh: $23500.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23501
   components:
   - type: Mesh
-    mesh: models/23501.glb
+    mesh: $23501.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23502
   components:
   - type: Mesh
-    mesh: models/23502.glb
+    mesh: $23502.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23503
   components:
   - type: Mesh
-    mesh: models/23503.glb
+    mesh: $23503.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23504
   components:
   - type: Mesh
-    mesh: models/23504.glb
+    mesh: $23504.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23505
   components:
   - type: Mesh
-    mesh: models/23505.glb
+    mesh: $23505.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23506
   components:
   - type: Mesh
-    mesh: models/23506.glb
+    mesh: $23506.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23507
   components:
   - type: Mesh
-    mesh: models/23507.glb
+    mesh: $23507.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23508
   components:
   - type: Mesh
-    mesh: models/23508.glb
+    mesh: $23508.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23509
   components:
   - type: Mesh
-    mesh: models/23509.glb
+    mesh: $23509.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23510
   components:
   - type: Mesh
-    mesh: models/23510.glb
+    mesh: $23510.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23511
   components:
   - type: Mesh
-    mesh: models/23511.glb
+    mesh: $23511.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23512
   components:
   - type: Mesh
-    mesh: models/23512.glb
+    mesh: $23512.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23513
   components:
   - type: Mesh
-    mesh: models/23513.glb
+    mesh: $23513.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23514
   components:
   - type: Mesh
-    mesh: models/23514.glb
+    mesh: $23514.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23515
   components:
   - type: Mesh
-    mesh: models/23515.glb
+    mesh: $23515.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23516
   components:
   - type: Mesh
-    mesh: models/23516.glb
+    mesh: $23516.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23517
   components:
   - type: Mesh
-    mesh: models/23517.glb
+    mesh: $23517.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23518
   components:
   - type: Mesh
-    mesh: models/23518.glb
+    mesh: $23518.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23519
   components:
   - type: Mesh
-    mesh: models/23519.glb
+    mesh: $23519.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23600
   components:
   - type: Mesh
-    mesh: models/23600.glb
+    mesh: $23600.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23601
   components:
   - type: Mesh
-    mesh: models/23601.glb
+    mesh: $23601.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23602
   components:
   - type: Mesh
-    mesh: models/23602.glb
+    mesh: $23602.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23603
   components:
   - type: Mesh
-    mesh: models/23603.glb
+    mesh: $23603.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23604
   components:
   - type: Mesh
-    mesh: models/23604.glb
+    mesh: $23604.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23605
   components:
   - type: Mesh
-    mesh: models/23605.glb
+    mesh: $23605.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23606
   components:
   - type: Mesh
-    mesh: models/23606.glb
+    mesh: $23606.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23607
   components:
   - type: Mesh
-    mesh: models/23607.glb
+    mesh: $23607.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23608
   components:
   - type: Mesh
-    mesh: models/23608.glb
+    mesh: $23608.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23609
   components:
   - type: Mesh
-    mesh: models/23609.glb
+    mesh: $23609.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23610
   components:
   - type: Mesh
-    mesh: models/23610.glb
+    mesh: $23610.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23611
   components:
   - type: Mesh
-    mesh: models/23611.glb
+    mesh: $23611.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23612
   components:
   - type: Mesh
-    mesh: models/23612.glb
+    mesh: $23612.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23613
   components:
   - type: Mesh
-    mesh: models/23613.glb
+    mesh: $23613.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23614
   components:
   - type: Mesh
-    mesh: models/23614.glb
+    mesh: $23614.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23615
   components:
   - type: Mesh
-    mesh: models/23615.glb
+    mesh: $23615.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23616
   components:
   - type: Mesh
-    mesh: models/23616.glb
+    mesh: $23616.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23617
   components:
   - type: Mesh
-    mesh: models/23617.glb
+    mesh: $23617.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23618
   components:
   - type: Mesh
-    mesh: models/23618.glb
+    mesh: $23618.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23619
   components:
   - type: Mesh
-    mesh: models/23619.glb
+    mesh: $23619.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23700
   components:
   - type: Mesh
-    mesh: models/23700.glb
+    mesh: $23700.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23701
   components:
   - type: Mesh
-    mesh: models/23701.glb
+    mesh: $23701.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23702
   components:
   - type: Mesh
-    mesh: models/23702.glb
+    mesh: $23702.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23703
   components:
   - type: Mesh
-    mesh: models/23703.glb
+    mesh: $23703.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23704
   components:
   - type: Mesh
-    mesh: models/23704.glb
+    mesh: $23704.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23705
   components:
   - type: Mesh
-    mesh: models/23705.glb
+    mesh: $23705.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23706
   components:
   - type: Mesh
-    mesh: models/23706.glb
+    mesh: $23706.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23707
   components:
   - type: Mesh
-    mesh: models/23707.glb
+    mesh: $23707.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23708
   components:
   - type: Mesh
-    mesh: models/23708.glb
+    mesh: $23708.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23709
   components:
   - type: Mesh
-    mesh: models/23709.glb
+    mesh: $23709.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23710
   components:
   - type: Mesh
-    mesh: models/23710.glb
+    mesh: $23710.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23711
   components:
   - type: Mesh
-    mesh: models/23711.glb
+    mesh: $23711.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23712
   components:
   - type: Mesh
-    mesh: models/23712.glb
+    mesh: $23712.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23713
   components:
   - type: Mesh
-    mesh: models/23713.glb
+    mesh: $23713.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23714
   components:
   - type: Mesh
-    mesh: models/23714.glb
+    mesh: $23714.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23715
   components:
   - type: Mesh
-    mesh: models/23715.glb
+    mesh: $23715.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23716
   components:
   - type: Mesh
-    mesh: models/23716.glb
+    mesh: $23716.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23717
   components:
   - type: Mesh
-    mesh: models/23717.glb
+    mesh: $23717.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23718
   components:
   - type: Mesh
-    mesh: models/23718.glb
+    mesh: $23718.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23719
   components:
   - type: Mesh
-    mesh: models/23719.glb
+    mesh: $23719.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23800
   components:
   - type: Mesh
-    mesh: models/23800.glb
+    mesh: $23800.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23801
   components:
   - type: Mesh
-    mesh: models/23801.glb
+    mesh: $23801.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23802
   components:
   - type: Mesh
-    mesh: models/23802.glb
+    mesh: $23802.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23803
   components:
   - type: Mesh
-    mesh: models/23803.glb
+    mesh: $23803.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23804
   components:
   - type: Mesh
-    mesh: models/23804.glb
+    mesh: $23804.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23805
   components:
   - type: Mesh
-    mesh: models/23805.glb
+    mesh: $23805.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23806
   components:
   - type: Mesh
-    mesh: models/23806.glb
+    mesh: $23806.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23807
   components:
   - type: Mesh
-    mesh: models/23807.glb
+    mesh: $23807.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23808
   components:
   - type: Mesh
-    mesh: models/23808.glb
+    mesh: $23808.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23809
   components:
   - type: Mesh
-    mesh: models/23809.glb
+    mesh: $23809.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23810
   components:
   - type: Mesh
-    mesh: models/23810.glb
+    mesh: $23810.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23811
   components:
   - type: Mesh
-    mesh: models/23811.glb
+    mesh: $23811.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23812
   components:
   - type: Mesh
-    mesh: models/23812.glb
+    mesh: $23812.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23813
   components:
   - type: Mesh
-    mesh: models/23813.glb
+    mesh: $23813.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23814
   components:
   - type: Mesh
-    mesh: models/23814.glb
+    mesh: $23814.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23815
   components:
   - type: Mesh
-    mesh: models/23815.glb
+    mesh: $23815.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23816
   components:
   - type: Mesh
-    mesh: models/23816.glb
+    mesh: $23816.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23817
   components:
   - type: Mesh
-    mesh: models/23817.glb
+    mesh: $23817.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23818
   components:
   - type: Mesh
-    mesh: models/23818.glb
+    mesh: $23818.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model23819
   components:
   - type: Mesh
-    mesh: models/23819.glb
+    mesh: $23819.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24000
   components:
   - type: Mesh
-    mesh: models/24000.glb
+    mesh: $24000.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24001
   components:
   - type: Mesh
-    mesh: models/24001.glb
+    mesh: $24001.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24002
   components:
   - type: Mesh
-    mesh: models/24002.glb
+    mesh: $24002.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24003
   components:
   - type: Mesh
-    mesh: models/24003.glb
+    mesh: $24003.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24004
   components:
   - type: Mesh
-    mesh: models/24004.glb
+    mesh: $24004.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24005
   components:
   - type: Mesh
-    mesh: models/24005.glb
+    mesh: $24005.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24006
   components:
   - type: Mesh
-    mesh: models/24006.glb
+    mesh: $24006.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24007
   components:
   - type: Mesh
-    mesh: models/24007.glb
+    mesh: $24007.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24008
   components:
   - type: Mesh
-    mesh: models/24008.glb
+    mesh: $24008.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24009
   components:
   - type: Mesh
-    mesh: models/24009.glb
+    mesh: $24009.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24010
   components:
   - type: Mesh
-    mesh: models/24010.glb
+    mesh: $24010.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24011
   components:
   - type: Mesh
-    mesh: models/24011.glb
+    mesh: $24011.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24012
   components:
   - type: Mesh
-    mesh: models/24012.glb
+    mesh: $24012.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24013
   components:
   - type: Mesh
-    mesh: models/24013.glb
+    mesh: $24013.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24014
   components:
   - type: Mesh
-    mesh: models/24014.glb
+    mesh: $24014.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24015
   components:
   - type: Mesh
-    mesh: models/24015.glb
+    mesh: $24015.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24016
   components:
   - type: Mesh
-    mesh: models/24016.glb
+    mesh: $24016.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24017
   components:
   - type: Mesh
-    mesh: models/24017.glb
+    mesh: $24017.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24018
   components:
   - type: Mesh
-    mesh: models/24018.glb
+    mesh: $24018.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24019
   components:
   - type: Mesh
-    mesh: models/24019.glb
+    mesh: $24019.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24020
   components:
   - type: Mesh
-    mesh: models/24020.glb
+    mesh: $24020.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24021
   components:
   - type: Mesh
-    mesh: models/24021.glb
+    mesh: $24021.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24022
   components:
   - type: Mesh
-    mesh: models/24022.glb
+    mesh: $24022.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24023
   components:
   - type: Mesh
-    mesh: models/24023.glb
+    mesh: $24023.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24024
   components:
   - type: Mesh
-    mesh: models/24024.glb
+    mesh: $24024.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24025
   components:
   - type: Mesh
-    mesh: models/24025.glb
+    mesh: $24025.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24026
   components:
   - type: Mesh
-    mesh: models/24026.glb
+    mesh: $24026.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24027
   components:
   - type: Mesh
-    mesh: models/24027.glb
+    mesh: $24027.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24028
   components:
   - type: Mesh
-    mesh: models/24028.glb
+    mesh: $24028.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24029
   components:
   - type: Mesh
-    mesh: models/24029.glb
+    mesh: $24029.glb
     textures:
-    - 112/1
-    - 169/0
+    - $112/1.png
+    - $169/0.png
 
 - type: entity
   id: Model24030
   components:
   - type: Mesh
-    mesh: models/24030.glb
+    mesh: $24030.glb
     textures:
-    - 112/1
-    - 169/0
+    - $112/1.png
+    - $169/0.png
 
 - type: entity
   id: Model24100
   components:
   - type: Mesh
-    mesh: models/24100.glb
+    mesh: $24100.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24101
   components:
   - type: Mesh
-    mesh: models/24101.glb
+    mesh: $24101.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24102
   components:
   - type: Mesh
-    mesh: models/24102.glb
+    mesh: $24102.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24103
   components:
   - type: Mesh
-    mesh: models/24103.glb
+    mesh: $24103.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24104
   components:
   - type: Mesh
-    mesh: models/24104.glb
+    mesh: $24104.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24105
   components:
   - type: Mesh
-    mesh: models/24105.glb
+    mesh: $24105.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24106
   components:
   - type: Mesh
-    mesh: models/24106.glb
+    mesh: $24106.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24107
   components:
   - type: Mesh
-    mesh: models/24107.glb
+    mesh: $24107.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24108
   components:
   - type: Mesh
-    mesh: models/24108.glb
+    mesh: $24108.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24109
   components:
   - type: Mesh
-    mesh: models/24109.glb
+    mesh: $24109.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24110
   components:
   - type: Mesh
-    mesh: models/24110.glb
+    mesh: $24110.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24111
   components:
   - type: Mesh
-    mesh: models/24111.glb
+    mesh: $24111.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24112
   components:
   - type: Mesh
-    mesh: models/24112.glb
+    mesh: $24112.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24113
   components:
   - type: Mesh
-    mesh: models/24113.glb
+    mesh: $24113.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24114
   components:
   - type: Mesh
-    mesh: models/24114.glb
+    mesh: $24114.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24115
   components:
   - type: Mesh
-    mesh: models/24115.glb
+    mesh: $24115.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24116
   components:
   - type: Mesh
-    mesh: models/24116.glb
+    mesh: $24116.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24117
   components:
   - type: Mesh
-    mesh: models/24117.glb
+    mesh: $24117.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24118
   components:
   - type: Mesh
-    mesh: models/24118.glb
+    mesh: $24118.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24119
   components:
   - type: Mesh
-    mesh: models/24119.glb
+    mesh: $24119.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24120
   components:
   - type: Mesh
-    mesh: models/24120.glb
+    mesh: $24120.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24121
   components:
   - type: Mesh
-    mesh: models/24121.glb
+    mesh: $24121.glb
     textures:
-    - 169/0
+    - $169/0.png
 
 - type: entity
   id: Model24122
   components:
   - type: Mesh
-    mesh: models/24122.glb
+    mesh: $24122.glb
     textures:
-    - 169/0
+    - $169/0.png
